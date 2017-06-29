@@ -18,12 +18,11 @@ namespace Moviestar.Droid
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-
             SetContentView(Resource.Layout.MoviePage);
 
             // Create your application here
+
             Button MoviePageBackButton = FindViewById<Button>(Resource.Id.moviePageBackButton);
-            //MoviePageBackButton.Click += MoviePageBackButton_Click;
             MoviePageBackButton.Click += delegate {
                 StartActivity(typeof(MainActivity));
             };
@@ -42,7 +41,7 @@ namespace Moviestar.Droid
 
         private void SaveRating (object sender, EventArgs e)
         {
-            int id = ((Button)sender).Id;
+            int id = ((ImageButton)sender).Id;
             String btnId = id.ToString();
 
             TextView description = FindViewById<TextView>(Resource.Id.descriptionMoviePage);

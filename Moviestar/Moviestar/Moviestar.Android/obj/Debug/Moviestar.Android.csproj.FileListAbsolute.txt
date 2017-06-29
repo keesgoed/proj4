@@ -40,5 +40,3 @@ C:\Users\Yori\Documents\GitHub\proj4\Moviestar\Moviestar\Moviestar.Android\obj\D
 C:\Users\Yori\Documents\GitHub\proj4\Moviestar\Moviestar\Moviestar.Android\obj\Debug\res\drawable\star.png
 C:\Users\Yori\Documents\GitHub\proj4\Moviestar\Moviestar\Moviestar.Android\obj\Debug\R.cs.flag
 C:\Users\Yori\Documents\GitHub\proj4\Moviestar\Moviestar\Moviestar.Android\obj\Debug\uploadflags.txt
-C:\Users\Yori\Documents\GitHub\proj4\Moviestar\Moviestar\Moviestar.Android\bin\Debug\Moviestar.Android.dll.mdb
-C:\Users\Yori\Documents\GitHub\proj4\Moviestar\Moviestar\Moviestar.Android\obj\Debug\android\assets\Moviestar.Android.dll.mdb
