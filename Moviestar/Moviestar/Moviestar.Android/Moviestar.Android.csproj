@@ -76,6 +76,5 @@
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\star.png" />
   </ItemGroup>
-  <Import Project="..\Moviestar\Moviestar.projitems" Label="Shared" Condition="Exists('..\Moviestar\Moviestar.projitems')" />
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
 </Project>

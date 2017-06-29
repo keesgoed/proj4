@@ -7,14 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moviestar.Android", "Movies
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moviestar.UWP", "Moviestar\Moviestar.UWP\Moviestar.UWP.csproj", "{21B04912-E434-499E-A175-768FC1EA3CDE}"
 EndProject
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Moviestar", "Moviestar\Moviestar\Moviestar.shproj", "{A19BED24-119E-45F3-A581-0F94DDC9E00C}"
-EndProject
 Global
-	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		Moviestar\Moviestar\Moviestar.projitems*{21b04912-e434-499e-a175-768fc1ea3cde}*SharedItemsImports = 4
-		Moviestar\Moviestar\Moviestar.projitems*{74468df7-9a95-4daf-841a-defb77fb9663}*SharedItemsImports = 4
-		Moviestar\Moviestar\Moviestar.projitems*{a19bed24-119e-45f3-a581-0f94ddc9e00c}*SharedItemsImports = 13
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Debug|ARM = Debug|ARM
