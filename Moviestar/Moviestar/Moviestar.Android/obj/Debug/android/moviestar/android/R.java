@@ -46,7 +46,9 @@ public final class R {
         public static final int titleMoviePage=0x7f050007;
     }
     public static final class layout {
-        public static final int movielist=0x7f030000;
-        public static final int moviepage=0x7f030001;
+        public static final int login=0x7f030000;
+        public static final int movielist=0x7f030001;
+        public static final int moviepage=0x7f030002;
+        public static final int search=0x7f030003;
     }
 }

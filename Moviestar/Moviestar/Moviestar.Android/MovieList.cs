@@ -14,7 +14,7 @@ using Android.Util;
 
 namespace Moviestar.Droid
 {
-    [Activity(Label = "Moviestar.Android", MainLauncher = true, Icon = "@drawable/icon")]
+    [Activity(Label = "Moviestar", MainLauncher = true, Icon = "@drawable/star")]
     public class MainActivity : Activity
     {
         private LinearLayout scrollBlock;
@@ -28,52 +28,66 @@ namespace Moviestar.Droid
             SetContentView(Resource.Layout.MovieList);
 
             //add go to movie page button
-            Button MoviePageButton = FindViewById<Button>(Resource.Id.moviePageButton);
-            MoviePageButton.Click += delegate {
-                StartActivity(typeof(MoviePage));
-            };
+            //Button MoviePageButton = FindViewById<Button>(Resource.Id.moviePageButton);
+            //MoviePageButton.Click += delegate 
+            //{
+            // StartActivity(typeof(MainActivity));
+            //};
 
             //create spinner
+            createSpinner();
+
+            // linking variables to axml
+            scrollBlock = FindViewById<LinearLayout>(Resource.Id.ScrollLayout);
+
+            // get Data from DB and make dynamic movieblocks
+            LoadAllItemFromMySQL();
+        }
+
+        //create spinner
+        public void createSpinner()
+        {
             Spinner spinner = FindViewById<Spinner>(Resource.Id.spinner);
             spinner.ItemSelected += new EventHandler<AdapterView.ItemSelectedEventArgs>(spinner_ItemSelected);
             var adapter = ArrayAdapter.CreateFromResource(this, Resource.Array.menu_array, Android.Resource.Layout.SimpleSpinnerItem);
             adapter.SetDropDownViewResource(Android.Resource.Layout.SimpleSpinnerDropDownItem);
             spinner.Adapter = adapter;
-
-            // linking variables to axml
-            scrollBlock = FindViewById<LinearLayout>(Resource.Id.ScrollLayout);
-            // get Data from DB and make dynamic movieblocks
-            LoadAllItemFromMySQL();
         }
 
-		
         public void spinner_ItemSelected(object sender, AdapterView.ItemSelectedEventArgs e)
         {
+            Console.WriteLine("spinner_ItemSelected() " + this.selectedItem);
             Spinner spinner = (Spinner)sender;
-            Console.WriteLine(this.selectedItem);
+
             if (Convert.ToString(spinner.GetItemAtPosition(e.Position)) != this.selectedItem)
             {
+                this.selectedItem = Convert.ToString(spinner.GetItemAtPosition(e.Position));
                 changeView();
                 Console.WriteLine("Writeline in the if statement " + this.selectedItem);
-                this.selectedItem = Convert.ToString(spinner.GetItemAtPosition(e.Position));
             }
             Console.WriteLine(this.selectedItem);
         }
 
         private void changeView()
         {
-
+            Console.WriteLine("Changeview() " + this.selectedItem);
             if (this.selectedItem == "Search")
             {
-                // SetContentView(Resource.Layout.Search);
+                Console.WriteLine("in de search if statement " + this.selectedItem);
+                SetContentView(Resource.Layout.Search);
+                createSpinner();
             }
             if (this.selectedItem == "Recommended movies")
             {
+                Console.WriteLine("in de recommended movies if statement " + this.selectedItem);
                 SetContentView(Resource.Layout.MovieList);
+                createSpinner();
             }
             if (this.selectedItem == "Login")
             {
-                //  SetContentView(Resource.Layout.Login);
+                Console.WriteLine("in de login if statement " + this.selectedItem);
+                SetContentView(Resource.Layout.Login);
+                createSpinner();
             }
         }
 

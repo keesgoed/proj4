@@ -22,10 +22,11 @@ namespace Moviestar.Droid
 
             // Create your application here
 
-            Button MoviePageBackButton = FindViewById<Button>(Resource.Id.moviePageBackButton);
-            MoviePageBackButton.Click += delegate {
-                StartActivity(typeof(MainActivity));
-            };
+            //Button MoviePageBackButton = FindViewById<Button>(Resource.Id.moviePageBackButton);
+            //MoviePageBackButton.Click += delegate 
+            //{
+            //StartActivity(typeof(MainActivity));
+            //};
 
             ImageButton starbutton1 = FindViewById<ImageButton>(Resource.Id.star1MoviePage);
             ImageButton starbutton2 = FindViewById<ImageButton>(Resource.Id.star2MoviePage);
