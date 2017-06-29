@@ -20,3 +20,4 @@ C:\Users\keesg\OneDrive\Documenten\Visual Studio 2017\Projects\proj4\Moviestar\M
 C:\Users\keesg\OneDrive\Documenten\Visual Studio 2017\Projects\proj4\Moviestar\Moviestar\Moviestar.Android\obj\Debug\uploadflags.txt
 C:\Users\keesg\OneDrive\Documenten\Visual Studio 2017\Projects\proj4\Moviestar\Moviestar\Moviestar.Android\bin\Debug\Moviestar.Android.dll.mdb
 C:\Users\keesg\OneDrive\Documenten\Visual Studio 2017\Projects\proj4\Moviestar\Moviestar\Moviestar.Android\obj\Debug\android\assets\Moviestar.Android.dll.mdb
+C:\Users\keesg\OneDrive\Documenten\Visual Studio 2017\Projects\proj4\Moviestar\Moviestar\Moviestar.Android\bin\Debug\MySql.Data.CF.dll
