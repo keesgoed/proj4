@@ -4,7 +4,8 @@
   <uses-sdk android:minSdkVersion="15" />
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-  <application android:label="Moviestar.Android" android:name="android.app.Application" android:allowBackup="true" android:icon="@drawable/icon" android:debuggable="true">
+  <application android:label="Moviestar.Android" android:name="android.app.Application" android:allowBackup="true" android:debuggable="true">
+    <activity android:label="MovieDetails" android:name="md5736866de9af56e30a329501fd43c798e.MovieDetails" />
     <activity android:icon="@drawable/icon" android:label="Moviestar.Android" android:name="md5736866de9af56e30a329501fd43c798e.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />

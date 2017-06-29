@@ -22,7 +22,11 @@ namespace Moviestar.Droid
             //SetContentView (Resource.Layout.Login);
 
             SetContentView(Resource.Layout.Main);
-            update1();
+
+            Button MoviePageButton = FindViewById<Button>(Resource.Id.moviePageButton);
+            MoviePageButton.Click += delegate {
+                StartActivity(typeof(MovieDetails));
+            };
 
             // Get our button from the layout resource,
             // and attach an event to it
@@ -35,31 +39,6 @@ namespace Moviestar.Droid
             adapter.SetDropDownViewResource(Android.Resource.Layout.SimpleSpinnerDropDownItem);
             spinner.Adapter = adapter;
 
-        }
-
-        public void update1()
-        {
-            Button MoviePageButton = FindViewById<Button>(Resource.Id.moviePageButton);
-            MoviePageButton.Click += MoviePageButton_Click;
-
-        }
-
-        public void update2()
-        {
-            Button MoviePageBackButton = FindViewById<Button>(Resource.Id.moviePageBackButton);
-            MoviePageBackButton.Click += MoviePageBackButton_Click;
-        }
-
-        private void MoviePageButton_Click(object sender, EventArgs e)
-        {
-            SetContentView(Resource.Layout.MoviePage);
-            update2();
-        }
-
-        private void MoviePageBackButton_Click(object sender, EventArgs e)
-        {
-            SetContentView(Resource.Layout.Main);
-            update1();
         }
 		
         public void spinner_ItemSelected(object sender, AdapterView.ItemSelectedEventArgs e)

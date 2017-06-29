@@ -1,3 +1,7 @@
+Moviestar.Droid.MovieDetails, Moviestar.Android;md5736866de9af56e30a329501fd43c798e.MovieDetails
+Moviestar.Droid.MovieDetails, Moviestar.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5736866de9af56e30a329501fd43c798e.MovieDetails
+Moviestar.Droid.MovieDetails;md5736866de9af56e30a329501fd43c798e.MovieDetails
+moviestar.droid.MovieDetails;md5736866de9af56e30a329501fd43c798e.MovieDetails
 Moviestar.Droid.MainActivity, Moviestar.Android;md5736866de9af56e30a329501fd43c798e.MainActivity
 Moviestar.Droid.MainActivity, Moviestar.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5736866de9af56e30a329501fd43c798e.MainActivity
 Moviestar.Droid.MainActivity;md5736866de9af56e30a329501fd43c798e.MainActivity

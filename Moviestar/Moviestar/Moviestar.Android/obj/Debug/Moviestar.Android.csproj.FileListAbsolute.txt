@@ -20,3 +20,25 @@ C:\Users\keesg\OneDrive\Documenten\Visual Studio 2017\Projects\proj4\Moviestar\M
 C:\Users\keesg\OneDrive\Documenten\Visual Studio 2017\Projects\proj4\Moviestar\Moviestar\Moviestar.Android\obj\Debug\uploadflags.txt
 C:\Users\keesg\OneDrive\Documenten\Visual Studio 2017\Projects\proj4\Moviestar\Moviestar\Moviestar.Android\bin\Debug\Moviestar.Android.dll.mdb
 C:\Users\keesg\OneDrive\Documenten\Visual Studio 2017\Projects\proj4\Moviestar\Moviestar\Moviestar.Android\obj\Debug\android\assets\Moviestar.Android.dll.mdb
+C:\Users\Yori\Documents\GitHub\proj4\Moviestar\Moviestar\Moviestar.Android\bin\Debug\Moviestar.Android.dll
+C:\Users\Yori\Documents\GitHub\proj4\Moviestar\Moviestar\Moviestar.Android\bin\Debug\Moviestar.Android.pdb
+C:\Users\Yori\Documents\GitHub\proj4\Moviestar\Moviestar\Moviestar.Android\bin\Debug\Moviestar.Android.apk
+C:\Users\Yori\Documents\GitHub\proj4\Moviestar\Moviestar\Moviestar.Android\bin\Debug\Moviestar.Android-Signed.apk
+C:\Users\Yori\Documents\GitHub\proj4\Moviestar\Moviestar\Moviestar.Android\obj\Debug\Moviestar.Android.csprojResolveAssemblyReference.cache
+C:\Users\Yori\Documents\GitHub\proj4\Moviestar\Moviestar\Moviestar.Android\obj\Debug\Moviestar.Android.dll
+C:\Users\Yori\Documents\GitHub\proj4\Moviestar\Moviestar\Moviestar.Android\obj\Debug\Moviestar.Android.pdb
+C:\Users\Yori\Documents\GitHub\proj4\Moviestar\Moviestar\Moviestar.Android\obj\Debug\android\bin\Moviestar.Android.apk
+C:\Users\Yori\Documents\GitHub\proj4\Moviestar\Moviestar\Moviestar.Android\obj\Debug\res\layout\moviepage.xml
+C:\Users\Yori\Documents\GitHub\proj4\Moviestar\Moviestar\Moviestar.Android\obj\Debug\res\layout\main.xml
+C:\Users\Yori\Documents\GitHub\proj4\Moviestar\Moviestar\Moviestar.Android\obj\Debug\res\values\strings.xml
+C:\Users\Yori\Documents\GitHub\proj4\Moviestar\Moviestar\Moviestar.Android\obj\Debug\res\drawable-hdpi\icon.png
+C:\Users\Yori\Documents\GitHub\proj4\Moviestar\Moviestar\Moviestar.Android\obj\Debug\res\drawable-mdpi\icon.png
+C:\Users\Yori\Documents\GitHub\proj4\Moviestar\Moviestar\Moviestar.Android\obj\Debug\res\drawable-xhdpi\icon.png
+C:\Users\Yori\Documents\GitHub\proj4\Moviestar\Moviestar\Moviestar.Android\obj\Debug\res\drawable-xxhdpi\icon.png
+C:\Users\Yori\Documents\GitHub\proj4\Moviestar\Moviestar\Moviestar.Android\obj\Debug\res\drawable-xxxhdpi\icon.png
+C:\Users\Yori\Documents\GitHub\proj4\Moviestar\Moviestar\Moviestar.Android\obj\Debug\res\drawable\cover.png
+C:\Users\Yori\Documents\GitHub\proj4\Moviestar\Moviestar\Moviestar.Android\obj\Debug\res\drawable\star.png
+C:\Users\Yori\Documents\GitHub\proj4\Moviestar\Moviestar\Moviestar.Android\obj\Debug\R.cs.flag
+C:\Users\Yori\Documents\GitHub\proj4\Moviestar\Moviestar\Moviestar.Android\obj\Debug\uploadflags.txt
+C:\Users\Yori\Documents\GitHub\proj4\Moviestar\Moviestar\Moviestar.Android\bin\Debug\Moviestar.Android.dll.mdb
+C:\Users\Yori\Documents\GitHub\proj4\Moviestar\Moviestar\Moviestar.Android\obj\Debug\android\assets\Moviestar.Android.dll.mdb
