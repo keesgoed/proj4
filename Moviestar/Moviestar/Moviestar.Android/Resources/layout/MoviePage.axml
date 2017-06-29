@@ -58,14 +58,14 @@
             android:layout_marginTop="45dp"
             android:layout_marginLeft="30dp" />
         <ImageButton
-            android:src="@drawable/fietsopa1"
+            android:src="@drawable/emptystar"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_below="@id/moviePageTitle"
             android:id="@+id/rate1"
             android:layout_marginTop="20dp" />
         <ImageButton
-            android:src="@drawable/fietsopa1"
+            android:src="@drawable/emptystar"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_below="@id/moviePageTitle"
@@ -73,7 +73,7 @@
             android:layout_marginTop="20dp"
             android:layout_marginLeft="60dp" />
         <ImageButton
-            android:src="@drawable/fietsopa1"
+            android:src="@drawable/emptystar"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_below="@id/moviePageTitle"
@@ -81,7 +81,7 @@
             android:layout_marginTop="20dp"
             android:layout_marginLeft="120dp" />
         <ImageButton
-            android:src="@drawable/fietsopa1"
+            android:src="@drawable/emptystar"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_below="@id/moviePageTitle"
@@ -89,7 +89,7 @@
             android:layout_marginTop="20dp"
             android:layout_marginLeft="180dp" />
         <ImageButton
-            android:src="@drawable/fietsopa1"
+            android:src="@drawable/emptystar"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_below="@id/moviePageTitle"

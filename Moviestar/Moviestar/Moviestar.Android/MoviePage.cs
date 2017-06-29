@@ -34,7 +34,7 @@ namespace Moviestar.Droid
 
         }
 
-        //Makes Rating Buttons with functionality
+        //Makes Rating Buttons with functionality ***Call Update1 When switching to Moviepage with Button***
         public void update1()
         {
             var rate1 = FindViewById<ImageButton>(Resource.Id.rate1);
@@ -46,11 +46,11 @@ namespace Moviestar.Droid
             //Resets the buttons
             void ResetButton()
             {
-                rate1.SetImageResource(Resource.Drawable.fietsopa1);
-                rate2.SetImageResource(Resource.Drawable.fietsopa1);
-                rate3.SetImageResource(Resource.Drawable.fietsopa1);
-                rate4.SetImageResource(Resource.Drawable.fietsopa1);
-                rate5.SetImageResource(Resource.Drawable.fietsopa1);
+                rate1.SetImageResource(Resource.Drawable.emptystar);
+                rate2.SetImageResource(Resource.Drawable.emptystar);
+                rate3.SetImageResource(Resource.Drawable.emptystar);
+                rate4.SetImageResource(Resource.Drawable.emptystar);
+                rate5.SetImageResource(Resource.Drawable.emptystar);
             }
 
             //Each button has to add a rate to a movie and add it to the database
@@ -58,75 +58,75 @@ namespace Moviestar.Droid
                 ResetButton();
                 if (e.Event.Action == MotionEventActions.Down)
                 {
-                    rate1.SetImageResource(Resource.Drawable.fietsopa2);
+                    rate1.SetImageResource(Resource.Drawable.fullstar);
                 }
                 else if (e.Event.Action == MotionEventActions.Up)
                 {
-                    rate1.SetImageResource(Resource.Drawable.fietsopa2);
+                    rate1.SetImageResource(Resource.Drawable.fullstar);
                 }
             };
             rate2.Touch += (object sender, View.TouchEventArgs e) => {
                 ResetButton();
                 if (e.Event.Action == MotionEventActions.Down)
                 {
-                    rate1.SetImageResource(Resource.Drawable.fietsopa2);
-                    rate2.SetImageResource(Resource.Drawable.fietsopa2);
+                    rate1.SetImageResource(Resource.Drawable.fullstar);
+                    rate2.SetImageResource(Resource.Drawable.fullstar);
                 }
                 else if (e.Event.Action == MotionEventActions.Up)
                 {
-                    rate1.SetImageResource(Resource.Drawable.fietsopa2);
-                    rate2.SetImageResource(Resource.Drawable.fietsopa2);
+                    rate1.SetImageResource(Resource.Drawable.fullstar);
+                    rate2.SetImageResource(Resource.Drawable.fullstar);
                 }
             };
             rate3.Touch += (object sender, View.TouchEventArgs e) => {
                 ResetButton();
                 if (e.Event.Action == MotionEventActions.Down)
                 {
-                    rate1.SetImageResource(Resource.Drawable.fietsopa2);
-                    rate2.SetImageResource(Resource.Drawable.fietsopa2);
-                    rate3.SetImageResource(Resource.Drawable.fietsopa2);
+                    rate1.SetImageResource(Resource.Drawable.fullstar);
+                    rate2.SetImageResource(Resource.Drawable.fullstar);
+                    rate3.SetImageResource(Resource.Drawable.fullstar);
                 }
                 else if (e.Event.Action == MotionEventActions.Up)
                 {
-                    rate1.SetImageResource(Resource.Drawable.fietsopa2);
-                    rate2.SetImageResource(Resource.Drawable.fietsopa2);
-                    rate3.SetImageResource(Resource.Drawable.fietsopa2);
+                    rate1.SetImageResource(Resource.Drawable.fullstar);
+                    rate2.SetImageResource(Resource.Drawable.fullstar);
+                    rate3.SetImageResource(Resource.Drawable.fullstar);
                 }
             };
             rate4.Touch += (object sender, View.TouchEventArgs e) => {
                 ResetButton();
                 if (e.Event.Action == MotionEventActions.Down)
                 {
-                    rate1.SetImageResource(Resource.Drawable.fietsopa2);
-                    rate2.SetImageResource(Resource.Drawable.fietsopa2);
-                    rate3.SetImageResource(Resource.Drawable.fietsopa2);
-                    rate4.SetImageResource(Resource.Drawable.fietsopa2);
+                    rate1.SetImageResource(Resource.Drawable.fullstar);
+                    rate2.SetImageResource(Resource.Drawable.fullstar);
+                    rate3.SetImageResource(Resource.Drawable.fullstar);
+                    rate4.SetImageResource(Resource.Drawable.fullstar);
                 }
                 else if (e.Event.Action == MotionEventActions.Up)
                 {
-                    rate1.SetImageResource(Resource.Drawable.fietsopa2);
-                    rate2.SetImageResource(Resource.Drawable.fietsopa2);
-                    rate3.SetImageResource(Resource.Drawable.fietsopa2);
-                    rate4.SetImageResource(Resource.Drawable.fietsopa2);
+                    rate1.SetImageResource(Resource.Drawable.fullstar);
+                    rate2.SetImageResource(Resource.Drawable.fullstar);
+                    rate3.SetImageResource(Resource.Drawable.fullstar);
+                    rate4.SetImageResource(Resource.Drawable.fullstar);
                 }
             };
             rate5.Touch += (object sender, View.TouchEventArgs e) => {
                 ResetButton();
                 if (e.Event.Action == MotionEventActions.Down)
                 {
-                    rate1.SetImageResource(Resource.Drawable.fietsopa2);
-                    rate2.SetImageResource(Resource.Drawable.fietsopa2);
-                    rate3.SetImageResource(Resource.Drawable.fietsopa2);
-                    rate4.SetImageResource(Resource.Drawable.fietsopa2);
-                    rate5.SetImageResource(Resource.Drawable.fietsopa2);
+                    rate1.SetImageResource(Resource.Drawable.fullstar);
+                    rate2.SetImageResource(Resource.Drawable.fullstar);
+                    rate3.SetImageResource(Resource.Drawable.fullstar);
+                    rate4.SetImageResource(Resource.Drawable.fullstar);
+                    rate5.SetImageResource(Resource.Drawable.fullstar);
                 }
                 else if (e.Event.Action == MotionEventActions.Up)
                 {
-                    rate1.SetImageResource(Resource.Drawable.fietsopa2);
-                    rate2.SetImageResource(Resource.Drawable.fietsopa2);
-                    rate3.SetImageResource(Resource.Drawable.fietsopa2);
-                    rate4.SetImageResource(Resource.Drawable.fietsopa2);
-                    rate5.SetImageResource(Resource.Drawable.fietsopa2);
+                    rate1.SetImageResource(Resource.Drawable.fullstar);
+                    rate2.SetImageResource(Resource.Drawable.fullstar);
+                    rate3.SetImageResource(Resource.Drawable.fullstar);
+                    rate4.SetImageResource(Resource.Drawable.fullstar);
+                    rate5.SetImageResource(Resource.Drawable.fullstar);
                 }
             };
         }
