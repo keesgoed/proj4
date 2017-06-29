@@ -97,6 +97,7 @@ namespace Moviestar.Droid
             if (this.selectedItem == "Login")
             {
                 //  SetContentView(Resource.Layout.Login);
+                Console.WriteLine("writeline in if login");
             }
         }
 
