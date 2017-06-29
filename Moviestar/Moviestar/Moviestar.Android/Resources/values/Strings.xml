@@ -1,5 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<string name="hello">Hello World, Click Me!</string>
-	<string name="app_name">Moviestar.Android</string>
+  <string-array name="menu_array">
+    <item>Recommended movies</item>
+    <item>Search</item>
+    <item>Login</item>
+  </string-array>
 </resources>
