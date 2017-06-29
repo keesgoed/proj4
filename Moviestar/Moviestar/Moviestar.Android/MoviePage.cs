@@ -28,26 +28,107 @@ namespace Moviestar.Droid
             //StartActivity(typeof(MainActivity));
             //};
 
-            ImageButton starbutton1 = FindViewById<ImageButton>(Resource.Id.star1MoviePage);
-            ImageButton starbutton2 = FindViewById<ImageButton>(Resource.Id.star2MoviePage);
-            ImageButton starbutton3 = FindViewById<ImageButton>(Resource.Id.star3MoviePage);
-            ImageButton starbutton4 = FindViewById<ImageButton>(Resource.Id.star4MoviePage);
-            ImageButton starbutton5 = FindViewById<ImageButton>(Resource.Id.star5MoviePage);
-            starbutton1.Click += SaveRating;
-            starbutton2.Click += SaveRating;
-            starbutton3.Click += SaveRating;
-            starbutton4.Click += SaveRating;
-            starbutton5.Click += SaveRating;
+
+
+
+
         }
 
-        private void SaveRating(object sender, EventArgs e)
+        //Makes Rating Buttons with functionality
+        public void update1()
         {
-            int id = ((ImageButton)sender).Id;
-            String btnId = id.ToString();
+            var rate1 = FindViewById<ImageButton>(Resource.Id.rate1);
+            var rate2 = FindViewById<ImageButton>(Resource.Id.rate2);
+            var rate3 = FindViewById<ImageButton>(Resource.Id.rate3);
+            var rate4 = FindViewById<ImageButton>(Resource.Id.rate4);
+            var rate5 = FindViewById<ImageButton>(Resource.Id.rate5);
 
-            TextView description = FindViewById<TextView>(Resource.Id.descriptionMoviePage);
-            description.Text = btnId;
+            //Resets the buttons
+            void ResetButton()
+            {
+                rate1.SetImageResource(Resource.Drawable.fietsopa1);
+                rate2.SetImageResource(Resource.Drawable.fietsopa1);
+                rate3.SetImageResource(Resource.Drawable.fietsopa1);
+                rate4.SetImageResource(Resource.Drawable.fietsopa1);
+                rate5.SetImageResource(Resource.Drawable.fietsopa1);
+            }
 
+            //Each button has to add a rate to a movie and add it to the database
+            rate1.Touch += (object sender, View.TouchEventArgs e) => {
+                ResetButton();
+                if (e.Event.Action == MotionEventActions.Down)
+                {
+                    rate1.SetImageResource(Resource.Drawable.fietsopa2);
+                }
+                else if (e.Event.Action == MotionEventActions.Up)
+                {
+                    rate1.SetImageResource(Resource.Drawable.fietsopa2);
+                }
+            };
+            rate2.Touch += (object sender, View.TouchEventArgs e) => {
+                ResetButton();
+                if (e.Event.Action == MotionEventActions.Down)
+                {
+                    rate1.SetImageResource(Resource.Drawable.fietsopa2);
+                    rate2.SetImageResource(Resource.Drawable.fietsopa2);
+                }
+                else if (e.Event.Action == MotionEventActions.Up)
+                {
+                    rate1.SetImageResource(Resource.Drawable.fietsopa2);
+                    rate2.SetImageResource(Resource.Drawable.fietsopa2);
+                }
+            };
+            rate3.Touch += (object sender, View.TouchEventArgs e) => {
+                ResetButton();
+                if (e.Event.Action == MotionEventActions.Down)
+                {
+                    rate1.SetImageResource(Resource.Drawable.fietsopa2);
+                    rate2.SetImageResource(Resource.Drawable.fietsopa2);
+                    rate3.SetImageResource(Resource.Drawable.fietsopa2);
+                }
+                else if (e.Event.Action == MotionEventActions.Up)
+                {
+                    rate1.SetImageResource(Resource.Drawable.fietsopa2);
+                    rate2.SetImageResource(Resource.Drawable.fietsopa2);
+                    rate3.SetImageResource(Resource.Drawable.fietsopa2);
+                }
+            };
+            rate4.Touch += (object sender, View.TouchEventArgs e) => {
+                ResetButton();
+                if (e.Event.Action == MotionEventActions.Down)
+                {
+                    rate1.SetImageResource(Resource.Drawable.fietsopa2);
+                    rate2.SetImageResource(Resource.Drawable.fietsopa2);
+                    rate3.SetImageResource(Resource.Drawable.fietsopa2);
+                    rate4.SetImageResource(Resource.Drawable.fietsopa2);
+                }
+                else if (e.Event.Action == MotionEventActions.Up)
+                {
+                    rate1.SetImageResource(Resource.Drawable.fietsopa2);
+                    rate2.SetImageResource(Resource.Drawable.fietsopa2);
+                    rate3.SetImageResource(Resource.Drawable.fietsopa2);
+                    rate4.SetImageResource(Resource.Drawable.fietsopa2);
+                }
+            };
+            rate5.Touch += (object sender, View.TouchEventArgs e) => {
+                ResetButton();
+                if (e.Event.Action == MotionEventActions.Down)
+                {
+                    rate1.SetImageResource(Resource.Drawable.fietsopa2);
+                    rate2.SetImageResource(Resource.Drawable.fietsopa2);
+                    rate3.SetImageResource(Resource.Drawable.fietsopa2);
+                    rate4.SetImageResource(Resource.Drawable.fietsopa2);
+                    rate5.SetImageResource(Resource.Drawable.fietsopa2);
+                }
+                else if (e.Event.Action == MotionEventActions.Up)
+                {
+                    rate1.SetImageResource(Resource.Drawable.fietsopa2);
+                    rate2.SetImageResource(Resource.Drawable.fietsopa2);
+                    rate3.SetImageResource(Resource.Drawable.fietsopa2);
+                    rate4.SetImageResource(Resource.Drawable.fietsopa2);
+                    rate5.SetImageResource(Resource.Drawable.fietsopa2);
+                }
+            };
         }
     }
 }

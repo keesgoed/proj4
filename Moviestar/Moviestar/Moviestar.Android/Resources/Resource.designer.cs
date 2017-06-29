@@ -64,10 +64,16 @@ namespace Moviestar.Droid
 			public const int cover = 2130837504;
 			
 			// aapt resource value: 0x7f020001
-			public const int Icon = 2130837505;
+			public const int fietsopa1 = 2130837505;
 			
 			// aapt resource value: 0x7f020002
-			public const int star = 2130837506;
+			public const int fietsopa2 = 2130837506;
+			
+			// aapt resource value: 0x7f020003
+			public const int Icon = 2130837507;
+			
+			// aapt resource value: 0x7f020004
+			public const int star = 2130837508;
 			
 			static Drawable()
 			{
@@ -85,53 +91,50 @@ namespace Moviestar.Droid
 			// aapt resource value: 0x7f050001
 			public const int ScrollLayout = 2131034113;
 			
-			// aapt resource value: 0x7f050005
-			public const int containerMoviePage = 2131034117;
-			
-			// aapt resource value: 0x7f050014
-			public const int coverMoviePage = 2131034132;
-			
-			// aapt resource value: 0x7f050017
-			public const int descriptionMoviePage = 2131034135;
-			
-			// aapt resource value: 0x7f05000f
-			public const int genreMoviePage = 2131034127;
-			
 			// aapt resource value: 0x7f050002
 			public const int headerLayout = 2131034114;
 			
-			// aapt resource value: 0x7f050018
-			public const int imageView2 = 2131034136;
-			
-			// aapt resource value: 0x7f050016
-			public const int lblActor = 2131034134;
-			
-			// aapt resource value: 0x7f050015
-			public const int lblDirector = 2131034133;
+			// aapt resource value: 0x7f050005
+			public const int imageView2 = 2131034117;
 			
 			// aapt resource value: 0x7f050011
-			public const int lblDuration = 2131034129;
+			public const int moviePageActors = 2131034129;
+			
+			// aapt resource value: 0x7f05000f
+			public const int moviePageCover = 2131034127;
 			
 			// aapt resource value: 0x7f050012
-			public const int lblRating = 2131034130;
+			public const int moviePageDirector = 2131034130;
 			
 			// aapt resource value: 0x7f050010
-			public const int linearLayout1 = 2131034128;
-			
-			// aapt resource value: 0x7f050009
-			public const int linearLayout2 = 2131034121;
-			
-			// aapt resource value: 0x7f050006
-			public const int linearLayout3 = 2131034118;
-			
-			// aapt resource value: 0x7f050013
-			public const int movieBlockCover = 2131034131;
+			public const int moviePageGenre = 2131034128;
 			
 			// aapt resource value: 0x7f050008
-			public const int moviePageBackButton = 2131034120;
+			public const int moviePageRating = 2131034120;
+			
+			// aapt resource value: 0x7f050007
+			public const int moviePageTitle = 2131034119;
+			
+			// aapt resource value: 0x7f05000a
+			public const int rate1 = 2131034122;
+			
+			// aapt resource value: 0x7f05000b
+			public const int rate2 = 2131034123;
+			
+			// aapt resource value: 0x7f05000c
+			public const int rate3 = 2131034124;
+			
+			// aapt resource value: 0x7f05000d
+			public const int rate4 = 2131034125;
+			
+			// aapt resource value: 0x7f05000e
+			public const int rate5 = 2131034126;
 			
 			// aapt resource value: 0x7f050000
 			public const int relativeLayout1 = 2131034112;
+			
+			// aapt resource value: 0x7f050006
+			public const int relativeLayout2 = 2131034118;
 			
 			// aapt resource value: 0x7f050004
 			public const int searchBar = 2131034116;
@@ -139,23 +142,8 @@ namespace Moviestar.Droid
 			// aapt resource value: 0x7f050003
 			public const int spinner = 2131034115;
 			
-			// aapt resource value: 0x7f05000a
-			public const int star1MoviePage = 2131034122;
-			
-			// aapt resource value: 0x7f05000b
-			public const int star2MoviePage = 2131034123;
-			
-			// aapt resource value: 0x7f05000c
-			public const int star3MoviePage = 2131034124;
-			
-			// aapt resource value: 0x7f05000d
-			public const int star4MoviePage = 2131034125;
-			
-			// aapt resource value: 0x7f05000e
-			public const int star5MoviePage = 2131034126;
-			
-			// aapt resource value: 0x7f050007
-			public const int titleMoviePage = 2131034119;
+			// aapt resource value: 0x7f050009
+			public const int textView3 = 2131034121;
 			
 			static Id()
 			{

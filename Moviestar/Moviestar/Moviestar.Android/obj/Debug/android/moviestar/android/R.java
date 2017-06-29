@@ -15,35 +15,31 @@ public final class R {
     }
     public static final class drawable {
         public static final int cover=0x7f020000;
-        public static final int icon=0x7f020001;
-        public static final int star=0x7f020002;
+        public static final int fietsopa1=0x7f020001;
+        public static final int fietsopa2=0x7f020002;
+        public static final int icon=0x7f020003;
+        public static final int star=0x7f020004;
     }
     public static final class id {
         public static final int ScrollLayout=0x7f050001;
-        public static final int containerMoviePage=0x7f050005;
-        public static final int coverMoviePage=0x7f050014;
-        public static final int descriptionMoviePage=0x7f050017;
-        public static final int genreMoviePage=0x7f05000f;
         public static final int headerLayout=0x7f050002;
-        public static final int imageView2=0x7f050018;
-        public static final int lblActor=0x7f050016;
-        public static final int lblDirector=0x7f050015;
-        public static final int lblDuration=0x7f050011;
-        public static final int lblRating=0x7f050012;
-        public static final int linearLayout1=0x7f050010;
-        public static final int linearLayout2=0x7f050009;
-        public static final int linearLayout3=0x7f050006;
-        public static final int movieBlockCover=0x7f050013;
-        public static final int moviePageBackButton=0x7f050008;
+        public static final int imageView2=0x7f050005;
+        public static final int moviePageActors=0x7f050011;
+        public static final int moviePageCover=0x7f05000f;
+        public static final int moviePageDirector=0x7f050012;
+        public static final int moviePageGenre=0x7f050010;
+        public static final int moviePageRating=0x7f050008;
+        public static final int moviePageTitle=0x7f050007;
+        public static final int rate1=0x7f05000a;
+        public static final int rate2=0x7f05000b;
+        public static final int rate3=0x7f05000c;
+        public static final int rate4=0x7f05000d;
+        public static final int rate5=0x7f05000e;
         public static final int relativeLayout1=0x7f050000;
+        public static final int relativeLayout2=0x7f050006;
         public static final int searchBar=0x7f050004;
         public static final int spinner=0x7f050003;
-        public static final int star1MoviePage=0x7f05000a;
-        public static final int star2MoviePage=0x7f05000b;
-        public static final int star3MoviePage=0x7f05000c;
-        public static final int star4MoviePage=0x7f05000d;
-        public static final int star5MoviePage=0x7f05000e;
-        public static final int titleMoviePage=0x7f050007;
+        public static final int textView3=0x7f050009;
     }
     public static final class layout {
         public static final int login=0x7f030000;
