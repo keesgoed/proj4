@@ -115,17 +115,17 @@ namespace Moviestar.Droid
                 title.Text = movie.title.ToString();
 
                 // Set Info Button
-                Button infobtn = new Button(this);
-                infobtn.Text = "See Movie Info";
-                Console.WriteLine(movie.id);
-                infobtn.Id = Int32.Parse(movie.id);
-                int btnId = infobtn.Id;
+                Button moviePageButton = new Button(this);
+                moviePageButton.Id = Int32.Parse(movie.id);
+                moviePageButton.Text = "See Movie Info";
+                int btnId = moviePageButton.Id;
+                Console.WriteLine("");
+
 
                 //add go to movie page button
-                Button MoviePageButton = FindViewById<Button>(Resource.Id.1000);
-                MoviePageButton.Click += delegate
+                moviePageButton.Click += delegate
                 {
-                    StartActivity(typeof(MainActivity));
+                    //StartActivity(typeof(MainActivity));
                 };
 
                 // Set Description and the axml
@@ -149,7 +149,7 @@ namespace Moviestar.Droid
                 movieBlockCover.AddView(movieCover);
                 movieBlockCover.AddView(desc);
                 movieBlock.AddView(movieBlockCover);
-                movieBlock.AddView(infobtn);
+                movieBlock.AddView(moviePageButton);
                 scrollBlock.AddView(movieBlock);
             }
         }

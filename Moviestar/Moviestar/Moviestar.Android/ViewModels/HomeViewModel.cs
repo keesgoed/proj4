@@ -31,7 +31,7 @@ namespace Moviestar.Droid.ViewModels
                 sqlconn.Open();
 
                 DataSet movies = new DataSet();
-                string queryString = "select * FROM Movie ORDER BY imdb_score LIMIT 10";
+                string queryString = "select * FROM Movies WHERE imdb_score > 7.5 ORDER BY RAND() LIMIT 10";
                 MySqlDataAdapter adapter = new MySqlDataAdapter(queryString, sqlconn);
                 adapter.Fill(movies, "Item");
                 foreach (DataRow row in movies.Tables["Item"].Rows)
