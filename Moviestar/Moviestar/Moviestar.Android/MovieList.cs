@@ -24,13 +24,14 @@ namespace Moviestar.Droid
             base.OnCreate(bundle);
 
             // Set our view from the "main" layout resource
-            //SetContentView (Resource.Layout.Login);
 
-            SetContentView(Resource.Layout.Main);
-            //update1();
+            SetContentView(Resource.Layout.MovieList);
 
-            // Get our button from the layout resource,
-            // and attach an event to it
+            //add go to movie page button
+            Button MoviePageButton = FindViewById<Button>(Resource.Id.moviePageButton);
+            MoviePageButton.Click += delegate {
+                StartActivity(typeof(MoviePage));
+            };
 
             //create spinner
             Spinner spinner = FindViewById<Spinner>(Resource.Id.spinner);
@@ -45,30 +46,6 @@ namespace Moviestar.Droid
             LoadAllItemFromMySQL();
         }
 
-        public void update1()
-        {
-           // Button MoviePageButton = FindViewById<Button>(Resource.Id.moviePageButton);
-            //MoviePageButton.Click += MoviePageButton_Click;
-
-        }
-
-        public void update2()
-        {
-            Button MoviePageBackButton = FindViewById<Button>(Resource.Id.moviePageBackButton);
-            MoviePageBackButton.Click += MoviePageBackButton_Click;
-        }
-
-        private void MoviePageButton_Click(object sender, EventArgs e)
-        {
-            SetContentView(Resource.Layout.MoviePage);
-            update2();
-        }
-
-        private void MoviePageBackButton_Click(object sender, EventArgs e)
-        {
-            SetContentView(Resource.Layout.Main);
-            update1();
-        }
 		
         public void spinner_ItemSelected(object sender, AdapterView.ItemSelectedEventArgs e)
         {
@@ -92,7 +69,7 @@ namespace Moviestar.Droid
             }
             if (this.selectedItem == "Recommended movies")
             {
-                SetContentView(Resource.Layout.Main);
+                SetContentView(Resource.Layout.MovieList);
             }
             if (this.selectedItem == "Login")
             {
