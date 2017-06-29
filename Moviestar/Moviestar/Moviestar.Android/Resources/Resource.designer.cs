@@ -171,7 +171,7 @@ namespace Moviestar.Droid
 		{
 			
 			// aapt resource value: 0x7f030000
-			public const int Main = 2130903040;
+			public const int MovieList = 2130903040;
 			
 			// aapt resource value: 0x7f030001
 			public const int MoviePage = 2130903041;

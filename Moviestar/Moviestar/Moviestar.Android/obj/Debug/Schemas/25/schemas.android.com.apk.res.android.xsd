@@ -2,7 +2,7 @@
 <xs:schema xmlns:android="http://schemas.android.com/apk/res/android" attributeFormDefault="qualified" targetNamespace="http://schemas.android.com/apk/res/android" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:annotation>
     <xs:documentation>v25</xs:documentation>
-    <xs:documentation>29-6-2017 13:19:00</xs:documentation>
+    <xs:documentation>29-6-2017 15:32:28</xs:documentation>
   </xs:annotation>
   <xs:attribute name="accessibilityLiveRegion">
     <xs:annotation>
@@ -17024,7 +17024,6 @@
             <xs:enumeration value="@id/linearLayout3" />
             <xs:enumeration value="@id/movieBlockCover" />
             <xs:enumeration value="@id/moviePageBackButton" />
-            <xs:enumeration value="@id/moviePageButton" />
             <xs:enumeration value="@id/relativeLayout1" />
             <xs:enumeration value="@id/ScrollLayout" />
             <xs:enumeration value="@id/searchBar" />
@@ -19928,7 +19927,6 @@
             <xs:enumeration value="@id/linearLayout3" />
             <xs:enumeration value="@id/movieBlockCover" />
             <xs:enumeration value="@id/moviePageBackButton" />
-            <xs:enumeration value="@id/moviePageButton" />
             <xs:enumeration value="@id/relativeLayout1" />
             <xs:enumeration value="@id/ScrollLayout" />
             <xs:enumeration value="@id/searchBar" />
@@ -20032,7 +20030,6 @@
             <xs:enumeration value="@id/linearLayout3" />
             <xs:enumeration value="@id/movieBlockCover" />
             <xs:enumeration value="@id/moviePageBackButton" />
-            <xs:enumeration value="@id/moviePageButton" />
             <xs:enumeration value="@id/relativeLayout1" />
             <xs:enumeration value="@id/ScrollLayout" />
             <xs:enumeration value="@id/searchBar" />
@@ -20136,7 +20133,6 @@
             <xs:enumeration value="@id/linearLayout3" />
             <xs:enumeration value="@id/movieBlockCover" />
             <xs:enumeration value="@id/moviePageBackButton" />
-            <xs:enumeration value="@id/moviePageButton" />
             <xs:enumeration value="@id/relativeLayout1" />
             <xs:enumeration value="@id/ScrollLayout" />
             <xs:enumeration value="@id/searchBar" />
@@ -20240,7 +20236,6 @@
             <xs:enumeration value="@id/linearLayout3" />
             <xs:enumeration value="@id/movieBlockCover" />
             <xs:enumeration value="@id/moviePageBackButton" />
-            <xs:enumeration value="@id/moviePageButton" />
             <xs:enumeration value="@id/relativeLayout1" />
             <xs:enumeration value="@id/ScrollLayout" />
             <xs:enumeration value="@id/searchBar" />
@@ -20344,7 +20339,6 @@
             <xs:enumeration value="@id/linearLayout3" />
             <xs:enumeration value="@id/movieBlockCover" />
             <xs:enumeration value="@id/moviePageBackButton" />
-            <xs:enumeration value="@id/moviePageButton" />
             <xs:enumeration value="@id/relativeLayout1" />
             <xs:enumeration value="@id/ScrollLayout" />
             <xs:enumeration value="@id/searchBar" />
@@ -20688,7 +20682,6 @@
             <xs:enumeration value="@id/linearLayout3" />
             <xs:enumeration value="@id/movieBlockCover" />
             <xs:enumeration value="@id/moviePageBackButton" />
-            <xs:enumeration value="@id/moviePageButton" />
             <xs:enumeration value="@id/relativeLayout1" />
             <xs:enumeration value="@id/ScrollLayout" />
             <xs:enumeration value="@id/searchBar" />
@@ -20792,7 +20785,6 @@
             <xs:enumeration value="@id/linearLayout3" />
             <xs:enumeration value="@id/movieBlockCover" />
             <xs:enumeration value="@id/moviePageBackButton" />
-            <xs:enumeration value="@id/moviePageButton" />
             <xs:enumeration value="@id/relativeLayout1" />
             <xs:enumeration value="@id/ScrollLayout" />
             <xs:enumeration value="@id/searchBar" />
@@ -20896,7 +20888,6 @@
             <xs:enumeration value="@id/linearLayout3" />
             <xs:enumeration value="@id/movieBlockCover" />
             <xs:enumeration value="@id/moviePageBackButton" />
-            <xs:enumeration value="@id/moviePageButton" />
             <xs:enumeration value="@id/relativeLayout1" />
             <xs:enumeration value="@id/ScrollLayout" />
             <xs:enumeration value="@id/searchBar" />
@@ -21040,7 +21031,6 @@
             <xs:enumeration value="@id/linearLayout3" />
             <xs:enumeration value="@id/movieBlockCover" />
             <xs:enumeration value="@id/moviePageBackButton" />
-            <xs:enumeration value="@id/moviePageButton" />
             <xs:enumeration value="@id/relativeLayout1" />
             <xs:enumeration value="@id/ScrollLayout" />
             <xs:enumeration value="@id/searchBar" />
@@ -21586,7 +21576,6 @@
             <xs:enumeration value="@id/linearLayout3" />
             <xs:enumeration value="@id/movieBlockCover" />
             <xs:enumeration value="@id/moviePageBackButton" />
-            <xs:enumeration value="@id/moviePageButton" />
             <xs:enumeration value="@id/relativeLayout1" />
             <xs:enumeration value="@id/ScrollLayout" />
             <xs:enumeration value="@id/searchBar" />
@@ -21690,7 +21679,6 @@
             <xs:enumeration value="@id/linearLayout3" />
             <xs:enumeration value="@id/movieBlockCover" />
             <xs:enumeration value="@id/moviePageBackButton" />
-            <xs:enumeration value="@id/moviePageButton" />
             <xs:enumeration value="@id/relativeLayout1" />
             <xs:enumeration value="@id/ScrollLayout" />
             <xs:enumeration value="@id/searchBar" />
@@ -21794,7 +21782,6 @@
             <xs:enumeration value="@id/linearLayout3" />
             <xs:enumeration value="@id/movieBlockCover" />
             <xs:enumeration value="@id/moviePageBackButton" />
-            <xs:enumeration value="@id/moviePageButton" />
             <xs:enumeration value="@id/relativeLayout1" />
             <xs:enumeration value="@id/ScrollLayout" />
             <xs:enumeration value="@id/searchBar" />
@@ -21898,7 +21885,6 @@
             <xs:enumeration value="@id/linearLayout3" />
             <xs:enumeration value="@id/movieBlockCover" />
             <xs:enumeration value="@id/moviePageBackButton" />
-            <xs:enumeration value="@id/moviePageButton" />
             <xs:enumeration value="@id/relativeLayout1" />
             <xs:enumeration value="@id/ScrollLayout" />
             <xs:enumeration value="@id/searchBar" />
