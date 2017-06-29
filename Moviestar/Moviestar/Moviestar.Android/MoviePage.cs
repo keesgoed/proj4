@@ -15,18 +15,15 @@ namespace Moviestar.Droid
     [Activity(Label = "MoviePage")]
     public class MoviePage : Activity
     {
+        String selected_item;
+        String movie_ID;
+
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.MoviePage);
 
-            // Create your application here
-
-            //Button MoviePageBackButton = FindViewById<Button>(Resource.Id.moviePageBackButton);
-            //MoviePageBackButton.Click += delegate 
-            //{
-            //StartActivity(typeof(MainActivity));
-            //};
+            movie_ID = Intent.GetStringExtra("MovieID") ?? "Data not available";
 
             ImageButton starbutton1 = FindViewById<ImageButton>(Resource.Id.star1MoviePage);
             ImageButton starbutton2 = FindViewById<ImageButton>(Resource.Id.star2MoviePage);
@@ -46,7 +43,7 @@ namespace Moviestar.Droid
             String btnId = id.ToString();
 
             TextView description = FindViewById<TextView>(Resource.Id.descriptionMoviePage);
-            description.Text = btnId;
+            description.Text = movie_ID;
 
         }
     }

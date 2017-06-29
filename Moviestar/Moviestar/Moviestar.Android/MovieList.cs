@@ -66,22 +66,23 @@ namespace Moviestar.Droid
         private void changeView()
         {
             Console.WriteLine("Changeview() " + this.selectedItem);
+            // If statement to correctly navigate
             if (this.selectedItem == "Search")
             {
                 Console.WriteLine("in de search if statement " + this.selectedItem);
-                SetContentView(Resource.Layout.Search);
+                StartActivity(typeof(Search));
                 createSpinner();
             }
             if (this.selectedItem == "Recommended movies")
             {
                 Console.WriteLine("in de recommended movies if statement " + this.selectedItem);
-                SetContentView(Resource.Layout.MovieList);
+                StartActivity(typeof(MainActivity));
                 createSpinner();
             }
             if (this.selectedItem == "Login")
             {
                 Console.WriteLine("in de login if statement " + this.selectedItem);
-                SetContentView(Resource.Layout.Login);
+                StartActivity(typeof(Login));
                 createSpinner();
             }
         }
@@ -115,18 +116,10 @@ namespace Moviestar.Droid
                 title.Text = movie.title.ToString();
 
                 // Set Info Button
-                Button moviePageButton = new Button(this);
-                moviePageButton.Id = Int32.Parse(movie.id);
-                moviePageButton.Text = "See Movie Info";
-                int btnId = moviePageButton.Id;
-                Console.WriteLine("");
-
-
-                //add go to movie page button
-                moviePageButton.Click += delegate
-                {
-                    //StartActivity(typeof(MainActivity));
-                };
+                Button infobtn = new Button(this);
+                infobtn.Id = Int32.Parse(movie.id);
+                infobtn.Text = "See Movie Info";
+                int btnId = infobtn.Id;
 
                 // Set Description and the axml
                 TextView desc = new TextView(this);
@@ -149,7 +142,17 @@ namespace Moviestar.Droid
                 movieBlockCover.AddView(movieCover);
                 movieBlockCover.AddView(desc);
                 movieBlock.AddView(movieBlockCover);
-                movieBlock.AddView(moviePageButton);
+                movieBlock.AddView(infobtn);
+
+                //add go to movie page button
+                infobtn.Click += delegate
+                {
+                    var MoviePage = new Intent(this, typeof(MoviePage));
+                    String Movie_ID = movie.id.ToString();
+                    MoviePage.PutExtra("MovieID", Movie_ID);
+                    StartActivity(MoviePage);
+                };
+
                 scrollBlock.AddView(movieBlock);
             }
         }

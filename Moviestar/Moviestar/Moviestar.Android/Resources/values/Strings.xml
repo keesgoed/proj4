@@ -2,7 +2,5 @@
 <resources>
   <string-array name="menu_array">
     <item>Recommended movies</item>
-    <item>Search</item>
-    <item>Login</item>
   </string-array>
 </resources>

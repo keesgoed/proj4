@@ -17,7 +17,7 @@
                 android:orientation="vertical"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/ScrollLayout"
+                android:id="@+id/ScrollLayout1"
                 android:layout_marginRight="0.0dp"
                 android:layout_marginTop="30dp"
                 android:layout_marginBottom="0.0dp"
