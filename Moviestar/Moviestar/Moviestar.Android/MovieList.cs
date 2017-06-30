@@ -24,7 +24,7 @@ namespace Moviestar.Droid
 
         private LinearLayout scrollBlock;
         String selectedItem = "Recommended movies";
-        String movie_ID;
+        String movie_ID = "1";
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
@@ -160,6 +160,10 @@ namespace Moviestar.Droid
                     MoviePage.PutExtra("MovieID", Movie_ID);
                     SetContentView(Resource.Layout.MoviePage);
                     update();
+
+                    // get data from DB and make dynamic movie pages
+                    generated_moviePage();
+                    
                 };
 
                 scrollBlock.AddView(movieBlock);
@@ -242,8 +246,8 @@ namespace Moviestar.Droid
             int id = ((ImageButton)sender).Id;
             String btnId = id.ToString();
 
-            TextView description = FindViewById<TextView>(Resource.Id.moviePageTitle);
-            description.Text = movie_ID;
+            //TextView description = FindViewById<TextView>(Resource.Id.moviePageTitle);
+            //description.Text = movie_ID;
 
         }
 
@@ -251,6 +255,35 @@ namespace Moviestar.Droid
         {
 
 
+        }
+
+        public void generated_moviePage()
+        {
+            MoviePageViewModel MoviePage = new MoviePageViewModel(movie_ID);
+
+            var result = MoviePage.LoadAllItemFromMySQL();
+
+            foreach (var page in MoviePage.LoadAllItemFromMySQL())
+            {
+                Console.WriteLine(page.title);
+                TextView moviePageTitle = FindViewById<TextView>(Resource.Id.moviePageTitle);
+                moviePageTitle.Text = page.title;
+
+                TextView moviePageRating = FindViewById<TextView>(Resource.Id.moviePageRating);
+                moviePageRating.Text = "IMDB rating " + page.imdb_score;
+
+                TextView duration = FindViewById<TextView>(Resource.Id.duration);
+                duration.Text = "Duration " + page.duration;
+
+                TextView moviePageGenre = FindViewById<TextView>(Resource.Id.moviePageGenre);
+                moviePageGenre.Text = page.genres;
+
+                TextView moviePageActors = FindViewById<TextView>(Resource.Id.moviePageActors);
+                moviePageActors.Text = "Starring: " + page.actor_1_name + "\n" + page.actor_2_name + "\n" + page.actor_3_name;
+
+                TextView moviePageDirector = FindViewById<TextView>(Resource.Id.moviePageDirector);
+                moviePageDirector.Text = "Director: " + page.director_name;
+            }
         }
     }
 }

@@ -24,6 +24,7 @@ public final class R {
         public static final int ScrollLayout=0x7f050005;
         public static final int ScrollLayout1=0x7f050001;
         public static final int ScrollLayout2=0x7f050014;
+        public static final int duration=0x7f05000a;
         public static final int headerLayout=0x7f050002;
         public static final int imageView2=0x7f050006;
         public static final int moviePageActors=0x7f050012;
@@ -41,7 +42,6 @@ public final class R {
         public static final int relativeLayout2=0x7f050007;
         public static final int searchBar=0x7f050004;
         public static final int spinner=0x7f050003;
-        public static final int textView3=0x7f05000a;
     }
     public static final class layout {
         public static final int login=0x7f030000;

@@ -97,6 +97,9 @@ namespace Moviestar.Droid
 			// aapt resource value: 0x7f050014
 			public const int ScrollLayout2 = 2131034132;
 			
+			// aapt resource value: 0x7f05000a
+			public const int duration = 2131034122;
+			
 			// aapt resource value: 0x7f050002
 			public const int headerLayout = 2131034114;
 			
@@ -147,9 +150,6 @@ namespace Moviestar.Droid
 			
 			// aapt resource value: 0x7f050003
 			public const int spinner = 2131034115;
-			
-			// aapt resource value: 0x7f05000a
-			public const int textView3 = 2131034122;
 			
 			static Id()
 			{

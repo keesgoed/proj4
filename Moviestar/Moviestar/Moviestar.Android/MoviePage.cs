@@ -10,6 +10,8 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 
+
+
 namespace Moviestar.Droid
 {
     [Activity(Label = "MoviePage")]
@@ -28,6 +30,9 @@ namespace Moviestar.Droid
 
 
         }
+
+
+
 
    /*public void update()
         {
