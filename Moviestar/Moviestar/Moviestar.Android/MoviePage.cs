@@ -27,11 +27,6 @@ namespace Moviestar.Droid
             //{
             //StartActivity(typeof(MainActivity));
             //};
-
-
-
-
-
         }
 
         //Makes Rating Buttons with functionality ***Call Update1 When switching to Moviepage with Button***
@@ -56,23 +51,14 @@ namespace Moviestar.Droid
             //Each button has to add a rate to a movie and add it to the database
             rate1.Touch += (object sender, View.TouchEventArgs e) => {
                 ResetButton();
-                if (e.Event.Action == MotionEventActions.Down)
-                {
-                    rate1.SetImageResource(Resource.Drawable.fullstar);
-                }
-                else if (e.Event.Action == MotionEventActions.Up)
+                if (e.Event.Action == MotionEventActions.Down || e.Event.Action == MotionEventActions.Up)
                 {
                     rate1.SetImageResource(Resource.Drawable.fullstar);
                 }
             };
             rate2.Touch += (object sender, View.TouchEventArgs e) => {
                 ResetButton();
-                if (e.Event.Action == MotionEventActions.Down)
-                {
-                    rate1.SetImageResource(Resource.Drawable.fullstar);
-                    rate2.SetImageResource(Resource.Drawable.fullstar);
-                }
-                else if (e.Event.Action == MotionEventActions.Up)
+                if (e.Event.Action == MotionEventActions.Down || e.Event.Action == MotionEventActions.Up)
                 {
                     rate1.SetImageResource(Resource.Drawable.fullstar);
                     rate2.SetImageResource(Resource.Drawable.fullstar);
@@ -80,13 +66,7 @@ namespace Moviestar.Droid
             };
             rate3.Touch += (object sender, View.TouchEventArgs e) => {
                 ResetButton();
-                if (e.Event.Action == MotionEventActions.Down)
-                {
-                    rate1.SetImageResource(Resource.Drawable.fullstar);
-                    rate2.SetImageResource(Resource.Drawable.fullstar);
-                    rate3.SetImageResource(Resource.Drawable.fullstar);
-                }
-                else if (e.Event.Action == MotionEventActions.Up)
+                if (e.Event.Action == MotionEventActions.Down || e.Event.Action == MotionEventActions.Up)
                 {
                     rate1.SetImageResource(Resource.Drawable.fullstar);
                     rate2.SetImageResource(Resource.Drawable.fullstar);
@@ -95,14 +75,7 @@ namespace Moviestar.Droid
             };
             rate4.Touch += (object sender, View.TouchEventArgs e) => {
                 ResetButton();
-                if (e.Event.Action == MotionEventActions.Down)
-                {
-                    rate1.SetImageResource(Resource.Drawable.fullstar);
-                    rate2.SetImageResource(Resource.Drawable.fullstar);
-                    rate3.SetImageResource(Resource.Drawable.fullstar);
-                    rate4.SetImageResource(Resource.Drawable.fullstar);
-                }
-                else if (e.Event.Action == MotionEventActions.Up)
+                if (e.Event.Action == MotionEventActions.Down || e.Event.Action == MotionEventActions.Up)
                 {
                     rate1.SetImageResource(Resource.Drawable.fullstar);
                     rate2.SetImageResource(Resource.Drawable.fullstar);
@@ -112,15 +85,7 @@ namespace Moviestar.Droid
             };
             rate5.Touch += (object sender, View.TouchEventArgs e) => {
                 ResetButton();
-                if (e.Event.Action == MotionEventActions.Down)
-                {
-                    rate1.SetImageResource(Resource.Drawable.fullstar);
-                    rate2.SetImageResource(Resource.Drawable.fullstar);
-                    rate3.SetImageResource(Resource.Drawable.fullstar);
-                    rate4.SetImageResource(Resource.Drawable.fullstar);
-                    rate5.SetImageResource(Resource.Drawable.fullstar);
-                }
-                else if (e.Event.Action == MotionEventActions.Up)
+                if (e.Event.Action == MotionEventActions.Down || e.Event.Action == MotionEventActions.Up)
                 {
                     rate1.SetImageResource(Resource.Drawable.fullstar);
                     rate2.SetImageResource(Resource.Drawable.fullstar);
