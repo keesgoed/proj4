@@ -12,12 +12,13 @@
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:id="@+id/headerLayout"
-        android:background="@android:color/holo_orange_light">
+        android:background="@android:color/holo_red_dark">
         <ImageView
             android:src="@android:drawable/ic_menu_more"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:id="@+id/imageView2" />
+            android:id="@+id/imageView2"
+            android:layout_marginLeft="10dp" />
     </LinearLayout>
     <SearchView
         android:minWidth="25px"
@@ -38,7 +39,8 @@
             android:layout_width="230.0dp"
             android:layout_height="wrap_content"
             android:id="@+id/moviePageTitle"
-            android:layout_marginTop="10dp" />
+            android:layout_marginTop="10dp"
+            android:paddingLeft="20dp" />
         <TextView
             android:text="Imdb Rating: "
             android:textAppearance="?android:attr/textAppearanceSmall"
@@ -47,7 +49,7 @@
             android:layout_toRightOf="@id/moviePageTitle"
             android:id="@+id/moviePageRating"
             android:layout_marginTop="15dp"
-            android:layout_marginLeft="30dp" />
+            android:layout_marginLeft="10dp" />
         <TextView
             android:text="Duration: "
             android:textAppearance="?android:attr/textAppearanceSmall"
@@ -56,7 +58,7 @@
             android:layout_toRightOf="@id/moviePageTitle"
             android:id="@+id/textView3"
             android:layout_marginTop="45dp"
-            android:layout_marginLeft="30dp" />
+            android:layout_marginLeft="10dp" />
         <ImageButton
             android:src="@drawable/emptystar"
             android:layout_width="50dp"
