@@ -100,6 +100,7 @@ class MonoPackageManager_Resources {
 		/* We need to ensure that "Moviestar.Android.dll" comes first in this list. */
 		"Moviestar.Android.dll",
 		"MySql.Data.CF.dll",
+		"Portable.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};
