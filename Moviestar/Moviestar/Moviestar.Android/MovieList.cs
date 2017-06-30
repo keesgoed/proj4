@@ -1,6 +1,4 @@
 ﻿using System;
-
-using Moviestar.Models;
 using Android.App;
 using Android.Content;
 using Android.Runtime;
