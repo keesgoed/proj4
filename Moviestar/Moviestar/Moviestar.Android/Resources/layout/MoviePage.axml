@@ -5,179 +5,6 @@
     android:id="@+id/relativeLayout1"
     android:minWidth="25px"
     android:minHeight="25px">
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:fillViewport="true">
-        <TableLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:stretchColumns="1">
-            <LinearLayout
-                android:orientation="vertical"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/ScrollLayout"
-                android:layout_marginRight="0.0dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginBottom="0.0dp"
-                android:layout_alignParentBottom="false"
-                android:layout_alignParentTop="false">
-                <LinearLayout
-                    android:orientation="vertical"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/containerMoviePage"
-                    android:layout_marginRight="0.0dp"
-                    android:layout_marginTop="40dp"
-                    android:layout_marginBottom="0.0dp"
-                    android:layout_alignParentBottom="false"
-                    android:layout_alignParentTop="false"
-                    android:backgroundTintMode="src_over"
-                    android:background="@android:color/darker_gray">
-                    <LinearLayout
-                        android:orientation="horizontal"
-                        android:layout_width="495.0dp"
-                        android:layout_height="52.0dp"
-                        android:id="@+id/linearLayout3"
-                        android:layout_marginBottom="0.0dp">
-                        <TextView
-                            android:text="The Lord Of The Rings: The Return Of The King"
-                            android:textAppearance="?android:attr/textAppearanceLarge"
-                            android:id="@+id/titleMoviePage"
-                            android:ems="30"
-                            android:paddingLeft="3dp"
-                            android:layout_width="362.5dp"
-                            android:layout_height="match_parent"
-                            android:layout_marginBottom="0.0dp"
-                            android:layout_marginRight="0.0dp" />
-                        <Button
-                            android:text="Back"
-                            android:id="@+id/moviePageBackButton"
-                            android:layout_width="99.0dp"
-                            android:layout_height="49.5dp" />
-                    </LinearLayout>
-                    <LinearLayout
-                        android:orientation="horizontal"
-                        android:layout_width="match_parent"
-                        android:layout_height="30.5dp"
-                        android:id="@+id/linearLayout2"
-                        android:layout_marginTop="0.0dp"
-                        android:layout_marginBottom="0.0dp">
-                        <ImageButton
-                            android:src="@drawable/star"
-                            android:id="@+id/star1MoviePage"
-                            android:scaleType="centerCrop"
-                            android:layout_width="34.0dp"
-                            android:layout_height="34.0dp"
-                            android:layout_marginRight="0.0dp"
-                            android:layout_marginBottom="0.0dp" />
-                        <ImageButton
-                            android:src="@drawable/star"
-                            android:id="@+id/star2MoviePage"
-                            android:scaleType="centerCrop"
-                            android:layout_width="34.0dp"
-                            android:layout_height="34.0dp"
-                            android:layout_marginRight="0.0dp" />
-                        <ImageButton
-                            android:src="@drawable/star"
-                            android:id="@+id/star3MoviePage"
-                            android:scaleType="centerCrop"
-                            android:layout_width="34.0dp"
-                            android:layout_height="34.0dp"
-                            android:layout_marginRight="0.0dp" />
-                        <ImageButton
-                            android:src="@drawable/star"
-                            android:id="@+id/star4MoviePage"
-                            android:scaleType="centerCrop"
-                            android:layout_width="34.0dp"
-                            android:layout_height="34.0dp"
-                            android:layout_marginRight="0.0dp" />
-                        <ImageButton
-                            android:src="@drawable/star"
-                            android:id="@+id/star5MoviePage"
-                            android:scaleType="centerCrop"
-                            android:layout_width="34.0dp"
-                            android:layout_height="34.0dp"
-                            android:layout_marginRight="0.0dp" />
-                        <TextView
-                            android:text="genre/genre/genre/genre"
-                            android:textAppearance="?android:attr/textAppearanceSmall"
-                            android:id="@+id/genreMoviePage"
-                            android:layout_width="190.5dp"
-                            android:layout_height="19.5dp"
-                            android:layout_marginRight="0.0dp"
-                            android:layout_marginLeft="5.5dp"
-                            android:layout_marginTop="9.5dp" />
-                    </LinearLayout>
-                    <LinearLayout
-                        android:orientation="horizontal"
-                        android:layout_width="match_parent"
-                        android:layout_height="27.0dp"
-                        android:id="@+id/linearLayout1"
-                        android:layout_marginBottom="0.0dp"
-                        android:layout_marginTop="3.0dp">
-                        <TextView
-                            android:text="duration: "
-                            android:textAppearance="?android:attr/textAppearanceSmall"
-                            android:id="@+id/lblDuration"
-                            android:layout_width="wrap_content"
-                            android:layout_height="match_parent"
-                            android:layout_marginRight="50.5dp"
-                            android:layout_marginLeft="6.0dp" />
-                        <TextView
-                            android:text="Imdb Rating:5415"
-                            android:textAppearance="?android:attr/textAppearanceSmall"
-                            android:id="@+id/lblRating"
-                            android:layout_width="186.0dp"
-                            android:layout_height="match_parent"
-                            android:layout_marginRight="0.0dp"
-                            android:layout_marginBottom="0.0dp"
-                            android:layout_marginLeft="0.0dp"
-                            android:layout_marginTop="0.0dp" />
-                    </LinearLayout>
-                    <LinearLayout
-                        android:orientation="horizontal"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:id="@+id/movieBlockCover"
-                        android:layout_marginRight="0.0dp">
-                        <ImageView
-                            android:src="@drawable/cover"
-                            android:id="@+id/coverMoviePage"
-                            android:background="@android:color/holo_purple"
-                            android:paddingBottom="@android:dimen/app_icon_size"
-                            android:layout_width="106.0dp"
-                            android:layout_height="125dp"
-                            android:scaleType="centerCrop"
-                            android:padding="5dp"
-                            android:layout_margin="5dp" />
-                        <TextView
-                            android:text="Director:"
-                            android:textAppearance="?android:attr/textAppearanceSmall"
-                            android:layout_width="97.5dp"
-                            android:layout_height="match_parent"
-                            android:id="@+id/lblDirector"
-                            android:layout_marginRight="17.0dp" />
-                        <TextView
-                            android:text="Actors:"
-                            android:textAppearance="?android:attr/textAppearanceSmall"
-                            android:id="@+id/lblActor"
-                            android:layout_width="125.0dp"
-                            android:layout_height="match_parent" />
-                    </LinearLayout>
-                    <TextView
-                        android:text="Movie description here Movie description here Movie description here Movie description here Movie description hereMovie description here Movie description here Movie description here Movie description here Movie description hereMovie description here Movie description here Movie description here Movie description here Movie description hereMovie description here Movie description here Movie description here Movie description here Movie description here"
-                        android:textAppearance="?android:attr/textAppearanceSmall"
-                        android:id="@+id/descriptionMoviePage"
-                        android:padding="5dp"
-                        android:textColor="@android:color/background_light"
-                        android:layout_width="match_parent"
-                        android:layout_height="205.0dp" />
-                </LinearLayout>
-            </LinearLayout>
-        </TableLayout>
-    </ScrollView>
     <LinearLayout
         android:orientation="horizontal"
         android:minWidth="25px"
@@ -186,17 +13,124 @@
         android:layout_height="50dp"
         android:id="@+id/headerLayout"
         android:background="@android:color/holo_orange_light">
-        <Spinner
-            android:layout_width="217.5dp"
-            android:layout_height="match_parent"
-            android:id="@+id/spinner" />
+        <ImageView
+            android:src="@android:drawable/ic_menu_more"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/imageView2" />
     </LinearLayout>
     <SearchView
         android:minWidth="25px"
         android:minHeight="25px"
         android:id="@+id/searchBar"
         android:layout_width="match_parent"
-        android:layout_height="50.5dp"
+        android:layout_height="wrap_content"
         android:background="@android:color/holo_red_dark"
-        android:layout_marginLeft="216.5dp" />
+        android:layout_marginLeft="100dp" />
+    <RelativeLayout
+        android:layout_width="385.0dp"
+        android:layout_height="503.5dp"
+        android:layout_below="@id/searchBar"
+        android:id="@+id/relativeLayout2">
+        <TextView
+            android:text="The Lord Of The Rings: The Return Of The King"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="230.0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/moviePageTitle"
+            android:layout_marginTop="10dp" />
+        <TextView
+            android:text="Imdb Rating: "
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/moviePageTitle"
+            android:id="@+id/moviePageRating"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="30dp" />
+        <TextView
+            android:text="Duration: "
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/moviePageTitle"
+            android:id="@+id/textView3"
+            android:layout_marginTop="45dp"
+            android:layout_marginLeft="30dp" />
+        <ImageButton
+            android:src="@drawable/emptystar"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/moviePageTitle"
+            android:id="@+id/rate1"
+            android:layout_marginTop="20dp" />
+        <ImageButton
+            android:src="@drawable/emptystar"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/moviePageTitle"
+            android:id="@+id/rate2"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="60dp" />
+        <ImageButton
+            android:src="@drawable/emptystar"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/moviePageTitle"
+            android:id="@+id/rate3"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="120dp" />
+        <ImageButton
+            android:src="@drawable/emptystar"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/moviePageTitle"
+            android:id="@+id/rate4"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="180dp" />
+        <ImageButton
+            android:src="@drawable/emptystar"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/moviePageTitle"
+            android:id="@+id/rate5"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="240dp" />
+        <ImageView
+            android:src="@drawable/cover"
+            android:layout_width="180dp"
+            android:layout_height="250dp"
+            android:layout_below="@id/rate2"
+            android:id="@+id/moviePageCover"
+            android:layout_marginTop="77.0dp"
+            android:background="@drawable/cover"
+            android:layout_marginLeft="34.0dp" />
+        <TextView
+            android:text="genre / genre / genre"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rate3"
+            android:id="@+id/moviePageGenre"
+            android:layout_marginTop="12.5dp"
+            android:layout_marginLeft="18.0dp" />
+        <TextView
+            android:text="Starring:"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rate3"
+            android:id="@+id/moviePageActors"
+            android:layout_marginTop="131.0dp"
+            android:layout_marginLeft="230.0dp" />
+        <TextView
+            android:text="Director:"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rate3"
+            android:id="@+id/moviePageDirector"
+            android:layout_marginTop="75.0dp"
+            android:layout_marginLeft="228.5dp" />
+    </RelativeLayout>
 </RelativeLayout>

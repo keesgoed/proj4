@@ -46,3 +46,5 @@ C:\Users\keesg\Documents\GitHub\proj4\Moviestar\Moviestar\Moviestar.Android\bin\
 C:\Users\keesg\Documents\GitHub\proj4\Moviestar\Moviestar\Moviestar.Android\obj\Debug\android\assets\Moviestar.Android.dll.mdb
 C:\Users\keesg\Documents\GitHub\proj4\Moviestar\Moviestar\Moviestar.Android\obj\Debug\res\layout\login.xml
 C:\Users\keesg\Documents\GitHub\proj4\Moviestar\Moviestar\Moviestar.Android\obj\Debug\res\layout\search.xml
+C:\Users\keesg\Documents\GitHub\proj4\Moviestar\Moviestar\Moviestar.Android\obj\Debug\res\drawable\emptystar.png
+C:\Users\keesg\Documents\GitHub\proj4\Moviestar\Moviestar\Moviestar.Android\obj\Debug\res\drawable\fullstar.png

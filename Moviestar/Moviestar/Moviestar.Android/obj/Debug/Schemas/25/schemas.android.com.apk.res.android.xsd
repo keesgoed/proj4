@@ -2,7 +2,7 @@
 <xs:schema xmlns:android="http://schemas.android.com/apk/res/android" attributeFormDefault="qualified" targetNamespace="http://schemas.android.com/apk/res/android" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:annotation>
     <xs:documentation>v25</xs:documentation>
-    <xs:documentation>30/06/2017 01:45:50</xs:documentation>
+    <xs:documentation>30/06/2017 02:41:56</xs:documentation>
   </xs:annotation>
   <xs:attribute name="accessibilityLiveRegion">
     <xs:annotation>
@@ -776,6 +776,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:color/background_dark" />
@@ -1412,6 +1414,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -2088,6 +2092,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -2452,6 +2458,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:color/background_dark" />
@@ -2767,6 +2775,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -3392,6 +3402,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -3706,6 +3718,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -4040,6 +4054,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -4315,6 +4331,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -4569,6 +4587,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -5259,6 +5279,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -5679,6 +5701,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -6062,6 +6086,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -6539,6 +6565,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:color/background_dark" />
@@ -6854,6 +6882,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:color/background_dark" />
@@ -7169,6 +7199,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:color/background_dark" />
@@ -7524,6 +7556,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:color/background_dark" />
@@ -7839,6 +7873,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:color/background_dark" />
@@ -8265,6 +8301,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:color/background_dark" />
@@ -8636,6 +8674,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -8914,6 +8954,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:color/background_dark" />
@@ -9351,6 +9393,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -9761,6 +9805,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -10289,6 +10335,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -10755,6 +10803,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:color/background_dark" />
@@ -11228,6 +11278,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:color/background_dark" />
@@ -11836,6 +11888,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -12072,6 +12126,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -12308,6 +12364,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -12544,6 +12602,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -12780,6 +12840,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -13016,6 +13078,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -13252,6 +13316,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -13488,6 +13554,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -13919,6 +13987,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -14182,6 +14252,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -14418,6 +14490,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -14654,6 +14728,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -14890,6 +14966,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -15166,6 +15244,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -15402,6 +15482,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:color/background_dark" />
@@ -15717,6 +15799,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -15993,6 +16077,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -16321,6 +16407,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -16557,6 +16645,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -17014,7 +17104,6 @@
             <xs:enumeration value="@id/descriptionMoviePage" />
             <xs:enumeration value="@id/genreMoviePage" />
             <xs:enumeration value="@id/headerLayout" />
-            <xs:enumeration value="@id/imageView2" />
             <xs:enumeration value="@id/lblActor" />
             <xs:enumeration value="@id/lblDirector" />
             <xs:enumeration value="@id/lblDuration" />
@@ -17026,6 +17115,8 @@
             <xs:enumeration value="@id/moviePageBackButton" />
             <xs:enumeration value="@id/relativeLayout1" />
             <xs:enumeration value="@id/ScrollLayout" />
+            <xs:enumeration value="@id/ScrollLayout1" />
+            <xs:enumeration value="@id/ScrollLayout2" />
             <xs:enumeration value="@id/searchBar" />
             <xs:enumeration value="@id/spinner" />
             <xs:enumeration value="@id/star1MoviePage" />
@@ -17113,6 +17204,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -17457,6 +17550,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -17788,6 +17883,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -18353,6 +18450,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -18673,6 +18772,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -19069,6 +19170,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -19425,6 +19528,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -19677,6 +19782,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -19917,7 +20024,6 @@
             <xs:enumeration value="@id/descriptionMoviePage" />
             <xs:enumeration value="@id/genreMoviePage" />
             <xs:enumeration value="@id/headerLayout" />
-            <xs:enumeration value="@id/imageView2" />
             <xs:enumeration value="@id/lblActor" />
             <xs:enumeration value="@id/lblDirector" />
             <xs:enumeration value="@id/lblDuration" />
@@ -19929,6 +20035,8 @@
             <xs:enumeration value="@id/moviePageBackButton" />
             <xs:enumeration value="@id/relativeLayout1" />
             <xs:enumeration value="@id/ScrollLayout" />
+            <xs:enumeration value="@id/ScrollLayout1" />
+            <xs:enumeration value="@id/ScrollLayout2" />
             <xs:enumeration value="@id/searchBar" />
             <xs:enumeration value="@id/spinner" />
             <xs:enumeration value="@id/star1MoviePage" />
@@ -20020,7 +20128,6 @@
             <xs:enumeration value="@id/descriptionMoviePage" />
             <xs:enumeration value="@id/genreMoviePage" />
             <xs:enumeration value="@id/headerLayout" />
-            <xs:enumeration value="@id/imageView2" />
             <xs:enumeration value="@id/lblActor" />
             <xs:enumeration value="@id/lblDirector" />
             <xs:enumeration value="@id/lblDuration" />
@@ -20032,6 +20139,8 @@
             <xs:enumeration value="@id/moviePageBackButton" />
             <xs:enumeration value="@id/relativeLayout1" />
             <xs:enumeration value="@id/ScrollLayout" />
+            <xs:enumeration value="@id/ScrollLayout1" />
+            <xs:enumeration value="@id/ScrollLayout2" />
             <xs:enumeration value="@id/searchBar" />
             <xs:enumeration value="@id/spinner" />
             <xs:enumeration value="@id/star1MoviePage" />
@@ -20123,7 +20232,6 @@
             <xs:enumeration value="@id/descriptionMoviePage" />
             <xs:enumeration value="@id/genreMoviePage" />
             <xs:enumeration value="@id/headerLayout" />
-            <xs:enumeration value="@id/imageView2" />
             <xs:enumeration value="@id/lblActor" />
             <xs:enumeration value="@id/lblDirector" />
             <xs:enumeration value="@id/lblDuration" />
@@ -20135,6 +20243,8 @@
             <xs:enumeration value="@id/moviePageBackButton" />
             <xs:enumeration value="@id/relativeLayout1" />
             <xs:enumeration value="@id/ScrollLayout" />
+            <xs:enumeration value="@id/ScrollLayout1" />
+            <xs:enumeration value="@id/ScrollLayout2" />
             <xs:enumeration value="@id/searchBar" />
             <xs:enumeration value="@id/spinner" />
             <xs:enumeration value="@id/star1MoviePage" />
@@ -20226,7 +20336,6 @@
             <xs:enumeration value="@id/descriptionMoviePage" />
             <xs:enumeration value="@id/genreMoviePage" />
             <xs:enumeration value="@id/headerLayout" />
-            <xs:enumeration value="@id/imageView2" />
             <xs:enumeration value="@id/lblActor" />
             <xs:enumeration value="@id/lblDirector" />
             <xs:enumeration value="@id/lblDuration" />
@@ -20238,6 +20347,8 @@
             <xs:enumeration value="@id/moviePageBackButton" />
             <xs:enumeration value="@id/relativeLayout1" />
             <xs:enumeration value="@id/ScrollLayout" />
+            <xs:enumeration value="@id/ScrollLayout1" />
+            <xs:enumeration value="@id/ScrollLayout2" />
             <xs:enumeration value="@id/searchBar" />
             <xs:enumeration value="@id/spinner" />
             <xs:enumeration value="@id/star1MoviePage" />
@@ -20329,7 +20440,6 @@
             <xs:enumeration value="@id/descriptionMoviePage" />
             <xs:enumeration value="@id/genreMoviePage" />
             <xs:enumeration value="@id/headerLayout" />
-            <xs:enumeration value="@id/imageView2" />
             <xs:enumeration value="@id/lblActor" />
             <xs:enumeration value="@id/lblDirector" />
             <xs:enumeration value="@id/lblDuration" />
@@ -20341,6 +20451,8 @@
             <xs:enumeration value="@id/moviePageBackButton" />
             <xs:enumeration value="@id/relativeLayout1" />
             <xs:enumeration value="@id/ScrollLayout" />
+            <xs:enumeration value="@id/ScrollLayout1" />
+            <xs:enumeration value="@id/ScrollLayout2" />
             <xs:enumeration value="@id/searchBar" />
             <xs:enumeration value="@id/spinner" />
             <xs:enumeration value="@id/star1MoviePage" />
@@ -20672,7 +20784,6 @@
             <xs:enumeration value="@id/descriptionMoviePage" />
             <xs:enumeration value="@id/genreMoviePage" />
             <xs:enumeration value="@id/headerLayout" />
-            <xs:enumeration value="@id/imageView2" />
             <xs:enumeration value="@id/lblActor" />
             <xs:enumeration value="@id/lblDirector" />
             <xs:enumeration value="@id/lblDuration" />
@@ -20684,6 +20795,8 @@
             <xs:enumeration value="@id/moviePageBackButton" />
             <xs:enumeration value="@id/relativeLayout1" />
             <xs:enumeration value="@id/ScrollLayout" />
+            <xs:enumeration value="@id/ScrollLayout1" />
+            <xs:enumeration value="@id/ScrollLayout2" />
             <xs:enumeration value="@id/searchBar" />
             <xs:enumeration value="@id/spinner" />
             <xs:enumeration value="@id/star1MoviePage" />
@@ -20775,7 +20888,6 @@
             <xs:enumeration value="@id/descriptionMoviePage" />
             <xs:enumeration value="@id/genreMoviePage" />
             <xs:enumeration value="@id/headerLayout" />
-            <xs:enumeration value="@id/imageView2" />
             <xs:enumeration value="@id/lblActor" />
             <xs:enumeration value="@id/lblDirector" />
             <xs:enumeration value="@id/lblDuration" />
@@ -20787,6 +20899,8 @@
             <xs:enumeration value="@id/moviePageBackButton" />
             <xs:enumeration value="@id/relativeLayout1" />
             <xs:enumeration value="@id/ScrollLayout" />
+            <xs:enumeration value="@id/ScrollLayout1" />
+            <xs:enumeration value="@id/ScrollLayout2" />
             <xs:enumeration value="@id/searchBar" />
             <xs:enumeration value="@id/spinner" />
             <xs:enumeration value="@id/star1MoviePage" />
@@ -20878,7 +20992,6 @@
             <xs:enumeration value="@id/descriptionMoviePage" />
             <xs:enumeration value="@id/genreMoviePage" />
             <xs:enumeration value="@id/headerLayout" />
-            <xs:enumeration value="@id/imageView2" />
             <xs:enumeration value="@id/lblActor" />
             <xs:enumeration value="@id/lblDirector" />
             <xs:enumeration value="@id/lblDuration" />
@@ -20890,6 +21003,8 @@
             <xs:enumeration value="@id/moviePageBackButton" />
             <xs:enumeration value="@id/relativeLayout1" />
             <xs:enumeration value="@id/ScrollLayout" />
+            <xs:enumeration value="@id/ScrollLayout1" />
+            <xs:enumeration value="@id/ScrollLayout2" />
             <xs:enumeration value="@id/searchBar" />
             <xs:enumeration value="@id/spinner" />
             <xs:enumeration value="@id/star1MoviePage" />
@@ -21021,7 +21136,6 @@
             <xs:enumeration value="@id/descriptionMoviePage" />
             <xs:enumeration value="@id/genreMoviePage" />
             <xs:enumeration value="@id/headerLayout" />
-            <xs:enumeration value="@id/imageView2" />
             <xs:enumeration value="@id/lblActor" />
             <xs:enumeration value="@id/lblDirector" />
             <xs:enumeration value="@id/lblDuration" />
@@ -21033,6 +21147,8 @@
             <xs:enumeration value="@id/moviePageBackButton" />
             <xs:enumeration value="@id/relativeLayout1" />
             <xs:enumeration value="@id/ScrollLayout" />
+            <xs:enumeration value="@id/ScrollLayout1" />
+            <xs:enumeration value="@id/ScrollLayout2" />
             <xs:enumeration value="@id/searchBar" />
             <xs:enumeration value="@id/spinner" />
             <xs:enumeration value="@id/star1MoviePage" />
@@ -21566,7 +21682,6 @@
             <xs:enumeration value="@id/descriptionMoviePage" />
             <xs:enumeration value="@id/genreMoviePage" />
             <xs:enumeration value="@id/headerLayout" />
-            <xs:enumeration value="@id/imageView2" />
             <xs:enumeration value="@id/lblActor" />
             <xs:enumeration value="@id/lblDirector" />
             <xs:enumeration value="@id/lblDuration" />
@@ -21578,6 +21693,8 @@
             <xs:enumeration value="@id/moviePageBackButton" />
             <xs:enumeration value="@id/relativeLayout1" />
             <xs:enumeration value="@id/ScrollLayout" />
+            <xs:enumeration value="@id/ScrollLayout1" />
+            <xs:enumeration value="@id/ScrollLayout2" />
             <xs:enumeration value="@id/searchBar" />
             <xs:enumeration value="@id/spinner" />
             <xs:enumeration value="@id/star1MoviePage" />
@@ -21669,7 +21786,6 @@
             <xs:enumeration value="@id/descriptionMoviePage" />
             <xs:enumeration value="@id/genreMoviePage" />
             <xs:enumeration value="@id/headerLayout" />
-            <xs:enumeration value="@id/imageView2" />
             <xs:enumeration value="@id/lblActor" />
             <xs:enumeration value="@id/lblDirector" />
             <xs:enumeration value="@id/lblDuration" />
@@ -21681,6 +21797,8 @@
             <xs:enumeration value="@id/moviePageBackButton" />
             <xs:enumeration value="@id/relativeLayout1" />
             <xs:enumeration value="@id/ScrollLayout" />
+            <xs:enumeration value="@id/ScrollLayout1" />
+            <xs:enumeration value="@id/ScrollLayout2" />
             <xs:enumeration value="@id/searchBar" />
             <xs:enumeration value="@id/spinner" />
             <xs:enumeration value="@id/star1MoviePage" />
@@ -21772,7 +21890,6 @@
             <xs:enumeration value="@id/descriptionMoviePage" />
             <xs:enumeration value="@id/genreMoviePage" />
             <xs:enumeration value="@id/headerLayout" />
-            <xs:enumeration value="@id/imageView2" />
             <xs:enumeration value="@id/lblActor" />
             <xs:enumeration value="@id/lblDirector" />
             <xs:enumeration value="@id/lblDuration" />
@@ -21784,6 +21901,8 @@
             <xs:enumeration value="@id/moviePageBackButton" />
             <xs:enumeration value="@id/relativeLayout1" />
             <xs:enumeration value="@id/ScrollLayout" />
+            <xs:enumeration value="@id/ScrollLayout1" />
+            <xs:enumeration value="@id/ScrollLayout2" />
             <xs:enumeration value="@id/searchBar" />
             <xs:enumeration value="@id/spinner" />
             <xs:enumeration value="@id/star1MoviePage" />
@@ -21875,7 +21994,6 @@
             <xs:enumeration value="@id/descriptionMoviePage" />
             <xs:enumeration value="@id/genreMoviePage" />
             <xs:enumeration value="@id/headerLayout" />
-            <xs:enumeration value="@id/imageView2" />
             <xs:enumeration value="@id/lblActor" />
             <xs:enumeration value="@id/lblDirector" />
             <xs:enumeration value="@id/lblDuration" />
@@ -21887,6 +22005,8 @@
             <xs:enumeration value="@id/moviePageBackButton" />
             <xs:enumeration value="@id/relativeLayout1" />
             <xs:enumeration value="@id/ScrollLayout" />
+            <xs:enumeration value="@id/ScrollLayout1" />
+            <xs:enumeration value="@id/ScrollLayout2" />
             <xs:enumeration value="@id/searchBar" />
             <xs:enumeration value="@id/spinner" />
             <xs:enumeration value="@id/star1MoviePage" />
@@ -22074,6 +22194,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -22432,6 +22554,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:color/background_dark" />
@@ -23419,6 +23543,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -23667,6 +23793,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -23942,6 +24070,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -24218,6 +24348,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -24454,6 +24586,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -24690,6 +24824,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -24926,6 +25062,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -25162,6 +25300,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -25873,6 +26013,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -26126,6 +26268,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:color/background_dark" />
@@ -26441,6 +26585,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:color/background_dark" />
@@ -27184,6 +27330,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:color/background_dark" />
@@ -27539,6 +27687,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -27955,6 +28105,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -28302,6 +28454,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -28538,6 +28692,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -29317,6 +29473,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -29553,6 +29711,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -29789,6 +29949,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -30025,6 +30187,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -30441,6 +30605,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -30677,6 +30843,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -31082,6 +31250,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -31318,6 +31488,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:color/background_dark" />
@@ -31633,6 +31805,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -32311,6 +32485,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:color/background_dark" />
@@ -32841,6 +33017,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:color/background_dark" />
@@ -33214,6 +33392,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -34409,6 +34589,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -34684,6 +34866,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -35012,6 +35196,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -35328,6 +35514,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -35564,6 +35752,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -35840,6 +36030,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -36076,6 +36268,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -36455,6 +36649,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -36691,6 +36887,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:color/background_dark" />
@@ -37006,6 +37204,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:color/background_dark" />
@@ -37321,6 +37521,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:color/background_dark" />
@@ -37636,6 +37838,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:color/background_dark" />
@@ -37951,6 +38155,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -38213,6 +38419,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -38449,6 +38657,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -38685,6 +38895,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -38921,6 +39133,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -39157,6 +39371,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -39393,6 +39609,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -39629,6 +39847,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -40035,6 +40255,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -40271,6 +40493,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -40507,6 +40731,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -41690,6 +41916,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -42110,6 +42338,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -42854,6 +43084,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -43262,6 +43494,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -44013,6 +44247,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:color/background_dark" />
@@ -44476,6 +44712,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -44728,6 +44966,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -44964,6 +45204,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -45200,6 +45442,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:color/background_dark" />
@@ -45515,6 +45759,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:color/background_dark" />
@@ -45882,6 +46128,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -46118,6 +46366,8 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/cover" />
+            <xs:enumeration value="@drawable/emptystar" />
+            <xs:enumeration value="@drawable/fullstar" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/star" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
