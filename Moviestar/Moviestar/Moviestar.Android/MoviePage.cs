@@ -15,21 +15,21 @@ namespace Moviestar.Droid
     [Activity(Label = "MoviePage")]
     public class MoviePage : Activity
     {
-        String selected_item;
+        /*String selected_item;
         String movie_ID;
-        int rating;
+        int rating;*/
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.MoviePage);
 
-            movie_ID = Intent.GetStringExtra("MovieID") ?? "Data not available";
+            /*movie_ID = Intent.GetStringExtra("MovieID") ?? "Data not available";*/
 
-            page1.update();
+
         }
 
-   public void update()
+   /*public void update()
         {
             var rate1 = FindViewById<ImageButton>(Resource.Id.rate1);
             var rate2 = FindViewById<ImageButton>(Resource.Id.rate2);
@@ -115,7 +115,6 @@ namespace Moviestar.Droid
 
 
         }
-
-        MoviePage page1 = new MoviePage();
+        */
     }
 }
