@@ -49,6 +49,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Login.cs" />
+    <Compile Include="Models\Rating.cs" />
+    <Compile Include="Models\User.cs" />
     <Compile Include="MoviePage.cs" />
     <Compile Include="MovieList.cs" />
     <Compile Include="Models\Movie.cs" />
@@ -57,6 +59,7 @@
     <Compile Include="Search.cs" />
     <Compile Include="ViewModels\HomeViewModel.cs" />
     <Compile Include="ViewModels\MoviePageViewModel.cs" />
+    <Compile Include="ViewModels\RatingViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />

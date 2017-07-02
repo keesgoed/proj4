@@ -43,7 +43,6 @@ namespace Moviestar.Droid
             MakeBlocks();
 
             //get movie ID
-
             movie_ID = Intent.GetStringExtra("MovieID") ?? "Data not available";
         }
 
@@ -155,14 +154,18 @@ namespace Moviestar.Droid
                 //add go to movie page button
                 infobtn.Click += delegate
                 {
-                    var MoviePage = new Intent(this, typeof(MoviePage));
-                    String Movie_ID = movie.id.ToString();
-                    MoviePage.PutExtra("MovieID", Movie_ID);
-                    SetContentView(Resource.Layout.MoviePage);
-                    update();
+                    // var MoviePage = new Intent(this, typeof(MoviePage));
+                    // String Movie_ID = movie.id.ToString();
+                    // MoviePage.PutExtra("MovieID", Movie_ID);
+                    movie_ID = movie.id;
 
+
+                    SetContentView(Resource.Layout.MoviePage);
                     // get data from DB and make dynamic movie pages
                     generated_moviePage();
+
+                    // Update method to change star layout + rating
+                    update();
                     
                 };
 
@@ -239,6 +242,7 @@ namespace Moviestar.Droid
                     rating = 5;
                 }
             };
+            Console.WriteLine(rating);
         }
 
         private void SaveRating(object sender, EventArgs e)
@@ -259,9 +263,8 @@ namespace Moviestar.Droid
 
         public void generated_moviePage()
         {
+            Console.WriteLine("Moviepage!!");
             MoviePageViewModel MoviePage = new MoviePageViewModel(movie_ID);
-
-            var result = MoviePage.LoadAllItemFromMySQL();
 
             foreach (var page in MoviePage.LoadAllItemFromMySQL())
             {
@@ -270,19 +273,19 @@ namespace Moviestar.Droid
                 moviePageTitle.Text = page.title;
 
                 TextView moviePageRating = FindViewById<TextView>(Resource.Id.moviePageRating);
-                moviePageRating.Text = "IMDB rating " + page.imdb_score;
+                moviePageRating.Text = "IMDB rating: " + page.imdb_score;
 
                 TextView duration = FindViewById<TextView>(Resource.Id.duration);
-                duration.Text = "Duration " + page.duration;
+                duration.Text = "Duration: " + page.duration + " min";
 
                 TextView moviePageGenre = FindViewById<TextView>(Resource.Id.moviePageGenre);
                 moviePageGenre.Text = page.genres;
 
                 TextView moviePageActors = FindViewById<TextView>(Resource.Id.moviePageActors);
-                moviePageActors.Text = "Starring: " + page.actor_1_name + "\n" + page.actor_2_name + "\n" + page.actor_3_name;
+                moviePageActors.Text = "Starring:\n" + page.actor_1_name + "\n" + page.actor_2_name + "\n" + page.actor_3_name;
 
                 TextView moviePageDirector = FindViewById<TextView>(Resource.Id.moviePageDirector);
-                moviePageDirector.Text = "Director: " + page.director_name;
+                moviePageDirector.Text = "Director: \n" + page.director_name;
             }
         }
     }
