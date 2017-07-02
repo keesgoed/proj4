@@ -15,3 +15,12 @@ obj
 *.pfx
 
 *_ReSharper.*/
+*.suo
+*.apk
+*.mdb
+*.dll
+*.pdb
+*.xsd
+*.class
+*.java
+*.cache
