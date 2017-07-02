@@ -49,8 +49,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Login.cs" />
-    <Compile Include="Models\Rating.cs" />
-    <Compile Include="Models\User.cs" />
     <Compile Include="MoviePage.cs" />
     <Compile Include="MovieList.cs" />
     <Compile Include="Models\Movie.cs" />

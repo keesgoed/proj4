@@ -14,10 +14,17 @@ using System.Data;
 
 namespace Moviestar.Droid.ViewModels
 {
-    class HomeViewModel
+    class RatingViewModel
     {
-        public HomeViewModel()
+        string user_id;
+        string movie_id;
+        int rating;
+    
+        public RatingViewModel(string user_id, string movie_id, int rating)
         {
+            this.user_id = user_id;
+            this.movie_id = movie_id;
+            this.rating = rating;
 
         }
 
@@ -30,29 +37,11 @@ namespace Moviestar.Droid.ViewModels
                 MySqlConnection sqlconn = new MySqlConnection(connsqlstring);
                 sqlconn.Open();
 
-                DataSet movies = new DataSet();
-                string queryString = "select * FROM Movie WHERE imdb_score > 7.5 ORDER BY RAND() LIMIT 10";
+                // Insert info in database
+                DataSet rating = new DataSet();
+                string queryString = "INSERT INTO rating(movie_id, user_id, rating) VALUES (" + movie_id + ", " + user_id + ", " + rating + ")";
                 MySqlDataAdapter adapter = new MySqlDataAdapter(queryString, sqlconn);
-                adapter.Fill(movies, "Item");
-                foreach (DataRow row in movies.Tables["Item"].Rows)
-                {
-                    Models.Movie generated_movie = new Models.Movie()
-                    {
-                        id = (row[0].ToString()),
-                        director_name = (row[1].ToString()),
-                        duration = (row[2].ToString()),
-                        actor_1_name = (row[3].ToString()),
-                        actor_2_name = (row[4].ToString()),
-                        actor_3_name = (row[5].ToString()),
-                        genres = (row[6].ToString()),
-                        title = (row[7].ToString()),
-                        language = (row[8].ToString()),
-                        title_year = (row[9].ToString()),
-                        imdb_score = (row[10].ToString()),
-                    };
-                    movielist.Add(generated_movie);
-
-                }
+                adapter.Fill(rating, "Item");
 
                 sqlconn.Close();
             }

@@ -21,4 +21,18 @@ namespace Moviestar.Models
         public string imdb_score { get; set; }
 
     }
+
+    public class Rating
+    {
+        public string movie_id { get; set; }
+        public string user_id { get; set; }
+        public int rating { get; set; }
+    }
+
+    public class User
+    {
+        public string user_id { get; set; }
+        public string usernamed { get; set; }
+        public string password { get; set; }
+    }
 }
