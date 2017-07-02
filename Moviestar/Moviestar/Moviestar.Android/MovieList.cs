@@ -63,36 +63,34 @@ namespace Moviestar.Droid
 
             if (Convert.ToString(spinner.GetItemAtPosition(e.Position)) != this.selectedItem)
             {
-                this.selectedItem = Convert.ToString(spinner.GetItemAtPosition(e.Position));
-                changeView();
-                Console.WriteLine("Writeline in the if statement " + this.selectedItem);
+                selectedItem = Convert.ToString(spinner.GetItemAtPosition(e.Position));
+
+                Console.WriteLine("Changeview() " + this.selectedItem);
+                // If statement to correctly navigate
+                if (selectedItem == "Search")
+                {
+                    Console.WriteLine("in de search if statement " + this.selectedItem);
+                    StartActivity(typeof(Search));
+                    createSpinner();
+                }
+                if (selectedItem == "Recommended movies")
+                {
+                    Console.WriteLine("in de recommended movies if statement " + this.selectedItem);
+                    StartActivity(typeof(MainActivity));
+                    createSpinner();
+                }
+                if (selectedItem == "Login")
+                {
+                    Console.WriteLine("in de login if statement " + this.selectedItem);
+                    StartActivity(typeof(Login));
+                    createSpinner();
+
+                    Console.WriteLine("Writeline in the if statement " + this.selectedItem);
+                }
+                Console.WriteLine(selectedItem);
             }
-            Console.WriteLine(this.selectedItem);
         }
 
-        private void changeView()
-        {
-            Console.WriteLine("Changeview() " + this.selectedItem);
-            // If statement to correctly navigate
-            if (this.selectedItem == "Search")
-            {
-                Console.WriteLine("in de search if statement " + this.selectedItem);
-                StartActivity(typeof(Search));
-                createSpinner();
-            }
-            if (this.selectedItem == "Recommended movies")
-            {
-                Console.WriteLine("in de recommended movies if statement " + this.selectedItem);
-                StartActivity(typeof(MainActivity));
-                createSpinner();
-            }
-            if (this.selectedItem == "Login")
-            {
-                Console.WriteLine("in de login if statement " + this.selectedItem);
-                StartActivity(typeof(Login));
-                createSpinner();
-            }
-        }
 
         public void MakeBlocks()
         {
@@ -159,8 +157,10 @@ namespace Moviestar.Droid
                     // MoviePage.PutExtra("MovieID", Movie_ID);
                     movie_ID = movie.id;
 
-
+                    // Change view + create dropdown spinner
                     SetContentView(Resource.Layout.MoviePage);
+                    createSpinner();
+                    
                     // get data from DB and make dynamic movie pages
                     generated_moviePage();
 

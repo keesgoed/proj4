@@ -36,11 +36,11 @@
         android:minHeight="25px"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:id="@+id/headerLayout"
-        android:background="@android:color/holo_orange_light">
+        android:id="@+id/headerLayout">
         <Spinner
             android:layout_width="217.5dp"
             android:layout_height="match_parent"
+            android:background="@android:color/holo_orange_light"
             android:id="@+id/spinner" />
     </LinearLayout>
     <SearchView
