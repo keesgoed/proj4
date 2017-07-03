@@ -23,11 +23,33 @@
                 android:layout_marginBottom="0.0dp"
                 android:layout_alignParentBottom="false"
                 android:layout_alignParentTop="false" />
-        <!-- <Button
-                android:text="Go To Movie Page"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/moviePageButton" /> -->
+            <TextView
+                android:text="Username:"
+                android:id="@+id/textView1"
+                android:layout_height="30.5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="50dp" />
+            <EditText
+                android:id="@+id/editText1" />
+            <TextView
+                android:text="Password:"
+                android:id="@+id/textView2"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="50dp" />
+            <EditText
+                android:inputType="textPassword"
+                android:id="@+id/editText2" />
+            <Button
+                android:text="Log in"
+                android:id="@+id/button1"
+                android:layout_width="233.5dp"
+                android:layout_height="36.5dp"
+                android:layout_marginTop="200dp" />
+            <Button
+                android:text="Register"
+                android:id="@+id/button2"
+                android:layout_height="36.0dp"
+                android:layout_marginTop="30dp" />
         </TableLayout>
     </ScrollView>
     <LinearLayout
@@ -36,11 +58,11 @@
         android:minHeight="25px"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:id="@+id/headerLayout"
-        android:background="@android:color/holo_orange_light">
+        android:id="@+id/headerLayout">
         <Spinner
             android:layout_width="217.5dp"
             android:layout_height="match_parent"
+            android:background="@android:color/holo_orange_light"
             android:id="@+id/spinner" />
     </LinearLayout>
     <SearchView

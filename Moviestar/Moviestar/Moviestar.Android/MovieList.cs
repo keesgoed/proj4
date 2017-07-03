@@ -87,6 +87,7 @@ namespace Moviestar.Droid
                     Console.WriteLine("Writeline in the if statement " + this.selectedItem);
                 }
                 Console.WriteLine(selectedItem);
+
             }
         }
 
@@ -157,7 +158,7 @@ namespace Moviestar.Droid
 
                     // Change view + create dropdown spinner
                     //SetContentView(Resource.Layout.MoviePage);
-                    StartActivity(typeof(MoviePage));
+                    StartActivity(MoviePage);
                     createSpinner();
                     
                     

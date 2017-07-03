@@ -2,7 +2,7 @@
 <xs:schema xmlns:android="http://schemas.android.com/apk/res/android" attributeFormDefault="qualified" targetNamespace="http://schemas.android.com/apk/res/android" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:annotation>
     <xs:documentation>v25</xs:documentation>
-    <xs:documentation>02/07/2017 19:48:00</xs:documentation>
+    <xs:documentation>03/07/2017 13:11:56</xs:documentation>
   </xs:annotation>
   <xs:attribute name="accessibilityLiveRegion">
     <xs:annotation>
@@ -17101,7 +17101,6 @@
             <xs:enumeration value="@+id/checkedTextView1" />
             <xs:enumeration value="@id/duration" />
             <xs:enumeration value="@id/headerLayout" />
-            <xs:enumeration value="@id/imageView2" />
             <xs:enumeration value="@id/moviePageActors" />
             <xs:enumeration value="@id/moviePageCover" />
             <xs:enumeration value="@id/moviePageDirector" />
@@ -20016,7 +20015,6 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="@id/duration" />
             <xs:enumeration value="@id/headerLayout" />
-            <xs:enumeration value="@id/imageView2" />
             <xs:enumeration value="@id/moviePageActors" />
             <xs:enumeration value="@id/moviePageCover" />
             <xs:enumeration value="@id/moviePageDirector" />
@@ -20115,7 +20113,6 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="@id/duration" />
             <xs:enumeration value="@id/headerLayout" />
-            <xs:enumeration value="@id/imageView2" />
             <xs:enumeration value="@id/moviePageActors" />
             <xs:enumeration value="@id/moviePageCover" />
             <xs:enumeration value="@id/moviePageDirector" />
@@ -20214,7 +20211,6 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="@id/duration" />
             <xs:enumeration value="@id/headerLayout" />
-            <xs:enumeration value="@id/imageView2" />
             <xs:enumeration value="@id/moviePageActors" />
             <xs:enumeration value="@id/moviePageCover" />
             <xs:enumeration value="@id/moviePageDirector" />
@@ -20313,7 +20309,6 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="@id/duration" />
             <xs:enumeration value="@id/headerLayout" />
-            <xs:enumeration value="@id/imageView2" />
             <xs:enumeration value="@id/moviePageActors" />
             <xs:enumeration value="@id/moviePageCover" />
             <xs:enumeration value="@id/moviePageDirector" />
@@ -20412,7 +20407,6 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="@id/duration" />
             <xs:enumeration value="@id/headerLayout" />
-            <xs:enumeration value="@id/imageView2" />
             <xs:enumeration value="@id/moviePageActors" />
             <xs:enumeration value="@id/moviePageCover" />
             <xs:enumeration value="@id/moviePageDirector" />
@@ -20751,7 +20745,6 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="@id/duration" />
             <xs:enumeration value="@id/headerLayout" />
-            <xs:enumeration value="@id/imageView2" />
             <xs:enumeration value="@id/moviePageActors" />
             <xs:enumeration value="@id/moviePageCover" />
             <xs:enumeration value="@id/moviePageDirector" />
@@ -20850,7 +20843,6 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="@id/duration" />
             <xs:enumeration value="@id/headerLayout" />
-            <xs:enumeration value="@id/imageView2" />
             <xs:enumeration value="@id/moviePageActors" />
             <xs:enumeration value="@id/moviePageCover" />
             <xs:enumeration value="@id/moviePageDirector" />
@@ -20949,7 +20941,6 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="@id/duration" />
             <xs:enumeration value="@id/headerLayout" />
-            <xs:enumeration value="@id/imageView2" />
             <xs:enumeration value="@id/moviePageActors" />
             <xs:enumeration value="@id/moviePageCover" />
             <xs:enumeration value="@id/moviePageDirector" />
@@ -21088,7 +21079,6 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="@id/duration" />
             <xs:enumeration value="@id/headerLayout" />
-            <xs:enumeration value="@id/imageView2" />
             <xs:enumeration value="@id/moviePageActors" />
             <xs:enumeration value="@id/moviePageCover" />
             <xs:enumeration value="@id/moviePageDirector" />
@@ -21629,7 +21619,6 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="@id/duration" />
             <xs:enumeration value="@id/headerLayout" />
-            <xs:enumeration value="@id/imageView2" />
             <xs:enumeration value="@id/moviePageActors" />
             <xs:enumeration value="@id/moviePageCover" />
             <xs:enumeration value="@id/moviePageDirector" />
@@ -21728,7 +21717,6 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="@id/duration" />
             <xs:enumeration value="@id/headerLayout" />
-            <xs:enumeration value="@id/imageView2" />
             <xs:enumeration value="@id/moviePageActors" />
             <xs:enumeration value="@id/moviePageCover" />
             <xs:enumeration value="@id/moviePageDirector" />
@@ -21827,7 +21815,6 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="@id/duration" />
             <xs:enumeration value="@id/headerLayout" />
-            <xs:enumeration value="@id/imageView2" />
             <xs:enumeration value="@id/moviePageActors" />
             <xs:enumeration value="@id/moviePageCover" />
             <xs:enumeration value="@id/moviePageDirector" />
@@ -21926,7 +21913,6 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="@id/duration" />
             <xs:enumeration value="@id/headerLayout" />
-            <xs:enumeration value="@id/imageView2" />
             <xs:enumeration value="@id/moviePageActors" />
             <xs:enumeration value="@id/moviePageCover" />
             <xs:enumeration value="@id/moviePageDirector" />
