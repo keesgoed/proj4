@@ -99,7 +99,7 @@ namespace Moviestar.Droid
                 // Set the Linearlayout for movie blocks
                 LinearLayout movieBlock = new LinearLayout(this);
                 movieBlock.Orientation = Orientation.Vertical;
-                movieBlock.SetBackgroundColor(new Color(52, 152, 219));
+                movieBlock.SetBackgroundColor(new Color(60, 60, 60));
                 LinearLayout.LayoutParams linearLayoutParamsBlock = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.FillParent, LinearLayout.LayoutParams.FillParent);
                 linearLayoutParamsBlock.SetMargins(0, 25, 0, 0);
                 movieBlock.LayoutParameters = linearLayoutParamsBlock;
@@ -116,6 +116,7 @@ namespace Moviestar.Droid
                 // Set the Titles and the axml
                 TextView title = new TextView(this);
                 title.SetTextSize(ComplexUnitType.Px, 30);
+                title.SetTextColor(new Color(255, 255, 255));
                 title.SetPadding(5, 0, 0, 0);
                 title.Text = movie.title.ToString();
 
@@ -128,6 +129,7 @@ namespace Moviestar.Droid
                 // Set Description and the axml
                 TextView desc = new TextView(this);
                 desc.SetPadding(100, 0, 0, 0);
+                desc.SetTextColor(new Color(255, 255, 255));
                 desc.SetTextSize(ComplexUnitType.Px, 24);
                 desc.Text = movie.actor_1_name.ToString() + "\n" + movie.actor_2_name.ToString() + "\n" + movie.actor_3_name.ToString() + " \n\ngenres: " + movie.genres.ToString() + "\n \nIMDB score: " + movie.imdb_score.ToString();
 
