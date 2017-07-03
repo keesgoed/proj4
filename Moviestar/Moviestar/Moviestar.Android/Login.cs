@@ -20,6 +20,11 @@ namespace Moviestar.Droid
         {
             base.OnCreate(bundle);
             SetContentView(Resource.Layout.Login);
+            Console.WriteLine("sadsadassdasdasdsadaadsasd");
+            Console.WriteLine("sadsadassdasdasdsadaadsasd");
+            Console.WriteLine("sadsadassdasdasdsadaadsasd");
+            Console.WriteLine("sadsadassdasdasdsadaadsasd");
+            Console.WriteLine("sadsadassdasdasdsadaadsasd");
         }
 
 

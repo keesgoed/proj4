@@ -28,9 +28,9 @@ namespace Moviestar.Droid.ViewModels
 
         }
 
-        public List<Models.Movie> LoadAllItemFromMySQL()
+        public List<Models.Rating> LoadAllItemFromMySQL()
         {
-            List<Models.Movie> movielist = new List<Models.Movie>();
+            List<Models.Rating> movielist = new List<Models.Rating>();
             try
             {
                 string connsqlstring = "server = sql11.freemysqlhosting.net; port = 3306; database = sql11182336; uid = sql11182336; pwd = qhJhLGfTnt; charset = utf8;";
