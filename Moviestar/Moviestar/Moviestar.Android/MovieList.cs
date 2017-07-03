@@ -11,6 +11,7 @@ using Android.Graphics;
 using Android.Util;
 using System.Collections.Generic;
 using Moviestar.Droid.ViewModels;
+using System.Net;
 
 namespace Moviestar.Droid
 {
@@ -23,6 +24,8 @@ namespace Moviestar.Droid
         private LinearLayout scrollBlock;
         String selectedItem = "Recommended movies";
         String movie_ID;
+
+
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
