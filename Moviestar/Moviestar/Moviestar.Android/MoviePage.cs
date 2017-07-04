@@ -36,7 +36,7 @@ namespace Moviestar.Droid
 
             // Update method to change star layout + rating
             update();
-
+            Console.WriteLine("Dit is de rating: " + rating);
 
         }
 
@@ -93,9 +93,8 @@ namespace Moviestar.Droid
                 if (e.Event.Action == MotionEventActions.Down || e.Event.Action == MotionEventActions.Up)
                 {
                     rate1.SetImageResource(Resource.Drawable.fullstar);
-                    rating = 1;
-                    Console.WriteLine("Dit is de rating: " + rating);
                 }
+                rating = 1;
             };
             rate2.Touch += (object sender, View.TouchEventArgs e) => {
                 ResetButton();
@@ -103,9 +102,8 @@ namespace Moviestar.Droid
                 {
                     rate1.SetImageResource(Resource.Drawable.fullstar);
                     rate2.SetImageResource(Resource.Drawable.fullstar);
-                    rating = 2;
-                    Console.WriteLine("Dit is de rating: " + rating);
                 }
+                rating = 2;
             };
             rate3.Touch += (object sender, View.TouchEventArgs e) => {
                 ResetButton();
@@ -114,9 +112,8 @@ namespace Moviestar.Droid
                     rate1.SetImageResource(Resource.Drawable.fullstar);
                     rate2.SetImageResource(Resource.Drawable.fullstar);
                     rate3.SetImageResource(Resource.Drawable.fullstar);
-                    rating = 3;
-                    Console.WriteLine("Dit is de rating: " + rating);
                 }
+                rating = 3;
             };
             rate4.Touch += (object sender, View.TouchEventArgs e) => {
                 ResetButton();
@@ -126,8 +123,8 @@ namespace Moviestar.Droid
                     rate2.SetImageResource(Resource.Drawable.fullstar);
                     rate3.SetImageResource(Resource.Drawable.fullstar);
                     rate4.SetImageResource(Resource.Drawable.fullstar);
-                    rating = 4;
                 }
+                rating = 4;
             };
             rate5.Touch += (object sender, View.TouchEventArgs e) => {
                 ResetButton();
@@ -138,11 +135,10 @@ namespace Moviestar.Droid
                     rate3.SetImageResource(Resource.Drawable.fullstar);
                     rate4.SetImageResource(Resource.Drawable.fullstar);
                     rate5.SetImageResource(Resource.Drawable.fullstar);
-                    rating = 5;
-                    Console.WriteLine("Dit is de rating: " + rating);
                 }
+                rating = 5;
             };
-            Console.WriteLine("Dit is de rating aids: " + rating);
+            Console.WriteLine("Ik hoop dat dit werkt..");
         }
 
 

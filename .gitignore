@@ -24,3 +24,8 @@ obj
 *.class
 *.java
 *.cache
+*.apk
+*.dll
+Moviestar/.vs/Moviestar/v15/.suo
+*.mdb
+*.pdb
