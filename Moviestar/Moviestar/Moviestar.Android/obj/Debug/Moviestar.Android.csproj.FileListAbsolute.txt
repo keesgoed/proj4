@@ -93,3 +93,15 @@ C:\Users\Wouter\Documents\GitHub\proj4\Moviestar\Moviestar\Moviestar.Android\bin
 C:\Users\Wouter\Documents\GitHub\proj4\Moviestar\Moviestar\Moviestar.Android\bin\Debug\Moviestar.Android.dll.config
 C:\Users\Wouter\Documents\GitHub\proj4\Moviestar\Moviestar\Moviestar.Android\bin\Debug\System.Net.Http.Formatting.dll
 C:\Users\Wouter\Documents\GitHub\proj4\Moviestar\Moviestar\Moviestar.Android\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\keesg\OneDrive\Documenten\Visual Studio 2017\Projects\proj4\Moviestar\Moviestar\Moviestar.Android\bin\Debug\Moviestar.Android.dll.config
+C:\Users\keesg\OneDrive\Documenten\Visual Studio 2017\Projects\proj4\Moviestar\Moviestar\Moviestar.Android\bin\Debug\Moviestar.dll
+C:\Users\keesg\OneDrive\Documenten\Visual Studio 2017\Projects\proj4\Moviestar\Moviestar\Moviestar.Android\bin\Debug\System.Net.Http.dll
+C:\Users\keesg\OneDrive\Documenten\Visual Studio 2017\Projects\proj4\Moviestar\Moviestar\Moviestar.Android\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\keesg\OneDrive\Documenten\Visual Studio 2017\Projects\proj4\Moviestar\Moviestar\Moviestar.Android\bin\Debug\System.Net.Http.Primitives.dll
+C:\Users\keesg\OneDrive\Documenten\Visual Studio 2017\Projects\proj4\Moviestar\Moviestar\Moviestar.Android\bin\Debug\Moviestar.pdb
+C:\Users\keesg\OneDrive\Documenten\Visual Studio 2017\Projects\proj4\Moviestar\Moviestar\Moviestar.Android\bin\Debug\Moviestar.dll.config
+C:\Users\keesg\OneDrive\Documenten\Visual Studio 2017\Projects\proj4\Moviestar\Moviestar\Moviestar.Android\bin\Debug\Moviestar.dll.mdb
+C:\Users\keesg\OneDrive\Documenten\Visual Studio 2017\Projects\proj4\Moviestar\Moviestar\Moviestar.Android\bin\Debug\System.Net.Http.xml
+C:\Users\keesg\OneDrive\Documenten\Visual Studio 2017\Projects\proj4\Moviestar\Moviestar\Moviestar.Android\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\keesg\OneDrive\Documenten\Visual Studio 2017\Projects\proj4\Moviestar\Moviestar\Moviestar.Android\bin\Debug\System.Net.Http.Primitives.xml
+C:\Users\keesg\OneDrive\Documenten\Visual Studio 2017\Projects\proj4\Moviestar\Moviestar\Moviestar.Android\obj\Debug\android\assets\Moviestar.dll.mdb

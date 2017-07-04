@@ -16,10 +16,10 @@ namespace Moviestar.Droid.ViewModels
 {
     class SearchViewModel
     {
-        string search;
+        string userInput;
         public SearchViewModel(string m)
         {
-            search = m;
+            userInput = m;
         }
 
         public List<Models.Movie> LoadAllItemFromMySQL()
@@ -32,7 +32,7 @@ namespace Moviestar.Droid.ViewModels
                 sqlconn.Open();
 
                 DataSet moviePage = new DataSet();
-                string queryString = "select * FROM movies WHERE movie_title LIKE '%" + search + "%'";
+                string queryString = "select * FROM movies WHERE movie_title LIKE '%" + userInput + "%'";
                 Console.WriteLine(queryString);
 
                 MySqlDataAdapter adapter = new MySqlDataAdapter(queryString, sqlconn);
