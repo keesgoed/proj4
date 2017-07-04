@@ -28,8 +28,12 @@ namespace Moviestar.Droid
         {
             base.OnCreate(bundle);
 
-            // Set our view from the "main" layout resource
+            //test
+            Connection con = new Connection();
+            con.Main();
+            Console.WriteLine("########## MSG FROM API HERE ############## \n" + con.GetProductAsync());
 
+            // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.MovieList);
 
             //create spinner
