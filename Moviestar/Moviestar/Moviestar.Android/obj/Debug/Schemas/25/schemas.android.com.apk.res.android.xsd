@@ -2,7 +2,7 @@
 <xs:schema xmlns:android="http://schemas.android.com/apk/res/android" attributeFormDefault="qualified" targetNamespace="http://schemas.android.com/apk/res/android" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:annotation>
     <xs:documentation>v25</xs:documentation>
-    <xs:documentation>04/07/2017 19:15:39</xs:documentation>
+    <xs:documentation>04/07/2017 20:12:26</xs:documentation>
   </xs:annotation>
   <xs:attribute name="accessibilityLiveRegion">
     <xs:annotation>
@@ -17116,6 +17116,7 @@
             <xs:enumeration value="@id/rate3" />
             <xs:enumeration value="@id/rate4" />
             <xs:enumeration value="@id/rate5" />
+            <xs:enumeration value="@id/rateMovie" />
             <xs:enumeration value="@id/relativeLayout1" />
             <xs:enumeration value="@id/relativeLayout2" />
             <xs:enumeration value="@id/ScrollLayout" />
@@ -20036,6 +20037,7 @@
             <xs:enumeration value="@id/rate3" />
             <xs:enumeration value="@id/rate4" />
             <xs:enumeration value="@id/rate5" />
+            <xs:enumeration value="@id/rateMovie" />
             <xs:enumeration value="@id/relativeLayout1" />
             <xs:enumeration value="@id/relativeLayout2" />
             <xs:enumeration value="@id/ScrollLayout" />
@@ -20140,6 +20142,7 @@
             <xs:enumeration value="@id/rate3" />
             <xs:enumeration value="@id/rate4" />
             <xs:enumeration value="@id/rate5" />
+            <xs:enumeration value="@id/rateMovie" />
             <xs:enumeration value="@id/relativeLayout1" />
             <xs:enumeration value="@id/relativeLayout2" />
             <xs:enumeration value="@id/ScrollLayout" />
@@ -20244,6 +20247,7 @@
             <xs:enumeration value="@id/rate3" />
             <xs:enumeration value="@id/rate4" />
             <xs:enumeration value="@id/rate5" />
+            <xs:enumeration value="@id/rateMovie" />
             <xs:enumeration value="@id/relativeLayout1" />
             <xs:enumeration value="@id/relativeLayout2" />
             <xs:enumeration value="@id/ScrollLayout" />
@@ -20348,6 +20352,7 @@
             <xs:enumeration value="@id/rate3" />
             <xs:enumeration value="@id/rate4" />
             <xs:enumeration value="@id/rate5" />
+            <xs:enumeration value="@id/rateMovie" />
             <xs:enumeration value="@id/relativeLayout1" />
             <xs:enumeration value="@id/relativeLayout2" />
             <xs:enumeration value="@id/ScrollLayout" />
@@ -20452,6 +20457,7 @@
             <xs:enumeration value="@id/rate3" />
             <xs:enumeration value="@id/rate4" />
             <xs:enumeration value="@id/rate5" />
+            <xs:enumeration value="@id/rateMovie" />
             <xs:enumeration value="@id/relativeLayout1" />
             <xs:enumeration value="@id/relativeLayout2" />
             <xs:enumeration value="@id/ScrollLayout" />
@@ -20796,6 +20802,7 @@
             <xs:enumeration value="@id/rate3" />
             <xs:enumeration value="@id/rate4" />
             <xs:enumeration value="@id/rate5" />
+            <xs:enumeration value="@id/rateMovie" />
             <xs:enumeration value="@id/relativeLayout1" />
             <xs:enumeration value="@id/relativeLayout2" />
             <xs:enumeration value="@id/ScrollLayout" />
@@ -20900,6 +20907,7 @@
             <xs:enumeration value="@id/rate3" />
             <xs:enumeration value="@id/rate4" />
             <xs:enumeration value="@id/rate5" />
+            <xs:enumeration value="@id/rateMovie" />
             <xs:enumeration value="@id/relativeLayout1" />
             <xs:enumeration value="@id/relativeLayout2" />
             <xs:enumeration value="@id/ScrollLayout" />
@@ -21004,6 +21012,7 @@
             <xs:enumeration value="@id/rate3" />
             <xs:enumeration value="@id/rate4" />
             <xs:enumeration value="@id/rate5" />
+            <xs:enumeration value="@id/rateMovie" />
             <xs:enumeration value="@id/relativeLayout1" />
             <xs:enumeration value="@id/relativeLayout2" />
             <xs:enumeration value="@id/ScrollLayout" />
@@ -21148,6 +21157,7 @@
             <xs:enumeration value="@id/rate3" />
             <xs:enumeration value="@id/rate4" />
             <xs:enumeration value="@id/rate5" />
+            <xs:enumeration value="@id/rateMovie" />
             <xs:enumeration value="@id/relativeLayout1" />
             <xs:enumeration value="@id/relativeLayout2" />
             <xs:enumeration value="@id/ScrollLayout" />
@@ -21694,6 +21704,7 @@
             <xs:enumeration value="@id/rate3" />
             <xs:enumeration value="@id/rate4" />
             <xs:enumeration value="@id/rate5" />
+            <xs:enumeration value="@id/rateMovie" />
             <xs:enumeration value="@id/relativeLayout1" />
             <xs:enumeration value="@id/relativeLayout2" />
             <xs:enumeration value="@id/ScrollLayout" />
@@ -21798,6 +21809,7 @@
             <xs:enumeration value="@id/rate3" />
             <xs:enumeration value="@id/rate4" />
             <xs:enumeration value="@id/rate5" />
+            <xs:enumeration value="@id/rateMovie" />
             <xs:enumeration value="@id/relativeLayout1" />
             <xs:enumeration value="@id/relativeLayout2" />
             <xs:enumeration value="@id/ScrollLayout" />
@@ -21902,6 +21914,7 @@
             <xs:enumeration value="@id/rate3" />
             <xs:enumeration value="@id/rate4" />
             <xs:enumeration value="@id/rate5" />
+            <xs:enumeration value="@id/rateMovie" />
             <xs:enumeration value="@id/relativeLayout1" />
             <xs:enumeration value="@id/relativeLayout2" />
             <xs:enumeration value="@id/ScrollLayout" />
@@ -22006,6 +22019,7 @@
             <xs:enumeration value="@id/rate3" />
             <xs:enumeration value="@id/rate4" />
             <xs:enumeration value="@id/rate5" />
+            <xs:enumeration value="@id/rateMovie" />
             <xs:enumeration value="@id/relativeLayout1" />
             <xs:enumeration value="@id/relativeLayout2" />
             <xs:enumeration value="@id/ScrollLayout" />

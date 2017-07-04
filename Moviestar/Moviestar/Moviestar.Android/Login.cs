@@ -48,17 +48,18 @@ namespace Moviestar.Droid
                 if (selectedItem == "Search")
                 {
                     StartActivity(typeof(Search));
-                    createSpinner();
                 }
                 if (selectedItem == "Recommended movies")
                 {
                     StartActivity(typeof(MovieList));
-                    createSpinner();
                 }
                 if (selectedItem == "Login")
                 {
                     StartActivity(typeof(Login));
-                    createSpinner();
+                }
+                if (selectedItem == "Rated Movies")
+                {
+                    StartActivity(typeof(RatedMovies));
                 }
             }
         }

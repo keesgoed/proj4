@@ -115,3 +115,4 @@ C:\Users\keesg\Documents\GitHub\proj4\Moviestar\Moviestar\Moviestar.Android\bin\
 C:\Users\keesg\Documents\GitHub\proj4\Moviestar\Moviestar\Moviestar.Android\bin\Debug\System.Net.Http.Primitives.xml
 C:\Users\keesg\Documents\GitHub\proj4\Moviestar\Moviestar\Moviestar.Android\bin\Debug\Moviestar.dll.mdb
 C:\Users\keesg\Documents\GitHub\proj4\Moviestar\Moviestar\Moviestar.Android\obj\Debug\android\assets\Moviestar.dll.mdb
+C:\Users\keesg\Documents\GitHub\proj4\Moviestar\Moviestar\Moviestar.Android\obj\Debug\res\layout\ratedmovies.xml

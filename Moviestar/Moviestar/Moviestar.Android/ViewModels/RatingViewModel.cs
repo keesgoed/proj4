@@ -41,7 +41,6 @@ namespace Moviestar.Droid.ViewModels
                 // Insert info in database
                 DataSet movieRating = new DataSet();
                 string queryString = "INSERT INTO ratings(movie_id, user_id, rating) VALUES (" + movie_id + ", " + user_id + ", " + rating + ")";
-                Console.WriteLine(queryString);
                 MySqlDataAdapter adapter = new MySqlDataAdapter(queryString, sqlconn);
                 adapter.Fill(movieRating, "Item");
 

@@ -82,7 +82,10 @@ namespace Moviestar.Droid
                 if (selectedItem == "Login")
                 {
                     StartActivity(typeof(Login));
-
+                }
+                if (selectedItem == "Rated Movies")
+                {
+                    StartActivity(typeof(RatedMovies));
                 }
             }
         }

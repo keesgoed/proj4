@@ -1,1 +1,1 @@
-<resources><string-array name="menu_array"><item>Select page</item><item>Recommended movies</item><item>Login</item></string-array></resources>
+<resources><string-array name="menu_array"><item>Select page</item><item>Recommended movies</item><item>Login</item><item>Rated Movies</item></string-array></resources>
