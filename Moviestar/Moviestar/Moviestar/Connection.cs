@@ -12,55 +12,28 @@ namespace Moviestar
 {
     public class Connection
     {
+        public Connection()
+        {
+
+        }
+
         static HttpClient client = new HttpClient();
-         
-        /*
-        public string GetMovies()
+
+        public string GetAPI()
         {
             try
             {
-                
-                client.BaseAddress = new Uri("");
                 client.DefaultRequestHeaders.Accept.Clear();
                 client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
-                string weee = client.ToString();
-                JsonConvert.DeserializeObject(weee);
-
-                return weee;
-                
-
-            }
-            catch (Exception ex)
-            {
-                var t = ex.Message;
-                return t;
-            }
-        }
-        */
-
-        public string GetProductAsync()
-        {
-            client.BaseAddress = new Uri("http://app.wouterdolk.nl/select_movelist");
-            client.DefaultRequestHeaders.Accept.Clear();
-            client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
-
-            Movie movie = null;
-            List<Movie> movies = new List<Movie>();
-
-            HttpResponseMessage response = client.GetAsync("http://app.wouterdolk.nl/select_movelist").Result;
-            if (response.IsSuccessStatusCode)
-            {
-                //movie = response.Content.ReadAsAsync<Movie>().Result;
-                //movies.Add(movie);
-                string content = response.Content.ReadAsStringAsync().Result;
+                HttpResponseMessage response = client.GetAsync("http://app.wouterdolk.nl/select_movielist").Result;
+                var responsecontent = response.Content;
+                string content = responsecontent.ReadAsStringAsync().Result;
                 return content;
             }
-            else
+            catch(Exception e)
             {
-                return null;
+                return  e.Message;
             }
         }
-
-
     }
 }
