@@ -48,3 +48,7 @@ Moviestar/Moviestar/Moviestar.UWP/obj/x86/Debug/MainPage.g.i.cs
 Moviestar/Moviestar/Moviestar.UWP/obj/x86/Debug/App.g.i.cs
 Moviestar/Moviestar/Moviestar.UWP/obj/x86/Debug/XamlSaveStateFile.xml
 *.json
+*.cache
+*.dll
+*.mdb
+*.pdb
