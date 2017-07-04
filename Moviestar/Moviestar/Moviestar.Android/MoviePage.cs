@@ -10,7 +10,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Moviestar.Droid.ViewModels;
-
+using Moviestar.ViewModels;
 
 namespace Moviestar.Droid
 {
@@ -51,9 +51,9 @@ namespace Moviestar.Droid
 
         public void generated_moviePage()
         {
-            MoviePageViewModel MoviePage = new MoviePageViewModel(movie_ID);
+            MoviePageViewModel MoviePage = new MoviePageViewModel();
 
-            foreach (var page in MoviePage.LoadAllItemFromMySQL())
+            foreach (var page in MoviePage.GetMovies(movie_ID))
             {
                 TextView moviePageTitle = FindViewById<TextView>(Resource.Id.moviePageTitle);
                 moviePageTitle.Text = page.title;
