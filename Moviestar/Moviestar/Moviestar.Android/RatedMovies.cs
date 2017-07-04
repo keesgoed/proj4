@@ -15,7 +15,7 @@ using Moviestar.Droid.ViewModels;
 
 namespace Moviestar.Droid
 {
-    [Activity(Label = "RatedMovies")]
+    [Activity(Label = "Rated Movies")]
     class RatedMovies : Activity
     {
         String selectedItem;

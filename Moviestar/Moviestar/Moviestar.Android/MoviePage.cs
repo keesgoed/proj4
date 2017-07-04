@@ -14,7 +14,7 @@ using Moviestar.Droid.ViewModels;
 
 namespace Moviestar.Droid
 {
-    [Activity(Label = "MoviePage")]
+    [Activity(Label = "Movie Page")]
     public class MoviePage : Activity
     {
         String selectedItem;
@@ -41,7 +41,7 @@ namespace Moviestar.Droid
             rateButton.Click += delegate
             {
                 uploadRating();
-                StartActivity(typeof(MovieList));
+                StartActivity(typeof(RatedMovies));
             };
 
         }

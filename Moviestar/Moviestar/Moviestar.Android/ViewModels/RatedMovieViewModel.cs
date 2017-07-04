@@ -31,7 +31,7 @@ namespace Moviestar.Droid.ViewModels
                 sqlconn.Open();
 
                 DataSet movies = new DataSet();
-                string queryString = "SELECT movies.movie_title,movies.imdb_score, movies.genres, ratings.rating FROM movies, ratings WHERE movies.movie_id = ratings.movie_id AND ratings.user_id = 1";
+                string queryString = "SELECT movies.movie_title,movies.imdb_score, movies.genres, ratings.rating FROM movies, ratings WHERE movies.movie_id = ratings.movie_id AND ratings.user_id = 1 ORDER BY movies.movie_title ASC";
                 MySqlDataAdapter adapter = new MySqlDataAdapter(queryString, sqlconn);
                 adapter.Fill(movies, "Item");
                 foreach (DataRow row in movies.Tables["Item"].Rows)
