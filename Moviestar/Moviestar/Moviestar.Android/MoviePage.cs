@@ -94,6 +94,7 @@ namespace Moviestar.Droid
                 {
                     rate1.SetImageResource(Resource.Drawable.fullstar);
                     rating = 1;
+                    Console.WriteLine("Dit is de rating: " + rating);
                 }
             };
             rate2.Touch += (object sender, View.TouchEventArgs e) => {
@@ -103,6 +104,7 @@ namespace Moviestar.Droid
                     rate1.SetImageResource(Resource.Drawable.fullstar);
                     rate2.SetImageResource(Resource.Drawable.fullstar);
                     rating = 2;
+                    Console.WriteLine("Dit is de rating: " + rating);
                 }
             };
             rate3.Touch += (object sender, View.TouchEventArgs e) => {
@@ -113,6 +115,7 @@ namespace Moviestar.Droid
                     rate2.SetImageResource(Resource.Drawable.fullstar);
                     rate3.SetImageResource(Resource.Drawable.fullstar);
                     rating = 3;
+                    Console.WriteLine("Dit is de rating: " + rating);
                 }
             };
             rate4.Touch += (object sender, View.TouchEventArgs e) => {
@@ -136,9 +139,10 @@ namespace Moviestar.Droid
                     rate4.SetImageResource(Resource.Drawable.fullstar);
                     rate5.SetImageResource(Resource.Drawable.fullstar);
                     rating = 5;
+                    Console.WriteLine("Dit is de rating: " + rating);
                 }
             };
-            Console.WriteLine("Dit is de rating: " + rating);
+            Console.WriteLine("Dit is de rating aids: " + rating);
         }
 
 
