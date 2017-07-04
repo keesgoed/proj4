@@ -24,7 +24,30 @@ namespace Moviestar.Droid
             //Create navigation
             createSpinner();
 
+            //Search functionality
+            CreateSearchBar();
+
+            var loginBtn = FindViewById<Button>(Resource.Id.loginBtn);
+            loginBtn.Click += delegate
+            {
+                checkCredentials();
+            };
+
         }
+
+        public void checkCredentials()
+        {
+            var username = FindViewById<TextView>(Resource.Id.usernameInput);
+            var password = FindViewById<TextView>(Resource.Id.passwordInput);
+
+            if (username.Text != "" && password.Text != "")
+            {
+                var loginBtn = FindViewById<Button>(Resource.Id.loginBtn);
+                loginBtn.Text = "wow!";
+
+            }
+        }
+
 
         //create spinner
         public void createSpinner()
@@ -62,6 +85,25 @@ namespace Moviestar.Droid
                     StartActivity(typeof(RatedMovies));
                 }
             }
+        }
+        //create search
+        public void CreateSearchBar()
+        {
+            SearchView searchBar = FindViewById<SearchView>(Resource.Id.searchBar);
+            searchBar.QueryTextSubmit += (s, e) =>
+            {
+                //TODO: Do something fancy when search button on keyboard is pressed
+                Toast.MakeText(this, "Searched for: " + e.Query, ToastLength.Short).Show();
+                e.Handled = true;
+
+                var UserInput = new Intent(this, typeof(Search));
+                string search = e.Query;
+                UserInput.PutExtra("UserInput", search);
+
+                StartActivity(UserInput);
+                createSpinner();
+            };
+
         }
     }
 }

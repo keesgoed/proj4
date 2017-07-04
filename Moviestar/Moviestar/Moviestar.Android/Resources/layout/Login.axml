@@ -25,7 +25,7 @@
                 android:layout_alignParentTop="false" />
             <TextView
                 android:text="Username:"
-                android:id="@+id/textView1"
+                android:id="@+id/usernameInput"
                 android:layout_height="30.5dp"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="50dp" />
@@ -33,7 +33,7 @@
                 android:id="@+id/editText1" />
             <TextView
                 android:text="Password:"
-                android:id="@+id/textView2"
+                android:id="@+id/passwordInput"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="50dp" />
             <EditText
@@ -41,14 +41,15 @@
                 android:id="@+id/editText2" />
             <Button
                 android:text="Log in"
-                android:id="@+id/button1"
-                android:layout_width="233.5dp"
-                android:layout_height="36.5dp"
-                android:layout_marginTop="200dp" />
+                android:id="@+id/loginBtn"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="60dp" />
             <Button
                 android:text="Register"
-                android:id="@+id/button2"
-                android:layout_height="36.0dp"
+                android:id="@+id/registerBtn"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
                 android:layout_marginTop="30dp" />
         </TableLayout>
     </ScrollView>

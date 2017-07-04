@@ -37,6 +37,9 @@ namespace Moviestar.Droid
             // Update method to change star layout + rating
             update();
 
+            //Search functionality
+            CreateSearchBar();
+
             var rateButton = FindViewById<Button>(Resource.Id.rateMovie);
             rateButton.Click += delegate
             {
@@ -189,6 +192,25 @@ namespace Moviestar.Droid
                     StartActivity(typeof(RatedMovies));
                 }
             }
+        }
+        //create search
+        public void CreateSearchBar()
+        {
+            SearchView searchBar = FindViewById<SearchView>(Resource.Id.searchBar);
+            searchBar.QueryTextSubmit += (s, e) =>
+            {
+                //TODO: Do something fancy when search button on keyboard is pressed
+                Toast.MakeText(this, "Searched for: " + e.Query, ToastLength.Short).Show();
+                e.Handled = true;
+
+                var UserInput = new Intent(this, typeof(Search));
+                string search = e.Query;
+                UserInput.PutExtra("UserInput", search);
+
+                StartActivity(UserInput);
+                createSpinner();
+            };
+
         }
     }
 }

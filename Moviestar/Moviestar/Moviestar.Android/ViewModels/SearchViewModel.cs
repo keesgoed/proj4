@@ -32,7 +32,7 @@ namespace Moviestar.Droid.ViewModels
                 sqlconn.Open();
 
                 DataSet moviePage = new DataSet();
-                string queryString = "select * FROM movies WHERE movie_title LIKE '%" + userInput + "%'";
+                string queryString = "select * FROM movies WHERE movie_title LIKE '%" + userInput + "%' ORDER BY movie_title ASC";
                 Console.WriteLine(queryString);
 
                 MySqlDataAdapter adapter = new MySqlDataAdapter(queryString, sqlconn);
