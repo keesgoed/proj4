@@ -208,7 +208,6 @@ namespace Moviestar.Droid
                 UserInput.PutExtra("UserInput", search);
 
                 StartActivity(UserInput);
-                createSpinner();
             };
 
         }

@@ -51,11 +51,11 @@
     <Compile Include="Login.cs" />
     <Compile Include="MoviePage.cs" />
     <Compile Include="MovieList.cs" />
+    <Compile Include="Nav.cs" />
     <Compile Include="RatedMovies.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Search.cs" />
-    <Compile Include="ViewModels\HomeViewModel.cs" />
     <Compile Include="ViewModels\LoginViewModel.cs" />
     <Compile Include="ViewModels\RatedMovieViewModel.cs" />
     <Compile Include="ViewModels\SearchViewModel.cs" />

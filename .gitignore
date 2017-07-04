@@ -86,3 +86,16 @@ Moviestar/Moviestar/Moviestar.Android/obj/Debug/android/manifest/AndroidManifest
 Moviestar/Moviestar/Moviestar.Android/bin/Debug/Moviestar.Android.apk
 *.apk
 Moviestar/Moviestar/Moviestar.Android/bin/Debug/Moviestar.Android.apk
+Moviestar/.vs/Moviestar/v15/.suo
+*.apk
+*.dll
+*.mdb
+*.pdb
+*.csproj
+*.dex
+*.class
+*.java
+*.jm
+*.mj
+*.cache
+*.txt

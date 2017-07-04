@@ -10,6 +10,10 @@ Moviestar.Droid.MovieList, Moviestar.Android;md5736866de9af56e30a329501fd43c798e
 Moviestar.Droid.MovieList, Moviestar.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5736866de9af56e30a329501fd43c798e.MovieList
 Moviestar.Droid.MovieList;md5736866de9af56e30a329501fd43c798e.MovieList
 moviestar.droid.MovieList;md5736866de9af56e30a329501fd43c798e.MovieList
+Moviestar.Droid.Nav, Moviestar.Android;md5736866de9af56e30a329501fd43c798e.Nav
+Moviestar.Droid.Nav, Moviestar.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5736866de9af56e30a329501fd43c798e.Nav
+Moviestar.Droid.Nav;md5736866de9af56e30a329501fd43c798e.Nav
+moviestar.droid.Nav;md5736866de9af56e30a329501fd43c798e.Nav
 Moviestar.Droid.RatedMovies, Moviestar.Android;md5736866de9af56e30a329501fd43c798e.RatedMovies
 Moviestar.Droid.RatedMovies, Moviestar.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5736866de9af56e30a329501fd43c798e.RatedMovies
 Moviestar.Droid.RatedMovies;md5736866de9af56e30a329501fd43c798e.RatedMovies
