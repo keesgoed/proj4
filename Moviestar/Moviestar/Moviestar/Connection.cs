@@ -19,13 +19,13 @@ namespace Moviestar
 
         static HttpClient client = new HttpClient();
          
-        public string GetAPI()
+        public string GetAPI(string path)
         {
             try
             {
                 client.DefaultRequestHeaders.Accept.Clear();
                 client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
-                HttpResponseMessage response = client.GetAsync("http://app.wouterdolk.nl/select_movielist").Result;
+                HttpResponseMessage response = client.GetAsync("http://app.wouterdolk.nl/" + path).Result;
                 var responsecontent = response.Content;
                 string content = responsecontent.ReadAsStringAsync().Result;
                 return content;
