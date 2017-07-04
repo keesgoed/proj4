@@ -24,3 +24,36 @@ obj
 *.class
 *.java
 *.cache
+*.mdb
+*.pdb
+*.dll
+*.dll
+<<<<<<< HEAD
+*.sln
+*.apk
+*.mdb
+*.pdb
+Moviestar/.vs/Moviestar/v15/.suo
+Moviestar/.vs/Moviestar/v15/.suo
+*.dll
+*.mdb
+*.pdb
+*.apk
+*.txt
+*.targets
+*.cache
+Moviestar/Moviestar/Moviestar.UWP/obj/x86/Debug/MainPage.g.i.cs
+Moviestar/Moviestar/Moviestar.UWP/obj/x86/Debug/App.g.i.cs
+Moviestar/Moviestar/Moviestar.UWP/obj/x86/Debug/XamlSaveStateFile.xml
+*.json
+*.cache
+*.dll
+*.mdb
+*.pdb
+=======
+*.mdb
+>>>>>>> d6bcf6d611e57bbbeaa34b7f955a6aec09b9bfa6
+*.apk
+*.dll
+*.mdb
+*.pdb

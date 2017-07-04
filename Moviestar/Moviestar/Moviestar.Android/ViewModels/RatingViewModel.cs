@@ -33,13 +33,13 @@ namespace Moviestar.Droid.ViewModels
             List<Models.Rating> movielist = new List<Models.Rating>();
             try
             {
-                string connsqlstring = "server = sql11.freemysqlhosting.net; port = 3306; database = sql11182336; uid = sql11182336; pwd = qhJhLGfTnt; charset = utf8;";
+                string connsqlstring = "server = sql11.freemysqlhosting.net; port = 3306; database = sql11183344; uid = sql11183344; pwd = zHZXlUfr4L; charset = utf8;";
                 MySqlConnection sqlconn = new MySqlConnection(connsqlstring);
                 sqlconn.Open();
 
                 // Insert info in database
                 DataSet rating = new DataSet();
-                string queryString = "INSERT INTO rating(movie_id, user_id, rating) VALUES (" + movie_id + ", " + user_id + ", " + rating + ")";
+                string queryString = "INSERT INTO ratings(movie_id, user_id, rating) VALUES (" + movie_id + ", " + user_id + ", " + rating + ")";
                 MySqlDataAdapter adapter = new MySqlDataAdapter(queryString, sqlconn);
                 adapter.Fill(rating, "Item");
 

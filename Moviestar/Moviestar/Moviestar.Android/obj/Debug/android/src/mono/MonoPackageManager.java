@@ -99,7 +99,11 @@ class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
 		/* We need to ensure that "Moviestar.Android.dll" comes first in this list. */
 		"Moviestar.Android.dll",
+		"Moviestar.dll",
 		"MySql.Data.CF.dll",
+		"System.Net.Http.Formatting.dll",
+		"System.Net.Http.Primitives.dll",
+		"Newtonsoft.Json.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};

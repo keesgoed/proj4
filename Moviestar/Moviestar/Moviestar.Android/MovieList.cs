@@ -28,8 +28,12 @@ namespace Moviestar.Droid
         {
             base.OnCreate(bundle);
 
-            // Set our view from the "main" layout resource
+            //test
+            Connection con = new Connection();
+            Console.WriteLine("#################### connection thing ################## \n " + con.GetProductAsync());
+            
 
+            // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.MovieList);
 
             //create spinner
@@ -43,6 +47,9 @@ namespace Moviestar.Droid
 
             //get movie ID
             movie_ID = Intent.GetStringExtra("MovieID") ?? "Data not available";
+
+            //Create search bar
+            CreateSearchBar();
         }
 
         //create spinner
@@ -57,37 +64,26 @@ namespace Moviestar.Droid
 
         public void spinner_ItemSelected(object sender, AdapterView.ItemSelectedEventArgs e)
         {
-            Console.WriteLine("spinner_ItemSelected() " + this.selectedItem);
             Spinner spinner = (Spinner)sender;
 
             if (Convert.ToString(spinner.GetItemAtPosition(e.Position)) != this.selectedItem)
             {
                 selectedItem = Convert.ToString(spinner.GetItemAtPosition(e.Position));
 
-                Console.WriteLine("Changeview() " + this.selectedItem);
                 // If statement to correctly navigate
                 if (selectedItem == "Search")
                 {
-                    Console.WriteLine("in de search if statement " + this.selectedItem);
                     StartActivity(typeof(Search));
-                    createSpinner();
                 }
                 if (selectedItem == "Recommended movies")
                 {
-                    Console.WriteLine("in de recommended movies if statement " + this.selectedItem);
                     StartActivity(typeof(MovieList));
-                    createSpinner();
                 }
                 if (selectedItem == "Login")
                 {
-                    Console.WriteLine("in de login if statement " + this.selectedItem);
                     StartActivity(typeof(Login));
-                    createSpinner();
 
-                    Console.WriteLine("Writeline in the if statement " + this.selectedItem);
                 }
-                Console.WriteLine(selectedItem);
-
             }
         }
 
@@ -157,17 +153,30 @@ namespace Moviestar.Droid
                     String Movie_ID = movie.id;
                     MoviePage.PutExtra("MovieID", Movie_ID);
 
-
-                    // Change view + create dropdown spinner
-                    //SetContentView(Resource.Layout.MoviePage);
-                    StartActivity(MoviePage);
-                    createSpinner();
-                    
-                    
+                    StartActivity(MoviePage);                  
                 };
 
                 scrollBlock.AddView(movieBlock);
             }
+        }
+        //create search
+        public void CreateSearchBar()
+        {
+            SearchView searchBar = FindViewById<SearchView>(Resource.Id.searchBar);
+            searchBar.QueryTextSubmit += (s, e) =>
+            {
+                //TODO: Do something fancy when search button on keyboard is pressed
+                Toast.MakeText(this, "Searched for: " + e.Query, ToastLength.Short).Show();
+                e.Handled = true;
+
+                var UserInput = new Intent(this, typeof(Search));
+                string search = e.Query;
+                UserInput.PutExtra("UserInput", search);
+
+                StartActivity(UserInput);
+                createSpinner();
+            };
+
         }
 
     }

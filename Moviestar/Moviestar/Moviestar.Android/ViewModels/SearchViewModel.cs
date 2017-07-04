@@ -14,11 +14,12 @@ using System.Data;
 
 namespace Moviestar.Droid.ViewModels
 {
-    class HomeViewModel
+    class SearchViewModel
     {
-        public HomeViewModel()
+        string userInput;
+        public SearchViewModel(string m)
         {
-
+            userInput = m;
         }
 
         public List<Models.Movie> LoadAllItemFromMySQL()
@@ -30,13 +31,15 @@ namespace Moviestar.Droid.ViewModels
                 MySqlConnection sqlconn = new MySqlConnection(connsqlstring);
                 sqlconn.Open();
 
-                DataSet movies = new DataSet();
-                string queryString = "select * FROM movies WHERE imdb_score > 7.5 ORDER BY RAND() LIMIT 10";
+                DataSet moviePage = new DataSet();
+                string queryString = "select * FROM movies WHERE movie_title LIKE '%" + userInput + "%'";
+                Console.WriteLine(queryString);
+
                 MySqlDataAdapter adapter = new MySqlDataAdapter(queryString, sqlconn);
-                adapter.Fill(movies, "Item");
-                foreach (DataRow row in movies.Tables["Item"].Rows)
+                adapter.Fill(moviePage, "Item");
+                foreach (DataRow row in moviePage.Tables["Item"].Rows)
                 {
-                    Models.Movie generated_movie = new Models.Movie()
+                    Models.Movie search_result = new Models.Movie()
                     {
                         id = (row[0].ToString()),
                         director_name = (row[1].ToString()),
@@ -50,7 +53,7 @@ namespace Moviestar.Droid.ViewModels
                         title_year = (row[9].ToString()),
                         imdb_score = (row[10].ToString()),
                     };
-                    movielist.Add(generated_movie);
+                    movielist.Add(search_result);
 
                 }
 

@@ -36,7 +36,7 @@ namespace Moviestar.Droid
 
             // Update method to change star layout + rating
             update();
-
+            Console.WriteLine("Dit is de rating: " + rating);
 
         }
 
@@ -93,8 +93,8 @@ namespace Moviestar.Droid
                 if (e.Event.Action == MotionEventActions.Down || e.Event.Action == MotionEventActions.Up)
                 {
                     rate1.SetImageResource(Resource.Drawable.fullstar);
-                    rating = 1;
                 }
+                rating = 1;
             };
             rate2.Touch += (object sender, View.TouchEventArgs e) => {
                 ResetButton();
@@ -102,8 +102,8 @@ namespace Moviestar.Droid
                 {
                     rate1.SetImageResource(Resource.Drawable.fullstar);
                     rate2.SetImageResource(Resource.Drawable.fullstar);
-                    rating = 2;
                 }
+                rating = 2;
             };
             rate3.Touch += (object sender, View.TouchEventArgs e) => {
                 ResetButton();
@@ -112,8 +112,8 @@ namespace Moviestar.Droid
                     rate1.SetImageResource(Resource.Drawable.fullstar);
                     rate2.SetImageResource(Resource.Drawable.fullstar);
                     rate3.SetImageResource(Resource.Drawable.fullstar);
-                    rating = 3;
                 }
+                rating = 3;
             };
             rate4.Touch += (object sender, View.TouchEventArgs e) => {
                 ResetButton();
@@ -123,8 +123,8 @@ namespace Moviestar.Droid
                     rate2.SetImageResource(Resource.Drawable.fullstar);
                     rate3.SetImageResource(Resource.Drawable.fullstar);
                     rate4.SetImageResource(Resource.Drawable.fullstar);
-                    rating = 4;
                 }
+                rating = 4;
             };
             rate5.Touch += (object sender, View.TouchEventArgs e) => {
                 ResetButton();
@@ -135,10 +135,10 @@ namespace Moviestar.Droid
                     rate3.SetImageResource(Resource.Drawable.fullstar);
                     rate4.SetImageResource(Resource.Drawable.fullstar);
                     rate5.SetImageResource(Resource.Drawable.fullstar);
-                    rating = 5;
                 }
+                rating = 5;
             };
-            Console.WriteLine(rating);
+            Console.WriteLine("Ik hoop dat dit werkt.." + rating);
         }
 
 
@@ -170,37 +170,26 @@ namespace Moviestar.Droid
 
         public void spinner_ItemSelected(object sender, AdapterView.ItemSelectedEventArgs e)
         {
-            Console.WriteLine("spinner_ItemSelected() " + this.selectedItem);
             Spinner spinner = (Spinner)sender;
 
             if (Convert.ToString(spinner.GetItemAtPosition(e.Position)) != this.selectedItem)
             {
                 selectedItem = Convert.ToString(spinner.GetItemAtPosition(e.Position));
 
-                Console.WriteLine("Changeview() " + this.selectedItem);
                 // If statement to correctly navigate
                 if (selectedItem == "Search")
                 {
-                    Console.WriteLine("in de search if statement " + this.selectedItem);
                     StartActivity(typeof(Search));
-                    createSpinner();
                 }
                 if (selectedItem == "Recommended movies")
                 {
-                    Console.WriteLine("in de recommended movies if statement " + this.selectedItem);
                     StartActivity(typeof(MovieList));
-                    createSpinner();
                 }
                 if (selectedItem == "Login")
                 {
-                    Console.WriteLine("in de login if statement " + this.selectedItem);
                     StartActivity(typeof(Login));
-                    createSpinner();
 
-                    Console.WriteLine("Writeline in the if statement " + this.selectedItem);
                 }
-                Console.WriteLine(selectedItem);
-
             }
         }
     }
