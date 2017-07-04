@@ -37,34 +37,30 @@ namespace Moviestar
             }
         }
         */
-        public void Main()
-        {
-            RunAsync().Wait();
-        }
 
-        static async Task RunAsync()
+        public string GetProductAsync()
         {
-            // New code:
             client.BaseAddress = new Uri("http://app.wouterdolk.nl/select_movelist");
             client.DefaultRequestHeaders.Accept.Clear();
             client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
-            
-        }
 
-        public async Task<Movie> GetProductAsync()
-        {
             Movie movie = null;
             List<Movie> movies = new List<Movie>();
 
-            HttpResponseMessage response = await client.GetAsync("http://app.wouterdolk.nl/select_movelist");
+            HttpResponseMessage response = client.GetAsync("http://app.wouterdolk.nl/select_movelist").Result;
             if (response.IsSuccessStatusCode)
             {
-                movie = await response.Content.ReadAsAsync<Movie>();
-                movies.Add(movie);
+                //movie = response.Content.ReadAsAsync<Movie>().Result;
+                //movies.Add(movie);
+                string content = response.Content.ReadAsStringAsync().Result;
+                return content;
             }
-            return movie;
+            else
+            {
+                return null;
+            }
         }
 
-        
+
     }
 }
