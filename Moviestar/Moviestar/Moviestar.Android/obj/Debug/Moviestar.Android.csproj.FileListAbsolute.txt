@@ -85,3 +85,7 @@ C:\Users\Wouter\Documents\GitHub\proj4\Moviestar\Moviestar\Moviestar.Android\obj
 C:\Users\Wouter\Documents\GitHub\proj4\Moviestar\Moviestar\Moviestar.Android\obj\Debug\android\assets\Portable.dll.mdb
 C:\Users\Wouter\Documents\GitHub\proj4\Moviestar\Moviestar\Moviestar.Android\bin\Debug\Moviestar.dll.mdb
 C:\Users\Wouter\Documents\GitHub\proj4\Moviestar\Moviestar\Moviestar.Android\obj\Debug\android\assets\Moviestar.dll.mdb
+C:\Users\keesg\OneDrive\Documenten\Visual Studio 2017\Projects\proj4\Moviestar\Moviestar\Moviestar.Android\bin\Debug\Moviestar.dll
+C:\Users\keesg\OneDrive\Documenten\Visual Studio 2017\Projects\proj4\Moviestar\Moviestar\Moviestar.Android\bin\Debug\Moviestar.pdb
+C:\Users\keesg\OneDrive\Documenten\Visual Studio 2017\Projects\proj4\Moviestar\Moviestar\Moviestar.Android\bin\Debug\Moviestar.dll.mdb
+C:\Users\keesg\OneDrive\Documenten\Visual Studio 2017\Projects\proj4\Moviestar\Moviestar\Moviestar.Android\obj\Debug\android\assets\Moviestar.dll.mdb
