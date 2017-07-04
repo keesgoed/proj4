@@ -97,12 +97,6 @@ namespace Moviestar.Droid
 			// aapt resource value: 0x7f05001a
 			public const int ScrollLayout2 = 2131034138;
 			
-			// aapt resource value: 0x7f050006
-			public const int button1 = 2131034118;
-			
-			// aapt resource value: 0x7f050007
-			public const int button2 = 2131034119;
-			
 			// aapt resource value: 0x7f05000f
 			public const int duration = 2131034127;
 			
@@ -114,6 +108,9 @@ namespace Moviestar.Droid
 			
 			// aapt resource value: 0x7f050008
 			public const int headerLayout = 2131034120;
+			
+			// aapt resource value: 0x7f050006
+			public const int loginBtn = 2131034118;
 			
 			// aapt resource value: 0x7f050017
 			public const int moviePageActors = 2131034135;
@@ -133,6 +130,9 @@ namespace Moviestar.Droid
 			// aapt resource value: 0x7f05000d
 			public const int moviePageTitle = 2131034125;
 			
+			// aapt resource value: 0x7f050004
+			public const int passwordInput = 2131034116;
+			
 			// aapt resource value: 0x7f050010
 			public const int rate1 = 2131034128;
 			
@@ -151,6 +151,9 @@ namespace Moviestar.Droid
 			// aapt resource value: 0x7f050019
 			public const int rateMovie = 2131034137;
 			
+			// aapt resource value: 0x7f050007
+			public const int registerBtn = 2131034119;
+			
 			// aapt resource value: 0x7f050000
 			public const int relativeLayout1 = 2131034112;
 			
@@ -164,10 +167,7 @@ namespace Moviestar.Droid
 			public const int spinner = 2131034121;
 			
 			// aapt resource value: 0x7f050002
-			public const int textView1 = 2131034114;
-			
-			// aapt resource value: 0x7f050004
-			public const int textView2 = 2131034116;
+			public const int usernameInput = 2131034114;
 			
 			static Id()
 			{

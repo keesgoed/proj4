@@ -48,7 +48,7 @@ namespace Moviestar.Droid
             //get movie ID
             movie_ID = Intent.GetStringExtra("MovieID") ?? "Data not available";
 
-            //Create search bar
+            //Search functionality
             CreateSearchBar();
         }
 
