@@ -28,12 +28,17 @@ namespace Moviestar
                 HttpResponseMessage response = client.GetAsync("http://app.wouterdolk.nl/select_movielist").Result;
                 var responsecontent = response.Content;
                 string content = responsecontent.ReadAsStringAsync().Result;
+                Load();
                 return content;
             }
             catch(Exception e)
             {
                 return  e.Message;
             }
+        }
+        public async void Load()
+        {
+            await Task.Delay(2000);
         }
     }
 }

@@ -22252,10 +22252,10 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "C:\\Users\\keesg\\OneDrive\\Documenten\\Visual Studio 2017\\Projects\\proj4\\Moviestar\\Moviestar\\Moviestar.UWP\\Moviestar.UWP.csproj",
+      "projectUniqueName": "C:\\Users\\keesg\\Documents\\GitHub\\proj4\\Moviestar\\Moviestar\\Moviestar.UWP\\Moviestar.UWP.csproj",
       "projectName": "Moviestar.UWP",
-      "projectPath": "C:\\Users\\keesg\\OneDrive\\Documenten\\Visual Studio 2017\\Projects\\proj4\\Moviestar\\Moviestar\\Moviestar.UWP\\Moviestar.UWP.csproj",
-      "projectJsonPath": "C:\\Users\\keesg\\OneDrive\\Documenten\\Visual Studio 2017\\Projects\\proj4\\Moviestar\\Moviestar\\Moviestar.UWP\\project.json",
+      "projectPath": "C:\\Users\\keesg\\Documents\\GitHub\\proj4\\Moviestar\\Moviestar\\Moviestar.UWP\\Moviestar.UWP.csproj",
+      "projectJsonPath": "C:\\Users\\keesg\\Documents\\GitHub\\proj4\\Moviestar\\Moviestar\\Moviestar.UWP\\project.json",
       "projectStyle": "ProjectJson"
     },
     "dependencies": {

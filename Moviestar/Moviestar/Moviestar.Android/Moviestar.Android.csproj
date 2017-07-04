@@ -51,7 +51,6 @@
     <Compile Include="Login.cs" />
     <Compile Include="MoviePage.cs" />
     <Compile Include="MovieList.cs" />
-    <Compile Include="Nav.cs" />
     <Compile Include="RatedMovies.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -25,6 +25,7 @@ namespace Moviestar.Droid
         private LinearLayout scrollBlock;
         String selectedItem;
         String movie_ID = "1";
+
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
@@ -32,7 +33,7 @@ namespace Moviestar.Droid
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.MovieList);
 
-            //create spinner
+            //Create navigation
             createSpinner();
 
             // linking variables to axml
@@ -43,7 +44,7 @@ namespace Moviestar.Droid
 
             //get movie ID
             movie_ID = Intent.GetStringExtra("MovieID") ?? "Data not available";
-
+          
             //Search functionality
             CreateSearchBar();
         }
@@ -173,7 +174,6 @@ namespace Moviestar.Droid
                 UserInput.PutExtra("UserInput", search);
 
                 StartActivity(UserInput);
-                createSpinner();
             };
 
         }
