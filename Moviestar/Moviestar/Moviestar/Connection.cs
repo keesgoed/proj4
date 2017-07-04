@@ -18,7 +18,7 @@ namespace Moviestar
         }
 
         static HttpClient client = new HttpClient();
-
+         
         public string GetAPI()
         {
             try

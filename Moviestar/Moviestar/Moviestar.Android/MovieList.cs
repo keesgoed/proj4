@@ -13,6 +13,7 @@ using Android.Graphics;
 using Android.Util;
 using System.Collections.Generic;
 using Moviestar.Droid.ViewModels;
+using Moviestar.ViewModels;
 
 namespace Moviestar.Droid
 {
@@ -27,11 +28,6 @@ namespace Moviestar.Droid
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
-
-            //test
-            Connection con = new Connection();
-            Console.WriteLine("#################### connection thing ################## \n " + con.GetProductAsync());
-            
 
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.MovieList);
@@ -93,7 +89,7 @@ namespace Moviestar.Droid
         public void MakeBlocks()
         {
             HomeViewModel movies = new HomeViewModel();
-            foreach (var movie in movies.LoadAllItemFromMySQL())
+            foreach (var movie in movies.GetMovies())
             {
                 // Set the Linearlayout for movie blocks
                 LinearLayout movieBlock = new LinearLayout(this);
