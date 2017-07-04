@@ -85,3 +85,11 @@ C:\Users\Wouter\Documents\GitHub\proj4\Moviestar\Moviestar\Moviestar.Android\obj
 C:\Users\Wouter\Documents\GitHub\proj4\Moviestar\Moviestar\Moviestar.Android\obj\Debug\android\assets\Portable.dll.mdb
 C:\Users\Wouter\Documents\GitHub\proj4\Moviestar\Moviestar\Moviestar.Android\bin\Debug\Moviestar.dll.mdb
 C:\Users\Wouter\Documents\GitHub\proj4\Moviestar\Moviestar\Moviestar.Android\obj\Debug\android\assets\Moviestar.dll.mdb
+C:\Users\Wouter\Documents\GitHub\proj4\Moviestar\Moviestar\Moviestar.Android\bin\Debug\System.Net.Http.dll
+C:\Users\Wouter\Documents\GitHub\proj4\Moviestar\Moviestar\Moviestar.Android\bin\Debug\System.Net.Http.Primitives.dll
+C:\Users\Wouter\Documents\GitHub\proj4\Moviestar\Moviestar\Moviestar.Android\bin\Debug\Moviestar.dll.config
+C:\Users\Wouter\Documents\GitHub\proj4\Moviestar\Moviestar\Moviestar.Android\bin\Debug\System.Net.Http.xml
+C:\Users\Wouter\Documents\GitHub\proj4\Moviestar\Moviestar\Moviestar.Android\bin\Debug\System.Net.Http.Primitives.xml
+C:\Users\Wouter\Documents\GitHub\proj4\Moviestar\Moviestar\Moviestar.Android\bin\Debug\Moviestar.Android.dll.config
+C:\Users\Wouter\Documents\GitHub\proj4\Moviestar\Moviestar\Moviestar.Android\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Wouter\Documents\GitHub\proj4\Moviestar\Moviestar\Moviestar.Android\bin\Debug\System.Net.Http.Formatting.xml

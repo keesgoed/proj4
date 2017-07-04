@@ -24,3 +24,8 @@ obj
 *.class
 *.java
 *.cache
+*.mdb
+*.pdb
+*.dll
+*.dll
+*.mdb
