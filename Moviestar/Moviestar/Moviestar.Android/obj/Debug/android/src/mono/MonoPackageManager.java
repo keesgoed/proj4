@@ -101,9 +101,6 @@ class MonoPackageManager_Resources {
 		"Moviestar.Android.dll",
 		"Moviestar.dll",
 		"MySql.Data.CF.dll",
-		"System.Net.Http.Formatting.dll",
-		"System.Net.Http.Primitives.dll",
-		"Newtonsoft.Json.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};

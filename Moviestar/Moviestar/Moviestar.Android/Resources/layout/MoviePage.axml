@@ -5,27 +5,27 @@
     android:id="@+id/relativeLayout1"
     android:minWidth="25px"
     android:minHeight="25px">
-  <LinearLayout
-      android:orientation="horizontal"
-      android:minWidth="25px"
-      android:minHeight="25px"
-      android:layout_width="match_parent"
-      android:layout_height="50dp"
-      android:id="@+id/headerLayout">
-    <Spinner
-        android:layout_width="217.5dp"
-        android:layout_height="match_parent"
-        android:background="@android:color/holo_orange_light"
-        android:id="@+id/spinner" />
-  </LinearLayout>
-  <SearchView
-      android:minWidth="25px"
-      android:minHeight="25px"
-      android:id="@+id/searchBar"
-      android:layout_width="match_parent"
-      android:layout_height="50.5dp"
-      android:background="@android:color/holo_red_dark"
-      android:layout_marginLeft="216.5dp" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/headerLayout">
+        <Spinner
+            android:layout_width="217.5dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/holo_orange_light"
+            android:id="@+id/spinner" />
+    </LinearLayout>
+    <SearchView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/searchBar"
+        android:layout_width="match_parent"
+        android:layout_height="50.5dp"
+        android:background="@android:color/holo_red_dark"
+        android:layout_marginLeft="216.5dp" />
     <RelativeLayout
         android:layout_width="385.0dp"
         android:layout_height="503.5dp"
@@ -131,5 +131,13 @@
             android:id="@+id/moviePageDirector"
             android:layout_marginTop="75.0dp"
             android:layout_marginLeft="228.5dp" />
+        <Button
+            android:text="Rate movie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/moviePageGenre"
+            android:id="@+id/rateMovie"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="130dp" />
     </RelativeLayout>
 </RelativeLayout>

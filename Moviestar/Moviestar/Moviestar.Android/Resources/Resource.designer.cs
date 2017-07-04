@@ -94,8 +94,8 @@ namespace Moviestar.Droid
 			// aapt resource value: 0x7f050001
 			public const int ScrollLayout1 = 2131034113;
 			
-			// aapt resource value: 0x7f050019
-			public const int ScrollLayout2 = 2131034137;
+			// aapt resource value: 0x7f05001a
+			public const int ScrollLayout2 = 2131034138;
 			
 			// aapt resource value: 0x7f050006
 			public const int button1 = 2131034118;
@@ -147,6 +147,9 @@ namespace Moviestar.Droid
 			
 			// aapt resource value: 0x7f050014
 			public const int rate5 = 2131034132;
+			
+			// aapt resource value: 0x7f050019
+			public const int rateMovie = 2131034137;
 			
 			// aapt resource value: 0x7f050000
 			public const int relativeLayout1 = 2131034112;

@@ -54,17 +54,3 @@ Moviestar/Moviestar/Moviestar.UWP/obj/x86/Debug/XamlSaveStateFile.xml
 *.dll
 *.mdb
 *.pdb
-*.mdb
-*.apk
-*.dll
-*.pdb
-Moviestar/.vs/Moviestar/v15/.suo
-*.dex
-*.class
-*.java
-*.cache
-Moviestar/Moviestar/Moviestar.Android/obj/Debug/android/bin/packaged_resources
-*.txt
-*.xsd
-*.htm
-Moviestar/Moviestar/Moviestar.Android/Resources/Resource.designer.cs

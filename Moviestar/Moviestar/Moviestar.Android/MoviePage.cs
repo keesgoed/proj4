@@ -19,7 +19,7 @@ namespace Moviestar.Droid
     {
         String selectedItem;
         String movie_ID;
-        int rating;
+        int rating = 1;
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -36,18 +36,22 @@ namespace Moviestar.Droid
 
             // Update method to change star layout + rating
             update();
-            Console.WriteLine("Dit is de rating: " + rating);
+
+            var rateButton = FindViewById<Button>(Resource.Id.rateMovie);
+            rateButton.Click += delegate
+            {
+                uploadRating();
+                StartActivity(typeof(MovieList));
+            };
 
         }
 
         public void generated_moviePage()
         {
-            Console.WriteLine("Moviepage!!");
             MoviePageViewModel MoviePage = new MoviePageViewModel(movie_ID);
 
             foreach (var page in MoviePage.LoadAllItemFromMySQL())
             {
-                Console.WriteLine(page.title);
                 TextView moviePageTitle = FindViewById<TextView>(Resource.Id.moviePageTitle);
                 moviePageTitle.Text = page.title;
 
@@ -85,6 +89,7 @@ namespace Moviestar.Droid
                 rate3.SetImageResource(Resource.Drawable.emptystar);
                 rate4.SetImageResource(Resource.Drawable.emptystar);
                 rate5.SetImageResource(Resource.Drawable.emptystar);
+                Console.WriteLine("Dit is de rating: " + rating);
             }
 
             //Each button has to add a rate to a movie and add it to the database
@@ -138,25 +143,15 @@ namespace Moviestar.Droid
                 }
                 rating = 5;
             };
-            Console.WriteLine("Ik hoop dat dit werkt.." + rating);
         }
 
 
-        private void SaveRating(object sender, EventArgs e)
+        public void uploadRating()
         {
-            int id = ((ImageButton)sender).Id;
-            String btnId = id.ToString();
-
-            //TextView description = FindViewById<TextView>(Resource.Id.moviePageTitle);
-            //description.Text = movie_ID;
-
+            RatingViewModel MovieRating = new RatingViewModel("1", this.movie_ID, this.rating);
+            MovieRating.LoadAllItemFromMySQL();
         }
 
-        private void UploadRating()
-        {
-
-
-        }
 
         //create spinner
         public void createSpinner()

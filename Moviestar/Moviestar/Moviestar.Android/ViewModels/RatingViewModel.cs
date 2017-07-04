@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 
 using Android.App;
-using Android.Content;
+using Android.Content; 
 using Android.OS;
 using Android.Runtime;
 using Android.Views;
@@ -33,15 +33,17 @@ namespace Moviestar.Droid.ViewModels
             List<Models.Rating> movielist = new List<Models.Rating>();
             try
             {
+                Console.WriteLine("Does it even use the method LoadAllItemsFromMySQL()?");
                 string connsqlstring = "server = sql11.freemysqlhosting.net; port = 3306; database = sql11183344; uid = sql11183344; pwd = zHZXlUfr4L; charset = utf8;";
                 MySqlConnection sqlconn = new MySqlConnection(connsqlstring);
                 sqlconn.Open();
 
                 // Insert info in database
-                DataSet rating = new DataSet();
+                DataSet movieRating = new DataSet();
                 string queryString = "INSERT INTO ratings(movie_id, user_id, rating) VALUES (" + movie_id + ", " + user_id + ", " + rating + ")";
+                Console.WriteLine(queryString);
                 MySqlDataAdapter adapter = new MySqlDataAdapter(queryString, sqlconn);
-                adapter.Fill(rating, "Item");
+                adapter.Fill(movieRating, "Item");
 
                 sqlconn.Close();
             }
