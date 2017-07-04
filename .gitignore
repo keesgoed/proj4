@@ -83,3 +83,6 @@ Moviestar/Moviestar/Moviestar.Android/obj/Debug/android/bin/packaged_resources
 *.cache
 *.xsd
 Moviestar/Moviestar/Moviestar.Android/obj/Debug/android/manifest/AndroidManifest.xml
+Moviestar/Moviestar/Moviestar.Android/bin/Debug/Moviestar.Android.apk
+*.apk
+Moviestar/Moviestar/Moviestar.Android/bin/Debug/Moviestar.Android.apk
