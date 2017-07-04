@@ -26,12 +26,12 @@ namespace Moviestar.Droid.ViewModels
             List<Models.Movie> movielist = new List<Models.Movie>();
             try
             {
-                string connsqlstring = "server = sql11.freemysqlhosting.net; port = 3306; database = sql11182336; uid = sql11182336; pwd = qhJhLGfTnt; charset = utf8;";
+                string connsqlstring = "server = sql11.freemysqlhosting.net; port = 3306; database = sql11183344; uid = sql11183344; pwd = zHZXlUfr4L; charset = utf8;";
                 MySqlConnection sqlconn = new MySqlConnection(connsqlstring);
                 sqlconn.Open();
 
                 DataSet movies = new DataSet();
-                string queryString = "select * FROM Movie WHERE imdb_score > 7.5 ORDER BY RAND() LIMIT 10";
+                string queryString = "select * FROM movies WHERE imdb_score > 7.5 ORDER BY RAND() LIMIT 10";
                 MySqlDataAdapter adapter = new MySqlDataAdapter(queryString, sqlconn);
                 adapter.Fill(movies, "Item");
                 foreach (DataRow row in movies.Tables["Item"].Rows)

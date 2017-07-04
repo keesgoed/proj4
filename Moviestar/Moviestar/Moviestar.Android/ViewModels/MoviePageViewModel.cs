@@ -27,12 +27,12 @@ namespace Moviestar.Droid.ViewModels
             List<Models.Movie> movielist = new List<Models.Movie>();
             try
             {
-                string connsqlstring = "server = sql11.freemysqlhosting.net; port = 3306; database = sql11182336; uid = sql11182336; pwd = qhJhLGfTnt; charset = utf8;";
+                string connsqlstring = "server = sql11.freemysqlhosting.net; port = 3306; database = sql11183344; uid = sql11183344; pwd = zHZXlUfr4L; charset = utf8;";
                 MySqlConnection sqlconn = new MySqlConnection(connsqlstring);
                 sqlconn.Open();
 
                 DataSet moviePage = new DataSet();
-                string queryString = "select * FROM Movie WHERE movie_id = '" + movieId + "'";
+                string queryString = "select * FROM movies WHERE movie_id = '" + movieId + "'";
                 Console.WriteLine(queryString);
 
                 MySqlDataAdapter adapter = new MySqlDataAdapter(queryString, sqlconn);
