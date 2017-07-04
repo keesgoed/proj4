@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.13
+VisualStudioVersion = 15.0.26430.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moviestar.Android", "Moviestar\Moviestar.Android\Moviestar.Android.csproj", "{74468DF7-9A95-4DAF-841A-DEFB77FB9663}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moviestar.UWP", "Moviestar\Moviestar.UWP\Moviestar.UWP.csproj", "{21B04912-E434-499E-A175-768FC1EA3CDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moviestar", "Moviestar\Moviestar\Moviestar.csproj", "{888DD634-BE69-4EA0-BFF9-A959840FCFD6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -83,6 +85,30 @@ Global
 		{21B04912-E434-499E-A175-768FC1EA3CDE}.Release|x86.ActiveCfg = Release|x86
 		{21B04912-E434-499E-A175-768FC1EA3CDE}.Release|x86.Build.0 = Release|x86
 		{21B04912-E434-499E-A175-768FC1EA3CDE}.Release|x86.Deploy.0 = Release|x86
+		{888DD634-BE69-4EA0-BFF9-A959840FCFD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{888DD634-BE69-4EA0-BFF9-A959840FCFD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{888DD634-BE69-4EA0-BFF9-A959840FCFD6}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{888DD634-BE69-4EA0-BFF9-A959840FCFD6}.Debug|ARM.Build.0 = Debug|Any CPU
+		{888DD634-BE69-4EA0-BFF9-A959840FCFD6}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{888DD634-BE69-4EA0-BFF9-A959840FCFD6}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{888DD634-BE69-4EA0-BFF9-A959840FCFD6}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{888DD634-BE69-4EA0-BFF9-A959840FCFD6}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{888DD634-BE69-4EA0-BFF9-A959840FCFD6}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{888DD634-BE69-4EA0-BFF9-A959840FCFD6}.Debug|x64.Build.0 = Debug|Any CPU
+		{888DD634-BE69-4EA0-BFF9-A959840FCFD6}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{888DD634-BE69-4EA0-BFF9-A959840FCFD6}.Debug|x86.Build.0 = Debug|Any CPU
+		{888DD634-BE69-4EA0-BFF9-A959840FCFD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{888DD634-BE69-4EA0-BFF9-A959840FCFD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{888DD634-BE69-4EA0-BFF9-A959840FCFD6}.Release|ARM.ActiveCfg = Release|Any CPU
+		{888DD634-BE69-4EA0-BFF9-A959840FCFD6}.Release|ARM.Build.0 = Release|Any CPU
+		{888DD634-BE69-4EA0-BFF9-A959840FCFD6}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{888DD634-BE69-4EA0-BFF9-A959840FCFD6}.Release|iPhone.Build.0 = Release|Any CPU
+		{888DD634-BE69-4EA0-BFF9-A959840FCFD6}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{888DD634-BE69-4EA0-BFF9-A959840FCFD6}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{888DD634-BE69-4EA0-BFF9-A959840FCFD6}.Release|x64.ActiveCfg = Release|Any CPU
+		{888DD634-BE69-4EA0-BFF9-A959840FCFD6}.Release|x64.Build.0 = Release|Any CPU
+		{888DD634-BE69-4EA0-BFF9-A959840FCFD6}.Release|x86.ActiveCfg = Release|Any CPU
+		{888DD634-BE69-4EA0-BFF9-A959840FCFD6}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
