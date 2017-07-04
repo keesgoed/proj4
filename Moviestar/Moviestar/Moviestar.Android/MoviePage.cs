@@ -138,7 +138,7 @@ namespace Moviestar.Droid
                     rating = 5;
                 }
             };
-            Console.WriteLine(rating);
+            Console.WriteLine("Dit is de rating: " + rating);
         }
 
 
