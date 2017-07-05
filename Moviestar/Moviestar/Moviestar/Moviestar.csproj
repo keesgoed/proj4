@@ -37,6 +37,8 @@
   <ItemGroup>
     <Compile Include="Connection.cs" />
     <Compile Include="Interfaces\IControls.cs" />
+    <Compile Include="IteratorPattern\IterableList.cs" />
+    <Compile Include="IteratorPattern\Iterator.cs" />
     <Compile Include="Models\Movie.cs" />
     <Compile Include="Models\Rating.cs" />
     <Compile Include="Models\User.cs" />
