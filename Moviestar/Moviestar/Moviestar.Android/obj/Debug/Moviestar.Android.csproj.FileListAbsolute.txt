@@ -85,14 +85,10 @@ C:\Users\keesg\Documents\GitHub\proj4\Moviestar\Moviestar\Moviestar.Android\bin\
 C:\Users\keesg\Documents\GitHub\proj4\Moviestar\Moviestar\Moviestar.Android\bin\Debug\Moviestar.Android-Signed.apk
 C:\Users\keesg\Documents\GitHub\proj4\Moviestar\Moviestar\Moviestar.Android\bin\Debug\Moviestar.dll
 C:\Users\keesg\Documents\GitHub\proj4\Moviestar\Moviestar\Moviestar.Android\bin\Debug\MySql.Data.CF.dll
-C:\Users\keesg\Documents\GitHub\proj4\Moviestar\Moviestar\Moviestar.Android\bin\Debug\System.Net.Http.dll
 C:\Users\keesg\Documents\GitHub\proj4\Moviestar\Moviestar\Moviestar.Android\bin\Debug\Newtonsoft.Json.dll
-C:\Users\keesg\Documents\GitHub\proj4\Moviestar\Moviestar\Moviestar.Android\bin\Debug\System.Net.Http.Primitives.dll
 C:\Users\keesg\Documents\GitHub\proj4\Moviestar\Moviestar\Moviestar.Android\bin\Debug\Moviestar.pdb
 C:\Users\keesg\Documents\GitHub\proj4\Moviestar\Moviestar\Moviestar.Android\bin\Debug\Moviestar.dll.config
-C:\Users\keesg\Documents\GitHub\proj4\Moviestar\Moviestar\Moviestar.Android\bin\Debug\System.Net.Http.xml
 C:\Users\keesg\Documents\GitHub\proj4\Moviestar\Moviestar\Moviestar.Android\bin\Debug\Newtonsoft.Json.xml
-C:\Users\keesg\Documents\GitHub\proj4\Moviestar\Moviestar\Moviestar.Android\bin\Debug\System.Net.Http.Primitives.xml
 C:\Users\keesg\Documents\GitHub\proj4\Moviestar\Moviestar\Moviestar.Android\obj\Debug\Moviestar.Android.csprojResolveAssemblyReference.cache
 C:\Users\keesg\Documents\GitHub\proj4\Moviestar\Moviestar\Moviestar.Android\obj\Debug\Moviestar.Android.dll
 C:\Users\keesg\Documents\GitHub\proj4\Moviestar\Moviestar\Moviestar.Android\obj\Debug\Moviestar.Android.pdb

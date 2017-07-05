@@ -99,3 +99,13 @@ Moviestar/.vs/Moviestar/v15/.suo
 *.mj
 *.cache
 *.txt
+*.dll
+*.mdb
+*.pdb
+Moviestar/.vs/Moviestar/v15/.suo
+Moviestar/Moviestar/Moviestar.Android/obj/Debug/android/bin/packaged_resources
+*.cache
+*.txt
+*.targets
+*.json
+*.csproj
