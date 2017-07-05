@@ -12,7 +12,6 @@ using System.Data;
 using Android.Graphics;
 using Android.Util;
 using System.Collections.Generic;
-using Moviestar.Droid.ViewModels;
 using Moviestar.ViewModels;
 using Moviestar.Interfaces;
 

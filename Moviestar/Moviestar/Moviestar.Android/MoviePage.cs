@@ -9,7 +9,6 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
-using Moviestar.Droid.ViewModels;
 using Moviestar.ViewModels;
 using Moviestar.Interfaces;
 
@@ -46,7 +45,7 @@ namespace Moviestar.Droid
             rateButton.Click += delegate
             {
                 uploadRating();
-                StartActivity(typeof(RatedMovies));
+               
             };
 
         }
