@@ -13,7 +13,9 @@ using Android.Graphics;
 using Android.Util;
 using System.Collections.Generic;
 using Moviestar.Droid.ViewModels;
+using Moviestar.ViewModels;
 using Moviestar.Interfaces;
+
 
 namespace Moviestar.Droid
 {
@@ -55,8 +57,8 @@ namespace Moviestar.Droid
 
         public void createResultBox()
         {
-            SearchViewModel movies = new SearchViewModel(userInput);
-            foreach (var movie in movies.LoadAllItemFromMySQL())
+            SearchViewModel movies = new SearchViewModel();
+            foreach (var movie in movies.GetMovies(userInput))
             {
                 // Set the Linearlayout for movie blocks
                 LinearLayout movieBlock = new LinearLayout(this);

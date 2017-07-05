@@ -19,7 +19,6 @@ namespace Moviestar.Models
         public string language { get; set; }
         public string title_year { get; set; }
         public string imdb_score { get; set; }
-        public string rating { get; set; }
     }
 
 }

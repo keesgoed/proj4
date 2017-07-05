@@ -16,6 +16,7 @@ using Moviestar.Droid.ViewModels;
 using Moviestar.ViewModels;
 using Moviestar.Interfaces;
 
+
 namespace Moviestar.Droid
 {
     [Activity(Label = "Moviestar", MainLauncher = true, Icon = "@drawable/star")]

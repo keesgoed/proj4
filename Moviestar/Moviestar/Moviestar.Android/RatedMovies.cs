@@ -80,7 +80,7 @@ namespace Moviestar.Droid
                 desc.SetPadding(100, 0, 0, 0);
                 desc.SetTextColor(new Color(255, 255, 255));
                 desc.SetTextSize(ComplexUnitType.Px, 24);
-                desc.Text = movie.genres.ToString() + "\n \nIMDB score: " + movie.imdb_score.ToString() + "\n \nRating: " + movie.rating.ToString();
+                desc.Text = movie.genres.ToString() + "\n \nIMDB score: " + movie.imdb_score.ToString() + "\n \nRating: ";
 
                 // Set Image view
                 ImageView movieCover = new ImageView(this);

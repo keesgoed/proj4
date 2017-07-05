@@ -41,7 +41,7 @@ namespace Moviestar.Droid.ViewModels
                         title = (row[0].ToString()),
                         imdb_score = (row[1].ToString()),
                         genres = (row[2].ToString()),
-                        rating = (row[3].ToString())
+                        
                         
                     };
 
