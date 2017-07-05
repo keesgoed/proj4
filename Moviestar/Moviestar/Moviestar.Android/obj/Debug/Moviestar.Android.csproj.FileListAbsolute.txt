@@ -125,14 +125,10 @@ C:\Users\Administrator\Documents\GitHub\proj4\Moviestar\Moviestar\Moviestar.Andr
 C:\Users\Administrator\Documents\GitHub\proj4\Moviestar\Moviestar\Moviestar.Android\bin\Debug\Moviestar.Android-Signed.apk
 C:\Users\Administrator\Documents\GitHub\proj4\Moviestar\Moviestar\Moviestar.Android\bin\Debug\Moviestar.dll
 C:\Users\Administrator\Documents\GitHub\proj4\Moviestar\Moviestar\Moviestar.Android\bin\Debug\MySql.Data.CF.dll
-C:\Users\Administrator\Documents\GitHub\proj4\Moviestar\Moviestar\Moviestar.Android\bin\Debug\System.Net.Http.dll
 C:\Users\Administrator\Documents\GitHub\proj4\Moviestar\Moviestar\Moviestar.Android\bin\Debug\Newtonsoft.Json.dll
-C:\Users\Administrator\Documents\GitHub\proj4\Moviestar\Moviestar\Moviestar.Android\bin\Debug\System.Net.Http.Primitives.dll
 C:\Users\Administrator\Documents\GitHub\proj4\Moviestar\Moviestar\Moviestar.Android\bin\Debug\Moviestar.pdb
 C:\Users\Administrator\Documents\GitHub\proj4\Moviestar\Moviestar\Moviestar.Android\bin\Debug\Moviestar.dll.config
-C:\Users\Administrator\Documents\GitHub\proj4\Moviestar\Moviestar\Moviestar.Android\bin\Debug\System.Net.Http.xml
 C:\Users\Administrator\Documents\GitHub\proj4\Moviestar\Moviestar\Moviestar.Android\bin\Debug\Newtonsoft.Json.xml
-C:\Users\Administrator\Documents\GitHub\proj4\Moviestar\Moviestar\Moviestar.Android\bin\Debug\System.Net.Http.Primitives.xml
 C:\Users\Administrator\Documents\GitHub\proj4\Moviestar\Moviestar\Moviestar.Android\obj\Debug\Moviestar.Android.csprojResolveAssemblyReference.cache
 C:\Users\Administrator\Documents\GitHub\proj4\Moviestar\Moviestar\Moviestar.Android\obj\Debug\Moviestar.Android.dll
 C:\Users\Administrator\Documents\GitHub\proj4\Moviestar\Moviestar\Moviestar.Android\obj\Debug\Moviestar.Android.pdb

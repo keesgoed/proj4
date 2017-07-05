@@ -1,11 +1,14 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.14
+VisualStudioVersion = 15.0.26430.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moviestar.Android", "Moviestar\Moviestar.Android\Moviestar.Android.csproj", "{74468DF7-9A95-4DAF-841A-DEFB77FB9663}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moviestar.UWP", "Moviestar\Moviestar.UWP\Moviestar.UWP.csproj", "{21B04912-E434-499E-A175-768FC1EA3CDE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{888DD634-BE69-4EA0-BFF9-A959840FCFD6} = {888DD634-BE69-4EA0-BFF9-A959840FCFD6}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moviestar", "Moviestar\Moviestar\Moviestar.csproj", "{888DD634-BE69-4EA0-BFF9-A959840FCFD6}"
 EndProject

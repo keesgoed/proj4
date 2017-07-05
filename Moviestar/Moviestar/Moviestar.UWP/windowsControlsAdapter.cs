@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Moviestar.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Moviestar.UWP
 {
-    class windowsControlsAdapter // : IControls
+    class windowsControlsAdapter : IControls
     {
         windowsControls windowsControls;
 
