@@ -11,6 +11,7 @@ using Android.Views;
 using Android.Widget;
 using Moviestar.Droid.ViewModels;
 using Moviestar.ViewModels;
+using Moviestar.Interfaces;
 
 namespace Moviestar.Droid
 {
@@ -27,7 +28,7 @@ namespace Moviestar.Droid
             SetContentView(Resource.Layout.MoviePage);
 
             movie_ID = Intent.GetStringExtra("MovieID");
-
+    
             //Create object of MovieList and create spinner
             createSpinner();
 
@@ -39,6 +40,7 @@ namespace Moviestar.Droid
 
             //Search functionality
             CreateSearchBar();
+
 
             var rateButton = FindViewById<Button>(Resource.Id.rateMovie);
             rateButton.Click += delegate

@@ -14,6 +14,7 @@ using Android.Util;
 using System.Collections.Generic;
 using Moviestar.Droid.ViewModels;
 using Moviestar.ViewModels;
+using Moviestar.Interfaces;
 
 namespace Moviestar.Droid
 {
@@ -47,6 +48,12 @@ namespace Moviestar.Droid
           
             //Search functionality
             CreateSearchBar();
+
+            //Create android controls instance
+            androidControls android_controls = new androidControls();
+
+            // Set android Controls to work with the global adapter
+            IControls AndroidAdapter = new androidControlsAdapter(android_controls);
         }
 
         //create spinner
@@ -97,7 +104,7 @@ namespace Moviestar.Droid
                 movieBlock.Orientation = Orientation.Vertical;
                 movieBlock.SetBackgroundColor(new Color(60, 60, 60));
                 LinearLayout.LayoutParams linearLayoutParamsBlock = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.FillParent, LinearLayout.LayoutParams.FillParent);
-                linearLayoutParamsBlock.SetMargins(0, 25, 0, 0);
+                linearLayoutParamsBlock.SetMargins(0, 40, 0, 0);
                 movieBlock.LayoutParameters = linearLayoutParamsBlock;
                 movieBlock.SetPadding(0, 5, 0, 0);
 
@@ -106,14 +113,14 @@ namespace Moviestar.Droid
                 LinearLayout movieBlockCover = new LinearLayout(this);
                 movieBlockCover.Orientation = Orientation.Horizontal;
                 LinearLayout.LayoutParams linearLayoutParamsCover = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.FillParent, LinearLayout.LayoutParams.FillParent);
-                linearLayoutParamsCover.SetMargins(0, 15, 0, 0);
+                linearLayoutParamsCover.SetMargins(15, 15, 0, 0);
                 movieBlockCover.LayoutParameters = linearLayoutParamsCover;
 
                 // Set the Titles and the axml
                 TextView title = new TextView(this);
-                title.SetTextSize(ComplexUnitType.Px, 30);
+                title.SetTextSize(ComplexUnitType.Px, 45);
                 title.SetTextColor(new Color(255, 255, 255));
-                title.SetPadding(5, 0, 0, 0);
+                title.SetPadding(10, 10, 0, 0);
                 title.Text = movie.title.ToString();
 
                 // Set Info Button
@@ -134,10 +141,10 @@ namespace Moviestar.Droid
                 ImageView movieCover = new ImageView(this);
                 movieCover.SetImageResource(Resource.Drawable.cover);
                 LinearLayout.LayoutParams linearLayoutParamsImage = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.FillParent, LinearLayout.LayoutParams.FillParent);
-                linearLayoutParamsImage.Width = 200;
-                linearLayoutParamsImage.Height = 300;
+                linearLayoutParamsImage.Width = 250;
+                linearLayoutParamsImage.Height = 350;
                 movieCover.LayoutParameters = linearLayoutParamsImage;
-                movieCover.SetPadding(15, 0, 0, 60);
+                movieCover.SetPadding(15, 15, 0, 60);
 
                 // add Elements to the main scrollview
                 movieBlock.AddView(title);

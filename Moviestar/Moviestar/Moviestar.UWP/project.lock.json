@@ -22248,14 +22248,14 @@
     "UAP,Version=v10.0": []
   },
   "packageFolders": {
-    "C:\\Users\\keesg\\.nuget\\packages\\": {}
+    "C:\\Users\\Administrator\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
-      "projectUniqueName": "C:\\Users\\keesg\\Documents\\GitHub\\proj4\\Moviestar\\Moviestar\\Moviestar.UWP\\Moviestar.UWP.csproj",
+      "projectUniqueName": "C:\\Users\\Administrator\\Documents\\GitHub\\proj4\\Moviestar\\Moviestar\\Moviestar.UWP\\Moviestar.UWP.csproj",
       "projectName": "Moviestar.UWP",
-      "projectPath": "C:\\Users\\keesg\\Documents\\GitHub\\proj4\\Moviestar\\Moviestar\\Moviestar.UWP\\Moviestar.UWP.csproj",
-      "projectJsonPath": "C:\\Users\\keesg\\Documents\\GitHub\\proj4\\Moviestar\\Moviestar\\Moviestar.UWP\\project.json",
+      "projectPath": "C:\\Users\\Administrator\\Documents\\GitHub\\proj4\\Moviestar\\Moviestar\\Moviestar.UWP\\Moviestar.UWP.csproj",
+      "projectJsonPath": "C:\\Users\\Administrator\\Documents\\GitHub\\proj4\\Moviestar\\Moviestar\\Moviestar.UWP\\project.json",
       "projectStyle": "ProjectJson"
     },
     "dependencies": {

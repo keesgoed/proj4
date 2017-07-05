@@ -13,6 +13,7 @@ using Android.Graphics;
 using Android.Util;
 using System.Collections.Generic;
 using Moviestar.Droid.ViewModels;
+using Moviestar.Interfaces;
 
 namespace Moviestar.Droid
 {
@@ -44,6 +45,12 @@ namespace Moviestar.Droid
 
             //Search functionality
             CreateSearchBar();
+
+            //Create android controls instance
+            androidControls android_controls = new androidControls();
+
+            // Set android Controls to work with the global adapter
+            IControls AndroidAdapter = new androidControlsAdapter(android_controls);
         }
 
         public void createResultBox()

@@ -63,7 +63,7 @@
         <Spinner
             android:layout_width="217.5dp"
             android:layout_height="match_parent"
-            android:background="@android:color/holo_orange_light"
+            android:background="@android:color/holo_red_dark"
             android:id="@+id/spinner" />
     </LinearLayout>
     <SearchView
