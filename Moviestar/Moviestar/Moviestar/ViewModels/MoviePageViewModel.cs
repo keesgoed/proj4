@@ -22,5 +22,11 @@ namespace Moviestar.ViewModels
             movielist = JsonConvert.DeserializeObject<List<Movie>>(jsonresponse);
             return movielist;
         }
+
+        public void RateMovie(string user_id, string movie_id, int rating)
+        {
+            var httpconnect = new Connection();
+            httpconnect.GetAPI("ratemovie/" + user_id + "/" + movie_id + "/" + rating.ToString() );
+        }
     }
 }

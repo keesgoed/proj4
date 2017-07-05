@@ -153,8 +153,8 @@ namespace Moviestar.Droid
 
         public void uploadRating()
         {
-            RatingViewModel MovieRating = new RatingViewModel("1", this.movie_ID, this.rating);
-            MovieRating.LoadAllItemFromMySQL();
+            MoviePageViewModel MovieRating = new MoviePageViewModel();
+            MovieRating.RateMovie("1", this.movie_ID, this.rating);
         }
 
 
