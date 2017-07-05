@@ -11,8 +11,8 @@ using Android.Util;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
-using Moviestar.Droid.ViewModels;
 using Moviestar.Interfaces;
+using Moviestar.ViewModels;
 
 namespace Moviestar.Droid
 {
@@ -49,7 +49,7 @@ namespace Moviestar.Droid
         public void MakeBlocks()
         {
             RatedMovieViewModel ratedMovies = new RatedMovieViewModel();
-            foreach (var movie in ratedMovies.LoadAllItemFromMySQL())
+            foreach (var movie in ratedMovies.GetMovies("1"))
             {
                 // Set the Linearlayout for movie blocks
                 LinearLayout movieBlock = new LinearLayout(this);
@@ -80,7 +80,7 @@ namespace Moviestar.Droid
                 desc.SetPadding(100, 0, 0, 0);
                 desc.SetTextColor(new Color(255, 255, 255));
                 desc.SetTextSize(ComplexUnitType.Px, 24);
-                desc.Text = movie.genres.ToString() + "\n \nIMDB score: " + movie.imdb_score.ToString() + "\n \nRating: ";
+                desc.Text = movie.genres.ToString() + "\n \nIMDB score: " + movie.imdb_score.ToString() + "\n \nRating: " + movie.rating.ToString();
 
                 // Set Image view
                 ImageView movieCover = new ImageView(this);
