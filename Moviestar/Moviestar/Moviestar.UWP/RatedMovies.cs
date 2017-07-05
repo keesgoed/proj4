@@ -12,34 +12,22 @@ using Windows.UI.Xaml.Controls;
 
 namespace Moviestar.UWP
 {
-    class MovieList
+    class RatedMovies
     {
-
         public List<Models.Movie> movie { get; set; }
 
-        public MovieList()
+        public RatedMovies()
         {
             movie = new List<Models.Movie>();
 
-            HomeViewModel movies = new HomeViewModel();
-            foreach (var moviedata in movies.GetMovies())
+            RatedMovieViewModel movies = new RatedMovieViewModel();
+            foreach (var moviedata in movies.GetMovies("1"))
             {
                 movie.Add(new Models.Movie(moviedata.id, moviedata.actor_1_name, moviedata.actor_2_name, moviedata.actor_3_name, moviedata.genres, moviedata.title, moviedata.imdb_score, moviedata.rating));
             }
-  
+
         }
-        // Selected movie object _selectedMovie
-        private Models.Movie _selectedMovie;
 
-        public Models.Movie selectedMovie
-        {
-            get { return _selectedMovie; }
-
-            set {
-                    _selectedMovie = value;
-                Debug.WriteLine(_selectedMovie.title);
-
-            }
-        }
     }
 }
+

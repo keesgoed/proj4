@@ -22,7 +22,7 @@ namespace Moviestar.Models
         public string rating { get; set; }
 
 
-        public Movie(string id, string actor_1_name, string actor_2_name, string actor_3_name, string genres, string title, string imdb_score)
+        public Movie(string id, string actor_1_name, string actor_2_name, string actor_3_name, string genres, string title, string imdb_score, string rating)
         {
             this.id = id;
             this.actor_1_name = actor_1_name;
@@ -31,6 +31,7 @@ namespace Moviestar.Models
             this.genres = genres;
             this.title = title;
             this.imdb_score = imdb_score;
+            this.rating = rating;
         }
     }
 }

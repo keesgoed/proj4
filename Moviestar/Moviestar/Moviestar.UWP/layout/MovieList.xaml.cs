@@ -18,17 +18,12 @@ using Windows.UI.Xaml.Navigation;
 
 namespace Moviestar.UWP.layout
 {
-    /// <summary>
-    /// An empty page that can be used on its own or navigated to within a Frame.
-    /// </summary>
     public sealed partial class MovieList : Page
     {
         public MovieList()
         {
             this.InitializeComponent();
         }
-
-    public string Test { get; set; }
 
     private void Button_Click(object sender, RoutedEventArgs e)
         {
@@ -43,6 +38,11 @@ namespace Moviestar.UWP.layout
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
             Frame.Navigate(typeof(Search));
+        }
+
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(MoviePage));
         }
 
     }
