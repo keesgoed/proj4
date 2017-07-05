@@ -13,6 +13,7 @@ using Android.Views;
 using Android.Widget;
 using Moviestar.Interfaces;
 using Moviestar.ViewModels;
+using Moviestar.IteratorPattern;
 
 namespace Moviestar.Droid
 {
@@ -48,8 +49,11 @@ namespace Moviestar.Droid
 
         public void MakeBlocks()
         {
-            RatedMovieViewModel ratedMovies = new RatedMovieViewModel();
-            foreach (var movie in ratedMovies.GetMovies("1"))
+            // use Iterator to iterate through list of movie objects
+            RatedMovieViewModel movielist = new RatedMovieViewModel();
+            Iterator<Models.Movie> movies = new IterableList<Models.Movie>(movielist.GetMovies("1"));
+            Models.Movie movie = movies.First();
+            while (movie != null)
             {
                 // Set the Linearlayout for movie blocks
                 LinearLayout movieBlock = new LinearLayout(this);
@@ -98,6 +102,9 @@ namespace Moviestar.Droid
                 movieBlock.AddView(movieBlockCover);
 
                 scrollBlock.AddView(movieBlock);
+
+                // go to the next Movie Object
+                movie = movies.Next();
             }
         }
 

@@ -14,7 +14,7 @@ using Android.Util;
 using System.Collections.Generic;
 using Moviestar.ViewModels;
 using Moviestar.Interfaces;
-
+using Moviestar.IteratorPattern;
 
 namespace Moviestar.Droid
 {
@@ -56,8 +56,11 @@ namespace Moviestar.Droid
 
         public void createResultBox()
         {
-            SearchViewModel movies = new SearchViewModel();
-            foreach (var movie in movies.GetMovies(userInput))
+            // use Iterator to iterate through list of movie objects
+            SearchViewModel movielist = new SearchViewModel();
+            Iterator<Models.Movie> movies = new IterableList<Models.Movie>(movielist.GetMovies(userInput));
+            Models.Movie movie = movies.First();
+            while (movie != null)
             {
                 // Set the Linearlayout for movie blocks
                 LinearLayout movieBlock = new LinearLayout(this);
@@ -113,17 +116,21 @@ namespace Moviestar.Droid
                 movieBlock.AddView(movieBlockCover);
                 movieBlock.AddView(infobtn);
 
+                String Movie_ID = movie.id;
                 //add go to movie page button
                 infobtn.Click += delegate
                 {
                     var MoviePage = new Intent(this, typeof(MoviePage));
-                    String Movie_ID = movie.id;
+                    
                     MoviePage.PutExtra("MovieID", Movie_ID);
 
                     StartActivity(MoviePage);
                 };
 
                 scrollBlock.AddView(movieBlock);
+
+                // go to the next Movie Object
+                movie = movies.Next();
             }
         }
 

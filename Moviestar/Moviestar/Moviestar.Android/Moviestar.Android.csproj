@@ -50,6 +50,8 @@
   <ItemGroup>
     <Compile Include="androidControls.cs" />
     <Compile Include="androidControlsAdapter.cs" />
+    <Compile Include="IteratorPattern\IterableList.cs" />
+    <Compile Include="IteratorPattern\Iterator.cs" />
     <Compile Include="Login.cs" />
     <Compile Include="MoviePage.cs" />
     <Compile Include="MovieList.cs" />
