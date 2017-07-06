@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Moviestar.Models;
+using Moviestar.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -19,9 +21,13 @@ namespace Moviestar.UWP.layout
 {
     public sealed partial class RatedMovies : Page
     {
+        public List<Movie> Movies;
+
         public RatedMovies()
         {
             this.InitializeComponent();
+            RatedMovieViewModel ratedmovies = new RatedMovieViewModel();
+            Movies = ratedmovies.GetMovies("1");
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -34,9 +40,17 @@ namespace Moviestar.UWP.layout
             Frame.Navigate(typeof(RatedMovies));
         }
 
-        private void Button_Click_2(object sender, RoutedEventArgs e)
+        private void Button_Click_Search(object sender, RoutedEventArgs e)
         {
-            Frame.Navigate(typeof(Search));
+            Frame.Navigate(typeof(Search), SearchBox.Text);
+        }
+
+        private void GridView_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            var movie = (Movie)e.ClickedItem;
+            List<Movie> movielist = new List<Movie>();
+            movielist.Add(movie);
+            Frame.Navigate(typeof(MoviePage), movielist);
         }
     }
 }

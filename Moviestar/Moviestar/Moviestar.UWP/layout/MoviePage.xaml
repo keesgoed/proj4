@@ -20,15 +20,15 @@
         <GridView.ItemTemplate>
             <DataTemplate x:DataType="data:Movie">
                 <StackPanel HorizontalAlignment="Center">
-                    <Image Width="150" Source="Assets/cover.png"/>
-                    <TextBlock FontSize="16" Text="{x:Bind title}"/>
-                    <TextBlock FontSize="10" Text="{x:Bind director_name}"/>
-                    <TextBlock FontSize="10" Text="{x:Bind actor_1_name}"/>
-                    <TextBlock FontSize="10" Text="{x:Bind actor_2_name}"/>
-                    <TextBlock FontSize="10" Text="{x:Bind actor_3_name}"/>
-                    <TextBlock FontSize="10" Text="{x:Bind genres}"/>
-                    <TextBlock FontSize="10" Text="{x:Bind language}"/>
-                    <TextBlock FontSize="10" Text="{x:Bind imdb_score}"/>
+                        <Image Width="150" Source="Assets/cover.png"/>
+                        <TextBlock Width="500" FontSize="24" Text="{x:Bind title}"/>
+                        <TextBlock Width="500" FontSize="16" Text="{x:Bind director_name}"/>
+                        <TextBlock Width="500" FontSize="16" Text="{x:Bind actor_1_name}"/>
+                        <TextBlock Width="500" FontSize="16" Text="{x:Bind actor_2_name}"/>
+                        <TextBlock Width="500" FontSize="16" Text="{x:Bind actor_3_name}"/>
+                        <TextBlock Width="500" FontSize="16" Text="{x:Bind genres}"/>
+                        <TextBlock Width="500" FontSize="16" Text="{x:Bind language}"/>
+                        <TextBlock Width="500" FontSize="16" Text="{x:Bind imdb_score}"/>
 
                     </StackPanel>
             </DataTemplate>
@@ -42,9 +42,8 @@
             </TextBlock>
             <Button Content="Recommended movies" Canvas.Left="101" Canvas.Top="235" Width="207"  Click="Button_Click"/>
             <Button Content="Rated movies" Canvas.Left="101" Canvas.Top="312" Width="207" Click="Button_Click_1"/>
-            <Button Content="Search" Canvas.Left="101" Canvas.Top="388" Width="207" Click="Button_Click_2"/>
-            <TextBox Height="6" Canvas.Left="67" TextWrapping="Wrap" Text="" Canvas.Top="96" Width="270" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" PlaceholderText="Search for movie"/>
-            <Button Content="Search" Height="32" Canvas.Left="224" Canvas.Top="143" Width="113"/>
+            <TextBox Name="SearchBox" Height="6" Canvas.Left="67" TextWrapping="Wrap" Text="" Canvas.Top="96" Width="270" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" PlaceholderText="Search for movie"/>
+            <Button Content="Search" Height="32" Canvas.Left="224" Canvas.Top="143" Width="113" Click="Button_Click_Search"/>
         </Canvas>
 
     </Grid>

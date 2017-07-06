@@ -108,9 +108,7 @@
     <Compile Include="layout\Search.xaml.cs">
       <DependentUpon>Search.xaml</DependentUpon>
     </Compile>
-    <Compile Include="MovieList.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RatedMovies.cs" />
     <Compile Include="windowsControls.cs" />
     <Compile Include="windowsControlsAdapter.cs" />
   </ItemGroup>

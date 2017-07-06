@@ -32,11 +32,10 @@ namespace Moviestar.UWP.layout
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
             
-            Movie movie = e.Parameter as Movie;
+            List<Movie> movie = e.Parameter as List<Movie>;
             if(movie != null)
             {
-                //Debug.WriteLine("#########WEWO#####" + movie);
-                SelectedMovie.Add(movie);
+                SelectedMovie = movie;
             }
         }
 
@@ -50,9 +49,9 @@ namespace Moviestar.UWP.layout
             Frame.Navigate(typeof(RatedMovies));
         }
 
-        private void Button_Click_2(object sender, RoutedEventArgs e)
+        private void Button_Click_Search(object sender, RoutedEventArgs e)
         {
-            Frame.Navigate(typeof(Search));
+            Frame.Navigate(typeof(Search), SearchBox.Text);
         }
 
     }

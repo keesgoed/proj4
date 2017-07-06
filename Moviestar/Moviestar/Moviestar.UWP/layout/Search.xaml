@@ -5,9 +5,23 @@
     xmlns:local="using:Moviestar.UWP.layout"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:data="using:Moviestar.Models"
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <GridView ItemsSource="{x:Bind Movies}" IsItemClickEnabled="True" ItemClick="GridView_ItemClick" Margin="535,63,191,-63">
+            <GridView.ItemTemplate>
+                <DataTemplate x:DataType="data:Movie">
+                    <StackPanel HorizontalAlignment="Center">
+                        <Image Width="150" Source="Assets/cover.png"/>
+                        <TextBlock Width="500" FontSize="16" Text="{x:Bind title}"/>
+                        <TextBlock Width="500" FontSize="10" Text="{x:Bind director_name}"/>
+                        <TextBlock Width="500" FontSize="10" Text="{x:Bind genres}"/>
+                    </StackPanel>
+                </DataTemplate>
+            </GridView.ItemTemplate>
+        </GridView>
+
         <Canvas HorizontalAlignment="Left" Height="620" Margin="10,10,0,0" VerticalAlignment="Top" Width="1004">
             <Rectangle Fill="#FFF4F4F5" Height="274" Canvas.Left="67" Stroke="Black" Canvas.Top="196" Width="270"/>
             <TextBlock Canvas.Left="10" TextWrapping="Wrap" Canvas.Top="26" FontSize="36" FontWeight="Bold">
@@ -15,9 +29,8 @@
             </TextBlock>
             <Button Content="Recommended movies" Canvas.Left="101" Canvas.Top="235" Width="207"  Click="Button_Click"/>
             <Button Content="Rated movies" Canvas.Left="101" Canvas.Top="312" Width="207" Click="Button_Click_1"/>
-            <Button Content="Search" Canvas.Left="101" Canvas.Top="388" Width="207" Click="Button_Click_2"/>
-            <TextBox Height="6" Canvas.Left="67" TextWrapping="Wrap" Text="" Canvas.Top="96" Width="270" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" PlaceholderText="Search for movie"/>
-            <Button Content="Search" Height="32" Canvas.Left="224" Canvas.Top="143" Width="113"/>
+            <TextBox Name="SearchBox" Height="6" Canvas.Left="67" TextWrapping="Wrap" Text="" Canvas.Top="96" Width="270" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" PlaceholderText="Search for movie"/>
+            <Button Content="Search" Height="32" Canvas.Left="224" Canvas.Top="143" Width="113" Click="Button_Click_Search"/>
         </Canvas>
     </Grid>
 </Page>

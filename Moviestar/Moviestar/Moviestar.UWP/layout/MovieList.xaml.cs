@@ -42,25 +42,18 @@ namespace Moviestar.UWP.layout
             Frame.Navigate(typeof(RatedMovies));
         }
 
-        private void Button_Click_2(object sender, RoutedEventArgs e)
+        private void Button_Click_Search(object sender, RoutedEventArgs e)
         {
-            Frame.Navigate(typeof(Search));
+            Frame.Navigate(typeof(Search), SearchBox.Text);
         }
 
-        private void Button_Click_3(object sender, RoutedEventArgs e)
-        {
-            Frame.Navigate(typeof(MoviePage));
-        }
-
-        private void Button_Click_4(object sender, RoutedEventArgs e)
-        {
-            
-        }
 
         private void GridView_ItemClick(object sender, ItemClickEventArgs e)
         {
             var movie = (Movie)e.ClickedItem;
-            Frame.Navigate(typeof(MoviePage), movie);
+            List<Movie> movielist = new List<Movie>();
+            movielist.Add(movie);
+            Frame.Navigate(typeof(MoviePage), movielist);
         }
     }
 }
