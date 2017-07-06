@@ -14,6 +14,8 @@ using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 using System.Diagnostics;
 using Moviestar.Models;
+using Moviestar.ViewModels;
+using Windows.UI.Xaml.Controls;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -22,6 +24,7 @@ namespace Moviestar.UWP.layout
     public sealed partial class MoviePage : Page
     {
         public List<Movie> SelectedMovie;
+        string item;
 
         public MoviePage()
         {
@@ -54,5 +57,29 @@ namespace Moviestar.UWP.layout
             Frame.Navigate(typeof(Search), SearchBox.Text);
         }
 
+        private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            var combo = (ComboBox)sender;
+            var item = (ComboBoxItem)combo.SelectedItem;
+            this.item = item.Content.ToString();
+
+            if (this.item == "Rate 1 star")
+                this.item = "1";
+            if (this.item == "Rate 2 stars")
+                this.item = "2";
+            if (this.item == "Rate 3 stars")
+                this.item = "3";
+            if (this.item == "Rate 4 stars")
+                this.item = "4";
+            if (this.item == "Rate 5 stars")
+                this.item = "5";
+
+        }
+
+        private void Button_Rate_Movie(object sender, RoutedEventArgs e)
+        {
+            MoviePageViewModel MovieRating = new MoviePageViewModel();
+            MovieRating.RateMovie("1", SelectedMovie[0].id , Int32.Parse(this.item));
+        }
     }
 }

@@ -10,7 +10,7 @@
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-        <GridView ItemsSource="{x:Bind Movies}" IsItemClickEnabled="True" ItemClick="GridView_ItemClick" Margin="535,63,191,-63">
+        <GridView ItemsSource="{x:Bind Movies}" IsItemClickEnabled="True" ItemClick="GridView_ItemClick" Margin="535,63,191,39">
             <GridView.ItemTemplate>
                 <DataTemplate x:DataType="data:Movie">
                     <StackPanel HorizontalAlignment="Center">

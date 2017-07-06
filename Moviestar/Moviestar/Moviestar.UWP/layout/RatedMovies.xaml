@@ -10,7 +10,7 @@
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-        <GridView ItemsSource="{x:Bind Movies}" IsItemClickEnabled="True" ItemClick="GridView_ItemClick" Margin="535,63,191,-63">
+        <GridView ItemsSource="{x:Bind Movies}" IsItemClickEnabled="True" ItemClick="GridView_ItemClick" Margin="535,63,191,35">
             <GridView.ItemTemplate>
                 <DataTemplate x:DataType="data:Movie">
                     <StackPanel HorizontalAlignment="Center">
@@ -18,6 +18,7 @@
                         <TextBlock Width="500" FontSize="16" Text="{x:Bind title}"/>
                         <TextBlock Width="500" FontSize="10" Text="{x:Bind director_name}"/>
                         <TextBlock Width="500" FontSize="10" Text="{x:Bind genres}"/>
+                        <TextBlock Width="500" FontSize="10" Text="{x:Bind rating}"/>
                     </StackPanel>
                 </DataTemplate>
             </GridView.ItemTemplate>
