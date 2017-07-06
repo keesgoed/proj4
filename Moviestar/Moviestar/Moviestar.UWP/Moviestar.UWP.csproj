@@ -110,6 +110,7 @@
     </Compile>
     <Compile Include="MovieList.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RatedMovies.cs" />
     <Compile Include="windowsControls.cs" />
     <Compile Include="windowsControlsAdapter.cs" />
   </ItemGroup>
@@ -120,6 +121,7 @@
     <None Include="Moviestar.UWP_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <AndroidResource Include="Assets\cover.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />

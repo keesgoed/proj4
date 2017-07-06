@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Moviestar.Models;
+using Moviestar.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -12,6 +14,7 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using System.Diagnostics;
 
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=234238
@@ -20,12 +23,16 @@ namespace Moviestar.UWP.layout
 {
     public sealed partial class MovieList : Page
     {
+        public List<Movie> Movies;
+
         public MovieList()
         {
             this.InitializeComponent();
+            HomeViewModel movielist = new HomeViewModel();
+            Movies = movielist.GetMovies();
         }
 
-    private void Button_Click(object sender, RoutedEventArgs e)
+        private void Button_Click(object sender, RoutedEventArgs e)
         {
             Frame.Navigate(typeof(MovieList));
         }
@@ -48,6 +55,12 @@ namespace Moviestar.UWP.layout
         private void Button_Click_4(object sender, RoutedEventArgs e)
         {
             
+        }
+
+        private void GridView_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            var movie = (Movie)e.ClickedItem;
+            Frame.Navigate(typeof(MoviePage), movie);
         }
     }
 }
